@@ -21,7 +21,7 @@ def demod_symbol(chunk):
     phase=2*np.pi*(-BW/2*t + BW/(2*t_sym)*t**2)
     ref=np.exp(1j*phase)
     mixed=chunk[:N_samp]*ref
-    return int(np.argmax(np.abs(np.fft.fft(mixed,N)))) )
+    return int(np.argmax(np.abs(np.fft.fft(mixed,N))))
 
 
 def gray_to_bin(g,b=7):
