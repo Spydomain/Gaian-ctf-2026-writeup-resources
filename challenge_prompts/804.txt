@@ -1,0 +1,20 @@
+804-lost-sync
+100
+reversing protocols radio
+ 1 (100% liked)  0
+The recorder woke up late. Oduya has the relay’s own maintenance log, and the file begins in the middle of a breath, not at the start of anything. This is not the crew mailbox and not the split letter from the last grab. It is HALCYON talking to itself.
+
+Part of the log is written in a steady hand. The rest is the same hand dragged through one smudge, over and over. The bridge wants the station’s last words, the ones under the smudge.
+
+A sticker on the recorder says the key is the stardate. Oduya tried that before she saved the file. It is not the stardate.
+
+Flag format: GAIANSPACE{...}
+
+Files
+halcyon_mid.bin — the log, started too late
+stationlog_format.md — a fragment of the maintenance manual
+Started late (Cost: 30 points)
+The clean line (Cost: 40 points)
+0/1 attempt
+
+Flag  use 804

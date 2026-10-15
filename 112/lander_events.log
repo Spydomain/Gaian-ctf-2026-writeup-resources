@@ -1,0 +1,11 @@
+# AO-111 lander OBC event log, excerpt, as downlinked 2041-11-04T17:10Z
+# obc_ms = OBC clock: milliseconds since the OBC last started (unit 1 uptime)
+ 1192566525  surface contact (leg switches 3 of 3)
+ 1192567656  XRF-9 unstow command to unit 3
+ 1193492173  TT command 1 from mothership: anchor sequence, lander radio quiet
+ 1193502285  anchor ARM, harpoon charged (unit 4)
+ 1193531744  anchor FIRE command to unit 4
+ 1193532037  anchor BITE: shock peak 27.6 g on unit 4 accelerometer
+ 1193532074  bus undervoltage 4.41 V (harpoon discharge), recovered
+ 1193567921  lander radio quiet ended, TT service answering
+ 1193591039  anchor tether tension 41 N, holding

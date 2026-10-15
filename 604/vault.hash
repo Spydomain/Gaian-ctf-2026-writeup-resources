@@ -1,0 +1,2 @@
+Can't locate Compress/Raw/Lzma.pm in @INC (you may need to install the Compress::Raw::Lzma module) (@INC entries checked: /usr/lib/perl5/5.42/site_perl /usr/share/perl5/site_perl /usr/lib/perl5/5.42/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5/5.42/core_perl /usr/share/perl5/core_perl) at /usr/bin/7z2john line 6.
+BEGIN failed--compilation aborted at /usr/bin/7z2john line 6.

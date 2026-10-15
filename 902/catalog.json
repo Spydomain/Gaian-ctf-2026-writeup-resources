@@ -1,0 +1,81 @@
+{
+  "site": {
+    "name": "Kestrel Array (fictional)",
+    "lat_deg": 47.0,
+    "note": "motor_angle precomputed for this site; East positive"
+  },
+  "slots": [
+    {
+      "callsign": "HALCYON-4W",
+      "motor_angle_deg": -4.5,
+      "orbital_lon_deg_e": -10.3,
+      "fragment": "usals_a"
+    },
+    {
+      "callsign": "FABLE-11E",
+      "motor_angle_deg": 11.0,
+      "orbital_lon_deg_e": 25.3,
+      "fragment": "orw4r"
+    },
+    {
+      "callsign": "HOME-BASE",
+      "motor_angle_deg": 0.0,
+      "orbital_lon_deg_e": 0.0,
+      "fragment": "-"
+    },
+    {
+      "callsign": "ORACLE-11W",
+      "motor_angle_deg": -11.0,
+      "orbital_lon_deg_e": -25.3,
+      "fragment": "acktr"
+    },
+    {
+      "callsign": "ECHO-3W",
+      "motor_angle_deg": -3.0,
+      "orbital_lon_deg_e": -6.9,
+      "fragment": "rc_f"
+    },
+    {
+      "callsign": "VESPER-1E",
+      "motor_angle_deg": 1.5,
+      "orbital_lon_deg_e": 3.4,
+      "fragment": "4ce"
+    },
+    {
+      "callsign": "GHOST-4E",
+      "motor_angle_deg": 4.5,
+      "orbital_lon_deg_e": 10.3,
+      "fragment": "goto_a"
+    },
+    {
+      "callsign": "KESTREL-21B",
+      "motor_angle_deg": 6.0,
+      "orbital_lon_deg_e": 13.8,
+      "fragment": "GAIANSPACE{"
+    },
+    {
+      "callsign": "DRIFT-1W",
+      "motor_angle_deg": -1.5,
+      "orbital_lon_deg_e": -3.4,
+      "fragment": "de"
+    },
+    {
+      "callsign": "MERIDIAN-3E",
+      "motor_angle_deg": 3.0,
+      "orbital_lon_deg_e": 6.9,
+      "fragment": "rc_b"
+    },
+    {
+      "callsign": "LANTERN-16E",
+      "motor_angle_deg": 16.0,
+      "orbital_lon_deg_e": 36.8,
+      "fragment": "d_h0me}"
+    },
+    {
+      "callsign": "TALLIS-16W",
+      "motor_angle_deg": -16.0,
+      "orbital_lon_deg_e": -36.8,
+      "fragment": "d}"
+    }
+  ]
+}

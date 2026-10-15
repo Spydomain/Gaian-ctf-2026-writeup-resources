@@ -1,0 +1,36 @@
+SZOTYOLA LTD. - NORTH ESTATE - mast szot-mast-n (AgriLink receiver 2.3)
+Notes for the estate office. Last edited by K. Gy., 2025-07-28.
+
+What the mast does
+- Every clear morning AgriLink sends one pass for the WEST block: a manifest, then
+  every row of every channel (128 x 128 px, 20 m, one row of one channel per packet),
+  then an end mark. AgriLink v3, 434.3 MHz.
+- Since July AgriLink sends channel indexes only ("airtime"). The mast puts the
+  channels in order from band_order.conf.
+- A row that arrives more than once: the mast keeps the copy with the best RSSI.
+  (Changed in 2024 after rows were lost to the neighbour's repeater.)
+- The mast keeps only the latest map. This morning's was cleared when the
+  manager restarted the mast at 11:50.
+- band_order.conf has not been touched by the office since July. (Note from
+  the manager, 14 Aug: the mast log shows a remote session at 11:57, after the
+  restart. Nobody here opened it.)
+
+Ripeness map (what the contractor gets)
+- Per parcel of the 2025 register: median NDVI = (B08 - B04) / (B08 + B04)
+  over the parcel's pixels.
+- Below 0.44: ready for desiccation, shown brown. The contractor sprays every
+  brown sunflower parcel the same day.
+- 0.44 and above: not ready, shown green, left standing.
+
+Register
+- szotyola_parcels_2025.geojson, estate grid: 20 m pixels, column 0-255 from
+  the west edge, row 0-127 from the north edge. The mast's tile is columns 0-127.
+  The east block (columns 128-255) has no AgriLink contract this year.
+
+Contractor
+- Agro-Szerviz Bt., Johnripper sprayers. Jobs go to the terminals over the
+  dealer radio, as on every Johnripper. The dealer's settings have not changed
+  since the Mezőhegyes bulletin.
+- A Johnripper terminal does not use our ripeness map for a night job. It sorts
+  every pixel of the job map into seven classes, all channels at once, and it
+  drives to the field that holds a class no other field on the map has.

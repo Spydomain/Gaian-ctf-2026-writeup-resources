@@ -1,0 +1,10 @@
+{
+  "format": "cs16 (interleaved int16 I,Q)",
+  "samp_rate_hz": 2000000.0,
+  "symbol_rate_hz": 250000.0,
+  "samples_per_symbol": 8,
+  "rrc_alpha": 0.35,
+  "note": "QPSK forward link, one frame",
+  "center_freq_hz": 1200000000,
+  "capture": "HALCYON-7 downlink, fictional"
+}

@@ -1,0 +1,29 @@
+121-channel-hop
+200
+remote-sensing forensics lora
+ 0  0
+05:40, the Babb farm outside Mezőhegyes. The Johnripper fleet is fuelled and waiting for this morning's field map.
+
+Babb Ceresné farms corn on the plain. Every clear morning, GaianSpace AgriLink drops a fresh tile of the farm from the last satellite pass onto the LoRa mast by the grain dryer, and the tractors set their fertiliser rates from it.
+
+This morning the tile came in on time. The tablet in the yard shows the farm in true colour: the north block, the pivots, the poplar line along the road, exactly as they look from the dryer. The tractors refused it anyway. Every cab screen says the same thing: map integrity: unverified.
+
+AgriLink support won't open a ticket without the tile's delivery stamp. Their welcome letter promises that every tile carries one. Babb has looked at the tablet three times and can't find it.
+
+The mast keeps a journal of everything it hears.
+
+Find the delivery stamp.
+
+Flag format: GAIANSPACE{...}
+
+Files
+mast_rx_0540.log — the mast's journal of this morning's pass
+agrilink_welcome.txt — the letter AgriLink sent when the farm signed up; some of it is out of date
+Contains modified Copernicus Sentinel data 2025.
+
+The tablet shows three (Cost: 30 points)
+Where the corn is loudest (Cost: 50 points)
+0/1 attempt
+
+Flag
+ use 121

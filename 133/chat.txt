@@ -1,0 +1,8 @@
+[02:09] Aroz: are you awake. 723 went off 433.175 completely
+[02:10] Aroz: recorder shows bursts everywhere in the band, all short
+[02:14] Mira (flight sw, home): if it jumps, it has a pattern. it was always built to jump.
+[02:14] Mira: the radio can do that natively, we disabled it before launch. someone turned it back on
+[02:15] Aroz: can you come in
+[02:16] Mira: no car. 40 min by bike. try first
+[02:17] Mira: the old channel plan was a spreadsheet on the team drive. I don't think it ever got used, numbers in it are probably wrong anyway
+[02:21] Aroz: the stranger's uplink didn't move. still the same place as before

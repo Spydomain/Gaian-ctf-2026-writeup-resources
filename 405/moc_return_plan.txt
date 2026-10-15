@@ -1,0 +1,16 @@
+GAIANSPACE MOC  -  SOLITAIRE RETURN PLAN  (flight dynamics, issue R6)
+generated 2057-07-12 (KEEL wk 1018), for uplink wk 1019
+
+row  burn     ignition (UTC)        dv (m/s)  thr
+0    DEP      2053-10-13 14:23:50     431.2   0x0F
+1    TCM-1    2053-11-27 11:55:15       8.7   0x03
+2    TCM-2    2055-04-20 15:00:00       4.2   0x03
+3    TCM-3    2056-06-10 06:37:50       1.9   0x05
+4    TCM-4    2057-05-23 16:21:00       1.1   0x05
+5    TCM-5    2057-09-27 13:22:40      3.1   0x03
+6    TCM-6    2058-02-27 03:15:00      0.9   0x05
+7    EOI      2058-03-20 09:48:10    389.4   0x0F
+8    EOI-ALT  2058-03-20 23:15:22    392.8   0x0F
+
+Notes: rows 0-4 flown. EOI-ALT is the contingency capture one orbit later; KEEL fires it only if EOI is
+missed. Next issue after the wk 1019 tracking pass.

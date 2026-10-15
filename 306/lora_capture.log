@@ -1,0 +1,17 @@
+# Kestrel ground radio - LoRa RX log (868 MHz, SF9, link sync 0x12)
+[t=011.253] RX addr=0x1F seq=01 rssi=-99 snr=-2.1 len=5 payload=4142535157
+[t=012.505] RX addr=0x2A seq=00 rssi=-92 snr= 4.9 len=5 payload=454a327c7d
+[t=013.384] RX addr=0x1F seq=02 rssi=-102 snr= 8.7 len=5 payload=697e226073
+[t=014.141] RX addr=0x1F seq=00 rssi=-81 snr= 2.0 len=5 payload=55535b535c
+[t=015.033] RX addr=0x2A seq=03 rssi=-81 snr= 4.2 len=5 payload=7b7d7c3275
+[t=016.006] RX addr=0x2A seq=08 rssi=-84 snr= 7.1 len=4 payload=73607f61
+[t=016.923] RX addr=0x1F seq=05 rssi=-83 snr= 1.0 len=5 payload=4d7b7c4d22
+[t=017.664] RX addr=0x1F seq=06 rssi=-103 snr= 2.3 len=5 payload=607677606f
+[t=018.606] RX addr=0x2A seq=04 rssi=-88 snr= 3.5 len=5 payload=737f7f7332
+[t=019.485] RX addr=0x2A seq=02 rssi=-110 snr= 2.9 len=5 payload=3261667366
+[t=020.074] RX addr=0x1F seq=04 rssi=-101 snr=-0.6 len=5 payload=7f777c6661
+[t=021.257] RX addr=0x1F seq=03 rssi=-93 snr= 8.4 len=5 payload=4d74602675
+[t=021.998] RX addr=0x2A seq=05 rssi=-84 snr=-0.7 len=5 payload=737e7e3271
+[t=022.343] RX addr=0x2A seq=01 rssi=-102 snr= 0.2 len=5 payload=7f7b7c737e
+[t=023.565] RX addr=0x2A seq=07 rssi=-98 snr=-1.0 len=5 payload=7c7d32737e
+[t=024.290] RX addr=0x2A seq=06 rssi=-87 snr= 0.7 len=5 payload=7e77736032

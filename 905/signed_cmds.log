@@ -1,0 +1,8 @@
+# Kestrel Array — orders the positioner already believed (fictional)
+# The day on the wall is 26278. The fraction after the dot was scratched off.
+# Pell wrote "say the station name three times" in this margin. It did not help.
+# Pell also scrawled "fraction is .88204, saw it on the old board." The seals below
+# say otherwise - check any guess against them before you trust it.
+{"station_id": "KESTREL-ARRAY", "action": "slew", "angle_deg": 6, "nonce": "a1b2", "sig": "39aee775cc16cc28f7eeaa53aed7d5cc136b74dad69e0543b6114d03052c2f08"}
+{"station_id": "KESTREL-ARRAY", "action": "slew", "angle_deg": -4, "nonce": "c3d4", "sig": "d9d818a30ba891bfe1654b664e586f2bae8dc706ae2abe5d65876c219243550d"}
+{"station_id": "KESTREL-ARRAY", "action": "track", "angle_deg": 3, "nonce": "e5f6", "sig": "34059566b8ec5ab318d9dd17ee23cc69ab0afc16ffdd2bd3f4c6699f14525d08"}

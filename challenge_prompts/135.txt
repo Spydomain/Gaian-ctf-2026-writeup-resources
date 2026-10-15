@@ -1,0 +1,24 @@
+135-what-they-took
+350
+radio crypto forensics
+ 0  0
+03:48. The stranger's last command was different. GAIAN-723 answered with the longest transmission of the night, and then the stranger went quiet.
+
+This is what they came for. GAIAN-723 dumped its memory to someone who isn't us, and the dump isn't in the clear. Whatever the stranger used to lock it, they set it up in a hurry, in the middle of the night, on a satellite that was never built for it.
+
+The incident report needs one line: what GAIAN-723 gave away tonight.
+
+Recover it.
+
+Flag format: GAIANSPACE{...}
+
+Files
+vela_band_0347.sigmf-data — the band recorder's raw capture (too large to attach: download it from Hugging Face)
+vela_band_0347.sigmf-meta — the recorder's metadata for that capture
+chat.txt — the last messages on Aroz's phone before the report
+Old habits (Cost: 30 points)
+Small locks (Cost: 50 points)
+0/1 attempt
+
+Flag
+ use 135

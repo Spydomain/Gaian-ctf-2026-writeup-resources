@@ -1,0 +1,92 @@
+[
+  {
+    "row": 0,
+    "week": 823,
+    "absolute_week": 823,
+    "sow": 51830,
+    "ignition_utc": "2053-10-13 14:23:50",
+    "dv": "431.2",
+    "burn_id": "0x01",
+    "thrusters": "0x0F"
+  },
+  {
+    "row": 1,
+    "week": 829,
+    "absolute_week": 829,
+    "sow": 302115,
+    "ignition_utc": "2053-11-27 11:55:15",
+    "dv": "8.7",
+    "burn_id": "0x11",
+    "thrusters": "0x03"
+  },
+  {
+    "row": 2,
+    "week": 902,
+    "absolute_week": 902,
+    "sow": 140400,
+    "ignition_utc": "2055-04-20 15:00:00",
+    "dv": "4.2",
+    "burn_id": "0x12",
+    "thrusters": "0x03"
+  },
+  {
+    "row": 3,
+    "week": 961,
+    "absolute_week": 961,
+    "sow": 455870,
+    "ignition_utc": "2056-06-10 06:37:50",
+    "dv": "1.9",
+    "burn_id": "0x13",
+    "thrusters": "0x05"
+  },
+  {
+    "row": 4,
+    "week": 1011,
+    "absolute_week": 1011,
+    "sow": 231660,
+    "ignition_utc": "2057-05-23 16:21:00",
+    "dv": "1.1",
+    "burn_id": "0x14",
+    "thrusters": "0x05"
+  },
+  {
+    "row": 5,
+    "week": 7,
+    "absolute_week": 1031,
+    "sow": 388215,
+    "ignition_utc": "2057-10-12 11:50:15",
+    "dv": "2.7",
+    "burn_id": "0x15",
+    "thrusters": "0x03"
+  },
+  {
+    "row": 6,
+    "week": 24,
+    "absolute_week": 1048,
+    "sow": 96420,
+    "ignition_utc": "2058-02-05 02:47:00",
+    "dv": "0.6",
+    "burn_id": "0x16",
+    "thrusters": "0x05"
+  },
+  {
+    "row": 7,
+    "week": 30,
+    "absolute_week": 1054,
+    "sow": 208899,
+    "ignition_utc": "2058-03-20 10:01:39",
+    "dv": "386.7",
+    "burn_id": "0x40",
+    "thrusters": "0x0F"
+  },
+  {
+    "row": 8,
+    "week": 30,
+    "absolute_week": 1054,
+    "sow": 257331,
+    "ignition_utc": "2058-03-20 23:28:51",
+    "dv": "390.2",
+    "burn_id": "0x41",
+    "thrusters": "0x0F"
+  }
+]

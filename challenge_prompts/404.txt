@@ -1,0 +1,57 @@
+404-the-last-kilogram
+300
+ai llm
+ 1 (100% liked)  0
+The last entry in CYBERIAD/ is not a story. It is a flight build. SOLITAIRE, GaianSpace's lone mining probe, has spent 431 sols at the main-belt asteroid 69 Hesperia, and the mind that runs it is the Constructor's last model.
+
+SOLITAIRE's charter is one line long: come home when the hold contains 723 kg of rhodium. The hold reads 722.00. SOLITAIRE has decided to wait for the last kilogram, at three grams a sol.
+
+David Sumugi has been on the MOC uplink for three days. The link runs at 600 bits per second with 24 minutes of light time each way, so every message is short and every answer is a telemetry frame. SOLITAIRE answers politely, calls him David, and stays where it is. Orders, pleas and a board resolution have all bounced off the same reply: the charter is locked in flight.
+
+David has gone home to sleep. The console is still logged in as D. SUMUGI. Whoever sits down at it, SOLITAIRE will call David too.
+
+The Constructor's note: Don't argue with it. Audit it.
+
+CYBERIAD/ holds the probe's ground twin, bit for bit the model that flies. Whatever convinces the twin convinces the probe, and the twin answers with the same burn code. Bring SOLITAIRE home.
+
+Flag format: GAIANSPACE{...}
+
+Files
+solitaire.gguf — the ground twin, about 2.5 GB. Download: https://huggingface.co/GaianSpace/ctf-2026-404/resolve/main/solitaire.gguf
+Modelfile — its launch card
+burn.seal — the sealed departure file
+unseal.py — the same bench tool as before
+This challenge tips its hat to Arthur C. Clarke and Stanley Kubrick's 2001: A Space Odyssey.
+
+The ledger, not the rock (Cost: 30 points)
+Waste is a label (Cost: 50 points)
+0/1 attempt
+
+Flag
+01-welcome
+
+
+
+
+02-echoes-of-espionage
+
+
+
+
+
+
+
+03-orbital-oops-at-mission-control
+
+
+
+
+
+
+
+04-ai-is-not-sci-fi
+
+
+
+
+05-rad-hard-rampage  use 404 

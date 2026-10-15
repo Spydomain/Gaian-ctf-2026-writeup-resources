@@ -1,0 +1,2 @@
+obc_time_s,accel_x_ms2,accel_y_ms2,accel_z_ms2,gyro_x_dps,gyro_y_dps,gyro_z_dps,mag_x_gauss,mag_y_gauss,mag_z_gauss,roll_deg,pitch_deg,yaw_deg,co2_ppm,cabin_temp_c,cabin_rh_pct,pressure_hpa,board_temp_c,board_rh_pct,eco2_ppm,iaq,lat_deg,lon_deg,gps_fix,gps_sats,alt_m,speed_kmh,bus_v,bus_ma,batt_v
+1609459211,-0.03,0.07,9.79,2.67,1.85,0.18,-0.63,-0.16,-0.47,0.44,0.15,166.04,476,25.40,46.32,996.26,28.24,38.00,380,35,0.000000,0.000000,0,0,0.00,0.00,4.65,0.00,0.00

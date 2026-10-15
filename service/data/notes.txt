@@ -1,0 +1,4 @@
+Operator note: the live pass schedule is no longer kept in the catalog drawer.
+It was moved next door to the restricted room after the last review. The import
+desk still resolves refs relative to this drawer; it was never told to stay in
+the hallway.

@@ -1,0 +1,12 @@
+co-op gateway work log (Laci unless signed otherwise)
+
+2024-04-09  SILO    concentrator board swapped under warranty, same feeder. GPS lock 3 min after power-up.
+2024-11-02  TOWER   GPS antenna replaced (water in the old one). Compared timing with DRYER on probe 0x26011A3C traffic, fine.
+2025-02-17  all     packet forwarder logs now kept 14 days on each box; TOWER still only does its CSV export.
+2025-03-20  all     firmware update on DRYER, SILO, PUMP (pkt_fwd 2.1.0, fine timestamps on).
+2025-05-14  PUMP    gateway moved off the pump house roof onto the new lattice mast at pivot 7. Same 8 m feeder,
+                    antenna now 12.0 m above ground. The surveyor from the county office measured the mast foot:
+                    EOV Y 788457.44  X 111015.67   (ground 95.0 m Balti)
+                    hostname changed to gw-pivot7. TODO: update the sheet.
+2025-06-30  DRYER   N connector on the feeder redone after the storm, cable not changed.
+2025-07-05  all     police asked for the noon logs (10:00-10:10 UTC). Copied from each box, TOWER exported to CSV.

@@ -1,0 +1,32 @@
+{
+  "F51": {
+    "longitude": "203.74409",
+    "rhocosphi": "0.936241",
+    "rhosinphi": "0.351543",
+    "name": "Pan-STARRS 1, Haleakala"
+  },
+  "G96": {
+    "longitude": "249.21128",
+    "rhocosphi": "0.845107",
+    "rhosinphi": "0.533611",
+    "name": "University of Arizona Mt. Lemmon Survey"
+  },
+  "703": {
+    "longitude": "249.26736",
+    "rhocosphi": "0.845311",
+    "rhosinphi": "0.533211",
+    "name": "University of Arizona Catalina Sky Survey"
+  },
+  "T08": {
+    "longitude": "204.42395",
+    "rhocosphi": "0.943290",
+    "rhosinphi": "0.332467",
+    "name": "ATLAS-MLO, Mauna Loa"
+  },
+  "807": {
+    "longitude": "289.1941",
+    "rhocosphi": "0.86560",
+    "rhosinphi": "-0.49980",
+    "name": "Cerro Tololo Observatory, La Serena"
+  }
+}

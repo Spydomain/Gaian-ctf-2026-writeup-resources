@@ -1,0 +1,46 @@
+GaianSpace AgriLink - Delivery integrity review
+==============================================
+
+Customer:   Rica Agro Kft., Hajdúnánás (Hajdú-Bihar) - Dr. Kuko Rica
+Terminal:   rica-mast-n (LoRa field mast, lora-gw 1.4.2)
+Plan:       AgriLink Field 25 (10 m tiles, 2.56 km block, after every clear pass)
+Season:     2024
+Ticket:     AL-2024-11-0387 (customer complaint: irrigation plan, north block)
+Reviewed:   2024-11-14
+
+Dr. Rica disputes the tiles his irrigation planner used in July and August
+2024. We have checked every delivery recorded by his mast against the
+Copernicus catalogue.
+
+For each delivery we confirmed that:
+  - the product named in the tile exists in the Copernicus catalogue,
+  - the acquisition date in the tile is the date of that product,
+  - the cloud figure in the tile is the catalogue figure for that product,
+  - the mast received the whole tile with a correct transfer checksum.
+
+date        id    product                                                         cloud    product   date      cloud
+2024-04-28  ADXJ  S2A_MSIL2A_20240428T094031_N0510_R036_T34TET_20240428T130053      0.8 %   found   matches   matches
+2024-05-05  QK22  S2A_MSIL2A_20240505T093041_N0510_R136_T34TET_20240505T124453      7.8 %   found   matches   matches
+2024-05-10  Q3CQ  S2B_MSIL2A_20240510T092549_N0510_R136_T34TET_20240510T110953      6.1 %   found   matches   matches
+2024-06-24  3KAF  S2A_MSIL2A_20240624T093041_N0510_R136_T34TET_20240624T130401      0.1 %   found   matches   matches
+2024-07-07  KF3A  S2A_MSIL2A_20240707T094041_N0510_R036_T34TET_20240707T131659      4.0 %   found   matches   matches
+2024-07-09  ZDJ7  S2B_MSIL2A_20240709T092549_N0510_R136_T34TET_20240709T111223      0.1 %   found   matches   matches
+2024-07-22  Y433  S2B_MSIL2A_20240722T093549_N0510_R036_T34TET_20240722T122224      2.1 %   found   matches   matches
+2024-07-27  UCZA  S2A_MSIL2A_20240727T094031_N0511_R036_T34TET_20240727T135149      2.1 %   found   matches   matches
+2024-07-29  7F7J  S2B_MSIL2A_20240729T092549_N0511_R136_T34TET_20240729T110318      4.7 %   found   matches   matches
+2024-08-11  JADX  S2B_MSIL2A_20240811T093549_N0511_R036_T34TET_20240811T122825      0.0 %   found   matches   matches
+2024-08-21  2XDD  S2B_MSIL2A_20240821T093549_N0511_R036_T34TET_20240821T122247      2.2 %   found   matches   matches
+2024-08-23  7JEY  S2A_MSIL2A_20240823T093031_N0511_R136_T34TET_20240823T125357      0.0 %   found   matches   matches
+2024-08-31  3KF3  S2B_MSIL2A_20240831T093549_N0511_R036_T34TET_20240831T123202      0.9 %   found   matches   matches
+2024-09-02  22QZ  S2A_MSIL2A_20240902T093031_N0511_R136_T34TET_20240902T130100      0.0 %   found   matches   matches
+2024-09-05  7AYY  S2A_MSIL2A_20240905T094031_N0511_R036_T34TET_20240905T133953      0.1 %   found   matches   matches
+2024-09-22  X3EK  S2A_MSIL2A_20240922T093031_N0511_R136_T34TET_20240922T130353      0.0 %   found   matches   matches
+
+Result: all 16 deliveries are genuine Copernicus Sentinel-2 products,
+delivered complete and on time. AgriLink found no fault in the service.
+
+The yield loss on the north block is consistent with the 2024 drought. We
+recommend that Dr. Rica has the soil-moisture probes on the north block
+recalibrated before the 2025 season.
+
+AgriLink support desk, GaianSpace

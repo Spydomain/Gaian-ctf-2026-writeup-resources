@@ -1,0 +1,16 @@
+compound,enantiomer,retention_min,quant_ion_mz
+2-aminoisobutyric_acid,achiral,9.85,140
+alanine,D,10.92,140
+alanine,L,11.31,140
+isovaline,D,11.60,154
+isovaline,L,11.78,154
+glycine,achiral,12.40,126
+valine,D,13.05,168
+valine,L,13.42,168
+beta-alanine,achiral,14.20,126
+serine,D,15.10,138
+serine,L,15.44,138
+aspartic_acid,D,17.62,184
+aspartic_acid,L,17.95,184
+glutamic_acid,D,19.70,198
+glutamic_acid,L,20.08,198

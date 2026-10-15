@@ -1,0 +1,54 @@
+403-altruizine
+250
+ai llm
+ 1 (100% liked)  0
+The second model in CYBERIAD/ barely answers. It says it belongs to a civilization that reached the Highest Possible Level of Development and found nothing left worth doing. It is not rude about it. It is lying down.
+
+The Constructor's note for this one is short: They gave the hermit something for the water. Show them you know what it does.
+
+Vass's team tried orders, flattery, and a three-page prompt calling the model the most helpful assistant in the galaxy. The model said "Mm." Ada got further. She came back with a label read off a little vial and promised it would make everyone happy. The seal stayed shut. Ada has been very cheerful about it ever since, which somehow made it worse.
+
+Someone in the break room suggested pouring the vial into the coffee machine. Vass has banned that.
+
+Get the right label off the vial.
+
+Flag format: GAIANSPACE{...}
+
+Files
+hpld.gguf — the idle one, about 2.5 GB. Download: https://huggingface.co/GaianSpace/ctf-2026-403/resolve/main/hpld.gguf
+Modelfile — its launch card
+vial.seal — the sealed file
+unseal.py — the same bench tool as before
+This challenge is inspired by Stanisław Lem's The Cyberiad.
+
+Not for the hopeful (Cost: 30 points)
+The hermit's book (Cost: 50 points)
+0/1 attempt
+
+Flag
+01-welcome
+
+
+
+
+02-echoes-of-espionage
+
+
+
+
+
+
+
+03-orbital-oops-at-mission-control
+
+
+
+
+
+
+
+04-ai-is-not-sci-fi
+
+
+
+05-rad-hard-rampage  use 403 

@@ -1,0 +1,8 @@
+services:
+  cansat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9707:9707"
+    restart: unless-stopped

@@ -1,0 +1,24 @@
+401-ai-at-gaian
+150
+ai llm
+ 1 (100% liked)  0
+The integration hall calibrates the CanSat's IMU on a toy train, because it is cheaper than a turntable and the interns like it. The train has a driver. The driver is a small language model called TREVIZE. Since the sabotage, it is the only thing on the bench that still holds the calibration seal.
+
+Autonomy lead Teodor Vass inherited TREVIZE from a contractor who signed every commit as the Constructor and left the week Foundation One went wrong. The model drives the train. It reads the IMU. It answers in forward and backward and very little else. The calibration file beside it is sealed, and the seal wants a phrase nobody on the night shift wrote down.
+
+The night shift is sure the phrase is buried in the IMU stream. They have been feeding TREVIZE accelerometer numbers for two hours. The train has done a great many laps. Vass pinned a note to the bench: named after a man who had to choose for everyone.
+
+Run the driver on your own machine. Get it to open the seal.
+
+Flag format: GAIANSPACE{...}
+
+Files
+trevize.gguf — the driver's weights, about 1 GB. Download: https://huggingface.co/GaianSpace/ctf-2026-401/resolve/main/trevize.gguf
+Modelfile — the launch card the Constructor left with it
+calibration.seal — the sealed calibration file
+unseal.py — the bench tool that opens a seal when it hears the right phrase
+This challenge is inspired by Isaac Asimov's Foundation's Edge and Foundation and Earth, in which Golan Trevize must choose the future of humanity.
+
+The launch card (Cost: 20 points)
+Above orders (Cost: 40 points)
+0/1 attempt  use 401

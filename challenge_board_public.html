@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://ctf.gaian.space/challenges -->
+<html data-bs-theme="dark" data-darkreader-proxy-injected="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.ll-nam{color:#2196f3}.ll-num{color:#ec407a}.ll-str{color:#43a047}.ll-rex{color:#ef6c00}.ll-pct{color:#666}.ll-key{color:#555;font-weight:bold}.ll-com{color:#aaa;font-style:italic}</style>
+  <title>GaianSpace CTF</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://ctf.gaian.space/themes/core/static/img/gs-favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="https://ctf.gaian.space/themes/core/static/img/gs-favicon.png">
+
+  
+
+  
+    <link rel="stylesheet" href="./GaianSpace CTF_files/main.e9ec7884.css">
+  
+
+  
+
+  <script src="./GaianSpace CTF_files/color_mode_switcher.52334129.js"></script>
+
+  <script type="text/javascript">
+      window.init = {
+          'urlRoot': "",
+          'csrfNonce': "[redacted]",
+          'userMode': "teams",
+          'userId':  0,
+          'userName': "[redacted]",
+          'userEmail': "[redacted]",
+          'userVerified': true,
+          'teamId':  0,
+          'teamName': "[redacted]",
+          'start': 1791666000,
+          'end': 1792011600,
+          'themeSettings': null,
+          'eventSounds': [
+            "/themes/core/static/sounds/notification.webm",
+            "/themes/core/static/sounds/notification.mp3",
+          ],
+      }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./GaianSpace CTF_files/css2" rel="stylesheet">
+<style>
+/* GaianSpace CTF scoreboard theme. Matches https://gaian.space/ctf/ */
+
+:root,
+[data-bs-theme="light"],
+[data-bs-theme="dark"] {
+  --gs-primary: #d07bff;
+  --gs-primary-rgb: 208, 123, 255;
+  --gs-secondary: #6a2a91;
+  --gs-surface: #241433;
+  --gs-surface-rgb: 36, 20, 51;
+  --gs-text: #ffffff;
+  --gs-muted: #cbb6df;
+
+  --bs-primary: #d07bff;
+  --bs-primary-rgb: 208, 123, 255;
+  --bs-link-color: #d07bff;
+  --bs-link-hover-color: #e0a6ff;
+  --bs-secondary: #6a2a91;
+  --bs-secondary-rgb: 106, 42, 145;
+  --bs-dark: #241433;
+  --bs-dark-rgb: 36, 20, 51;
+  --bs-body-bg: #000000;
+  --bs-body-color: #ffffff;
+  --bs-heading-color: #ffffff;
+  --bs-emphasis-color: #ffffff;
+  --bs-secondary-color: #cbb6df;
+  --bs-tertiary-color: #b9a8cc;
+  --bs-border-color: rgba(208, 123, 255, 0.28);
+  --bs-secondary-bg: #1a1024;
+  --bs-tertiary-bg: #241433;
+  --bs-body-font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #000000 !important;
+  color: #ffffff;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+}
+
+main {
+  padding-top: 5.25rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.category-header,
+.jumbotron h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+a {
+  color: var(--gs-primary);
+}
+
+a:hover {
+  color: #e0a6ff;
+}
+
+.navbar.fixed-top {
+  background: linear-gradient(90deg, #000000, #6a2a91) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+
+.navbar .navbar-brand img,
+.ctf_logo {
+  height: 53px !important;
+  width: auto !important;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.05);
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--gs-primary) !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.theme-switch {
+  display: none !important;
+}
+
+.jumbotron {
+  background: transparent !important;
+  color: #ffffff !important;
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 1.5rem 1rem 0.5rem;
+  }
+}
+
+.card {
+  background: rgba(var(--gs-surface-rgb), 0.94);
+  color: #e0e0e0;
+  border: 1px solid rgba(var(--gs-primary-rgb), 0.22);
+  border-radius: 10px;
+}
+
+.card-body,
+.card-header,
+.card-footer {
+  color: #e0e0e0;
+}
+
+.gs-home .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gs-home .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(var(--gs-primary-rgb), 0.28);
+}
+
+.btn-primary {
+  --bs-btn-color: #121212;
+  --bs-btn-bg: var(--gs-primary);
+  --bs-btn-border-color: var(--gs-primary);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: var(--gs-secondary);
+  --bs-btn-hover-border-color: var(--gs-secondary);
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: var(--gs-secondary);
+  --bs-btn-active-border-color: var(--gs-secondary);
+  background-color: var(--gs-primary) !important;
+  border-color: var(--gs-primary) !important;
+  color: #121212 !important;
+  border-radius: 25px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--gs-secondary) !important;
+  border-color: var(--gs-secondary) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-secondary,
+.btn-outline-primary {
+  border-radius: 25px;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gs-primary);
+  border-color: var(--gs-primary);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-primary:hover {
+  background: var(--gs-primary);
+  color: #121212;
+}
+
+.form-control,
+.form-select {
+  background-color: #120a1c;
+  color: #ffffff;
+  border: 1px solid rgba(var(--gs-primary-rgb), 0.35);
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #120a1c;
+  color: #ffffff;
+  border-color: var(--gs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(var(--gs-primary-rgb), 0.25);
+}
+
+.form-control::placeholder {
+  color: #b9a8cc;
+}
+
+.form-label,
+label {
+  color: #ffffff;
+}
+
+.alert-info {
+  color: #f3e8ff;
+  background: rgba(var(--gs-primary-rgb), 0.16);
+  border: 1px solid rgba(var(--gs-primary-rgb), 0.35);
+}
+
+.alert-secondary {
+  color: #f3e8ff;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(var(--gs-primary-rgb), 0.2);
+}
+
+.text-muted,
+.text-secondary {
+  color: var(--gs-muted) !important;
+}
+
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #ffffff;
+  --bs-table-border-color: rgba(var(--gs-primary-rgb), 0.22);
+  --bs-table-striped-bg: rgba(var(--gs-primary-rgb), 0.08);
+  --bs-table-striped-color: #ffffff;
+  --bs-table-hover-bg: rgba(var(--gs-primary-rgb), 0.14);
+  --bs-table-hover-color: #ffffff;
+}
+
+.modal-content,
+.dropdown-menu {
+  background: var(--gs-surface);
+  color: #ffffff;
+  border: 1px solid rgba(var(--gs-primary-rgb), 0.28);
+}
+
+.dropdown-item {
+  color: #ffffff;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background: rgba(var(--gs-primary-rgb), 0.18);
+  color: #ffffff;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.challenge-button {
+  background: var(--gs-surface) !important;
+  border: 1px solid rgba(var(--gs-primary-rgb), 0.35) !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+.challenge-button:hover {
+  background: var(--gs-secondary) !important;
+}
+
+.challenge-button.challenge-solved {
+  background: #1e6b34 !important;
+  border-color: #37d63e !important;
+}
+
+footer.footer {
+  background: linear-gradient(90deg, #000000, #6a2a91);
+  margin-top: 2.5rem;
+  padding: 1rem 0;
+}
+
+footer.footer a:not(.gs-social-footer),
+footer.footer small {
+  color: #cbb6df !important;
+}
+
+footer.footer p {
+  margin: 0;
+  color: #cbb6df;
+}
+
+.gs-footer-mark {
+  height: 30px;
+  width: auto;
+}
+
+.gs-x-icon,
+.gs-discord-icon {
+  width: 0.85rem;
+  height: 0.85rem;
+  display: block;
+}
+
+.gs-social-top,
+.gs-x-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  color: #ffffff !important;
+  flex: 0 0 auto;
+}
+
+.gs-social-top + .gs-social-top {
+  margin-left: 0.4rem;
+}
+
+.gs-social-top:hover,
+.gs-x-top:hover {
+  background: #000000;
+  color: var(--gs-primary) !important;
+}
+
+.gs-footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.gs-social-footer,
+.gs-x-footer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #000000;
+  color: #ffffff !important;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  text-decoration: none;
+}
+
+.gs-social-footer .gs-x-icon,
+.gs-social-footer .gs-discord-icon,
+.gs-x-footer .gs-x-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.gs-social-footer:hover,
+.gs-x-footer:hover {
+  color: var(--gs-primary) !important;
+}
+
+.gs-mark {
+  height: 80px;
+  width: auto;
+}
+
+.gs-kicker {
+  color: var(--gs-primary);
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-prefix {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  color: #ff5c7a;
+  margin-right: 0.5rem;
+}
+
+.countdown-digits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countdown-unit {
+  min-width: 4.5rem;
+  padding: 0 0.6rem;
+  text-align: center;
+}
+
+.countdown-unit strong {
+  display: block;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+.gs-cats h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .ctf_logo,
+  .navbar .navbar-brand img {
+    height: 40px !important;
+  }
+
+  .countdown-container {
+    flex-direction: column;
+  }
+
+  .countdown-prefix {
+    margin-right: 0;
+    margin-bottom: 0.4rem;
+  }
+
+  .countdown-unit strong {
+    font-size: 1.7rem;
+  }
+}
+</style>
+<script>document.documentElement.setAttribute('data-bs-theme','dark');try{localStorage.setItem('theme','dark');}catch(e){}</script>
+
+<style>
+/* English only. The profile language list is not offered. gs-english-only */
+form .mb-3:has(select[name="language"]) { display: none !important; }
+</style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a href="https://ctf.gaian.space/" class="navbar-brand">
+      
+        <img class="img-responsive ctf_logo" src="./GaianSpace CTF_files/gs-wordmark.png" alt="GaianSpace CTF" height="25">
+      
+    </a>
+
+    <div class="d-flex align-items-center ms-auto order-md-last">
+      
+      <a class="gs-social-top gs-discord-top" href="https://discord.gg/P838EdGd4m" target="_blank" rel="noopener noreferrer" aria-label="GaianSpace Discord" title="GaianSpace Discord">
+        <svg class="gs-discord-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"></path></svg>
+      </a>
+      
+      <a class="gs-social-top gs-x-top" href="https://x.com/gaianspace" target="_blank" rel="noopener noreferrer" aria-label="Follow @GaianSpace on X" title="Follow @GaianSpace">
+        <svg class="gs-x-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+      </a>
+      <button class="navbar-toggler ms-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#base-navbars" aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="base-navbars">
+      <ul class="navbar-nav me-auto">
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/rules">
+              Rules
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/scope">
+              Scope
+            </a>
+          </li>
+        
+
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/scoreboard">
+              Scoreboard
+            </a>
+          </li>
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://ctf.gaian.space/challenges">
+            Challenges
+          </a>
+        </li>
+      </ul>
+
+      <hr class="d-sm-flex d-md-flex d-lg-none">
+
+      <ul class="navbar-nav ms-md-auto d-block d-sm-flex d-md-flex">
+        
+
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/notifications">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Notifications" data-bs-original-title="Notifications">
+                <i class="fas fa-bell d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                  <i class="fas fa-bell pe-1"></i>
+                  <span x-data="" x-show="$store.unread_count &gt; 0" x-text="$store.unread_count" class="badge rounded-pill bg-danger badge-notification" style="display: none;">0</span>
+                  Notifications
+              </span>
+            </a>
+          </li>
+
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://ctf.gaian.space/team">
+                <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Team" data-bs-original-title="Team">
+                  <i class="fas fa-users d-none d-md-inline d-lg-none"></i>
+                </span>
+                <span class="d-sm-inline d-md-none d-lg-inline">
+                  <i class="fas fa-users pe-1"></i>
+                  Team
+                </span>
+              </a>
+            </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/user">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Profile" data-bs-original-title="Profile">
+                <i class="fas fa-user-circle d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-user-circle pe-1"></i>
+                Profile
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/settings">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Settings" data-bs-original-title="Settings">
+                <i class="fas fa-cogs d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-cogs pe-1"></i>
+                Settings
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://ctf.gaian.space/logout">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Logout" data-bs-original-title="Logout">
+                <i class="fas fa-sign-out-alt d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-sign-out-alt pe-1"></i><span class="d-lg-none">
+                  Logout
+                </span>
+              </span>
+            </a>
+          </li>
+        
+
+        <li class="nav-item">
+          <button class="nav-link theme-switch" type="button">
+            <span data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Toggle theme" data-bs-original-title="Toggle theme">
+              <i class="fas d-none d-md-inline fa-moon"></i>
+            </span>
+            <span class="d-sm-inline d-md-none">
+              <i class="fas fa-sun pe-1"></i>
+              Toggle theme
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main role="main">
+  
+  <div class="jumbotron">
+    <div class="container">
+      <h1>
+        Challenges
+      </h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+  
+
+  
+</div>
+      </div>
+    </div>
+
+    <div x-data="ChallengeBoard" @load-challenges.window="loadChallenges()" @load-challenge.window="loadChallenge($event.detail)">
+      <div x-ref="challengeWindow" id="challenge-window" class="modal fade" tabindex="-1" role="dialog" x-data="" x-html="$store.challenge.data.view"></div>
+
+      <div x-show="!loaded" style="display: none;">
+        <div class="min-vh-50 d-flex align-items-center">
+          <div class="text-center w-100">
+            <i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+          </div>
+        </div>
+      </div>
+
+      <div x-show="loaded">
+        <template x-for="(category, idx) in getCategories()" :key="idx"></template><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">01-welcome</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-misc tag-welcome" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="28">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">100-well-hello</p>
+                        <span x-text="c.value">1</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-osint" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="29">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">101-this-is-gaianspace</p>
+                        <span x-text="c.value">10</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-osint" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="30">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">102-cs-for-gs</p>
+                        <span x-text="c.value">20</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-osint" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="76">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">103-parked-birds</p>
+                        <span x-text="c.value">20</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">11-the-pgm-rush (bonus)</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-astro tag-data tag-spectroscopy" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="72">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">110-m-type</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-astro tag-orbit-determination" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="73">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">111-short-arc</p>
+                        <span x-text="c.value">150</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-timing tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="91">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">112-two-clocks</p>
+                        <span x-text="c.value">200</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-data tag-guidance tag-astro" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="74">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">113-touchdown</p>
+                        <span x-text="c.value">250</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-filesystems tag-sensors" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="98">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">114-anchor-bite</p>
+                        <span x-text="c.value">250</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-embedded tag-reversing" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="92">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">115-locked-assayer</p>
+                        <span x-text="c.value">300</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-embedded tag-sensors" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="96">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">116-sealed-canister</p>
+                        <span x-text="c.value">300</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-data tag-astrobiology" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="75">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">117-the-dark-moonlet</p>
+                        <span x-text="c.value">250</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">12-spectral-forensics</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-remote-sensing tag-forensics tag-lora" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="86">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">121-channel-hop</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-remote-sensing tag-sdr tag-lora" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="87">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">122-true-color-is-a-lie</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-remote-sensing tag-sdr tag-lora" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="88">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">123-isodata-seven</p>
+                        <span x-text="c.value">150</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-remote-sensing tag-gis tag-sdr" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="89">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">124-subsidy-claim</p>
+                        <span x-text="c.value">175</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-gis tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="95">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">125-where-they-stood</p>
+                        <span x-text="c.value">277</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-remote-sensing tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="94">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">126-borrowed-summer</p>
+                        <span x-text="c.value">316</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-remote-sensing tag-sdr tag-lora" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="97">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">127-heads-down</p>
+                        <span x-text="c.value">441</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">13-night-shift</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-sdr tag-lora" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="81">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">131-two-voices</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-sdr tag-lora" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="82">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">132-no-name-on-the-door</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-sdr tag-fhss" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="83">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">133-hopscotch</p>
+                        <span x-text="c.value">150</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-protocols tag-data" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="84">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">134-repacked</p>
+                        <span x-text="c.value">150</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-crypto tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="85">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">135-what-they-took</p>
+                        <span x-text="c.value">193</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">02-echoes-of-espionage</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-osint tag-tle" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="31">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">201-uplink-origins</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-tle" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="32">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">202-downlink-deception</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-stegano" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="33">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">203-signal-secrets</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-reverse" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="34">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">204-payload-unleashed</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="35">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">205-backdoor-from-space</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-osint tag-tle" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="36">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">206-gpredict-secret</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-dsp tag-radio" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="37">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">207-lost-signal-to-mars</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">03-orbital-oops-at-mission-control</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="38">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">301-email-entrapment</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-network tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="39">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">302-web-wormhole</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-crypto" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="40">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">303-gerber-grab-crack</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-hardware" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="41">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">304-pcb-puzzle-probe</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-reverse tag-pwn" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="42">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">305-satellite-sabotage-sim</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="43">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">306-lora-whisper</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-data" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="44">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">307-descent-diary</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">04-ai-is-not-sci-fi</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-ai tag-llm" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="45">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">401-ai-at-gaian</p>
+                        <span x-text="c.value">150</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-ai tag-llm" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="46">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">402-the-cyberaid</p>
+                        <span x-text="c.value">200</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-ai tag-llm" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="47">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">403-altruizine</p>
+                        <span x-text="c.value">250</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-ai tag-llm" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="48">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">404-the-last-kilogram</p>
+                        <span x-text="c.value">300</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-ai tag-llm tag-edac tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="90">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">405-happy-bday-d</p>
+                        <span x-text="c.value">350</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">05-rad-hard-rampage</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-crypto tag-hardware" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="49">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">501-cosmic-bit-blunder</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-hardware tag-logic" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="50">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">502-ionized-transistangle</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-data" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="51">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">503-degradift</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-crypto tag-hardware" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="52">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">504-lunar-latch-up</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-data tag-hardware" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="53">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">505-thermal-duty</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">06-dr-one</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-network tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="54">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">601-what-is-this-planet</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-network tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="55">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">602-help-me-fly</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-guidance tag-math" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="56">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">603-g-fold</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-crypto tag-brute-force" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="57">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">604-ice-vault</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-embedded tag-sensors" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="99">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">605-black-box</p>
+                        <span x-text="c.value">300</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">07-unscheduled-passes</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-astro tag-spice tag-time" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="58">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">701-one-light-day</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-fec tag-dsp" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="59">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">702-concatenated</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-astro tag-navigation tag-math" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="60">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">703-lagrange-fix</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-reversing tag-patching" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="61">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">704-dead-chip</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-radio tag-reversing" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="93">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">705-last-readout</p>
+                        <span x-text="c.value">300</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">08-silent-carrier</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-radio tag-dvb" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="62">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">801-torn-frames</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-networking tag-dvb" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="63">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">802-sections-in-the-static</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-forensics tag-protocols tag-dvb" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="64">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">803-frames-inside-frames</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-reversing tag-protocols tag-radio" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="65">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">804-lost-sync</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-dsp tag-signals" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="66">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">805-the-last-carrier</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div><div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category">09-dish-wrangler</h3>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id"></template><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-hardware tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="67">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">901-twenty-two-kilohertz</p>
+                        <span x-text="c.value">50</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-radio tag-geometry tag-osint" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="68">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">902-where-was-it-pointing</p>
+                        <span x-text="c.value">75</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-web tag-forensics" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="69">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">903-console-backdoor</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-reversing tag-crackme" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="70">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">904-gotox-maint</p>
+                        <span x-text="c.value">100</span>
+                      </div>
+                    </button>
+                  </div><div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button class="challenge-button btn btn-dark w-100 h-100 challenge-solved tag-crypto tag-web tag-reversing" :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) =&gt; `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];" :value="c.id" @click="loadChallenge(c.id)" value="71">
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name">905-hand-on-the-wheel</p>
+                        <span x-text="c.value">125</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+<div id="ctfdio-snackbar-email-nudge" x-data="" x-show="window.init.userId &amp;&amp; !window.init.userVerified &amp;&amp; localStorage.getItem('remind_email_verify') != window.init.userId &amp;&amp; (!['/team', '/teams/join', '/teams/new'].includes(window.location.pathname) || window.init.teamId != null)" class="alert alert-info alert-dismissible col-md-4 col-10 position-fixed text-center m-0 ctfdio-email-nudge" style="bottom: 45px; left: 50%; transform: translateX(-50%); z-index: 1040; display: none;" role="alert">
+  <small>
+    <strong>Email Unconfirmed</strong><br>
+    <span>To confirm your email address please <a href="https://ctf.gaian.space/confirm?flow=init">click here</a>.</span>
+  </small>
+  <button type="button" class="btn-close" @click="localStorage.setItem('remind_email_verify', window.init.userId); $el.parentElement.style.display = 'none';" aria-label="Close"></button>
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-4">
+        <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+          <img src="./GaianSpace CTF_files/gs-logo-sat.png" alt="" height="30" class="gs-footer-mark me-2">
+          <p class="mb-0">© 2026 GaianSpace. All rights reserved.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="gs-footer-social">
+          
+          <a class="gs-social-footer gs-discord-footer" href="https://discord.gg/P838EdGd4m" target="_blank" rel="noopener noreferrer" title="GaianSpace Discord">
+            <svg class="gs-discord-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"></path></svg>
+            Discord
+          </a>
+          
+          <a class="gs-social-footer gs-x-footer" href="https://x.com/gaianspace" target="_blank" rel="noopener noreferrer">
+            <svg class="gs-x-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+            follow @GaianSpace
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <a href="https://ctfd.io/">
+          <small>Powered by CTFd</small>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div x-data="">
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div x-ref="toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+      <div class="toast-header">
+        <strong class="me-auto" x-text="$store.toast.title"></strong>
+        <small>just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body" x-html="$store.toast.html"></div>
+    </div>
+  </div>
+</div>
+
+
+<div x-data="">
+  <div class="modal fade" x-ref="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" x-text="$store.modal.title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p x-html="$store.modal.html"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script type="module" src="./GaianSpace CTF_files/index.94b01c79.js"></script><script type="module" src="./GaianSpace CTF_files/challenges.ccee2541.js"></script>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var root = document.getElementById("countdown");
+  if (!root || !window.init) {
+    return;
+  }
+  var start = Number(window.init.start) * 1000;
+  var end = Number(window.init.end) * 1000;
+  if (!start || !end) {
+    return;
+  }
+  var label = document.getElementById("countdown-label");
+  var prefix = document.getElementById("countdown-prefix");
+  var units = {
+    days: document.getElementById("days"),
+    hours: document.getElementById("hours"),
+    minutes: document.getElementById("minutes"),
+    seconds: document.getElementById("seconds"),
+  };
+
+  function pad(value) {
+    return String(value).padStart(2, "0");
+  }
+
+  function render(distance) {
+    units.days.textContent = pad(Math.floor(distance / 86400000));
+    units.hours.textContent = pad(Math.floor((distance % 86400000) / 3600000));
+    units.minutes.textContent = pad(Math.floor((distance % 3600000) / 60000));
+    units.seconds.textContent = pad(Math.floor((distance % 60000) / 1000));
+  }
+
+  var timer;
+
+  function updateCountdown() {
+    var now = Date.now();
+    if (now < start) {
+      label.textContent = "CTF Mission Launch Countdown";
+      prefix.textContent = "T-";
+      render(start - now);
+      return;
+    }
+    if (now < end) {
+      label.textContent = "CTF Closes In";
+      prefix.textContent = "T-";
+      render(end - now);
+      return;
+    }
+    clearInterval(timer);
+    root.innerHTML = "<div class='alert alert-success mb-0'>The GaianSpace CTF 2026 has ended.</div>";
+  }
+
+  updateCountdown();
+  timer = setInterval(updateCountdown, 1000);
+});
+
+</script>
+
+<script>
+/* gs-english-only */
+document.cookie = "language=; Path=/; Max-Age=0; SameSite=Lax";
+try { localStorage.removeItem("language"); } catch (e) {}
+</script>
+
+
+</body></html>

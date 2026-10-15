@@ -1,0 +1,59 @@
+JOHNRIPPER  FieldLink 3 Terminal  -  Service Manual  -  Rev. G
+================================================================
+
+----------------------------------------------------------------- page 14 ---
+
+4.2  Map channel
+
+The FieldLink 3 terminal receives prescription maps and imagery layers on the
+dealer map channel. The channel is shared by every terminal of a fleet; the
+terminal accepts any map frame that passes the frame check (4.5) and carries
+the fleet's map type.
+
+  Carrier ............. 433.400 MHz
+  Profile ............. "fast": spreading factor 7, 500 kHz
+  Coding .............. 4/5
+  Network word ........ 0x2C (dealer private)
+  Preamble ............ 10 symbols
+  Radio header ........ none (fixed-length frames, see Table 15-1)
+  Radio CRC ........... off (the terminal checks frames itself, see 4.5)
+
+Do not change the network word in the field. Terminals with a different
+network word will not hear the fleet.
+
+4.3  Frame types
+
+Map frames begin with the two-letter dealer mark, followed by the frame type.
+Type 'M' carries one layer of a map or image. Other frame types (firmware,
+fleet commands, telemetry) are described in the dealer-only supplement.
+
+  NOTE: A full image is sent one layer at a time. The terminal assembles
+  layers by layer number and line number, see Table 15-2.
+
+----------------------------------------------------------------- page 15 ---
+
+                 [ page missing from the photocopy ]
+
+----------------------------------------------------------------- page 16 ---
+
+4.5  Frame check
+
+Every frame ends in a 16-bit check word computed over all bytes before it:
+CRC-16, polynomial 0x1021, initial value 0xFFFF, no reflection, no final XOR,
+sent high byte first. A frame that fails the check is dropped silently; the
+terminal does not ask for a repeat.
+
+4.6  Layer values
+
+Layer values are unsigned 8-bit. The scale is set per map product by the
+dealer and is not needed by the terminal for display. Imagery layers keep the
+satellite's band order as listed in Table 15-2.
+
+4.7  Troubleshooting
+
+  Symptom                          Check
+  -------------------------------  -------------------------------------------
+  "map integrity: unverified"      Map frames missing or failing 4.5
+  Map shows stripes                Layers assembled out of order (Table 15-2)
+  Map half missing                 Line halves lost; wait for the next send
+  Terminal ignores the dealer      Network word changed (4.2)

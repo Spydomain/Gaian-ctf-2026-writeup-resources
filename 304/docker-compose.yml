@@ -1,0 +1,8 @@
+services:
+  tcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1337:1337"
+    restart: unless-stopped

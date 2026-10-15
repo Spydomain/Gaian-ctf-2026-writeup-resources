@@ -1,0 +1,12 @@
+2026-10-11T01:12:03Z  DL  LOCK LOST  433.000 MHz
+2026-10-11T01:12:03Z  SYS modem retune scheduled
+2026-10-11T01:17:40Z  SYS modem restart (operator)
+2026-10-11T01:18:12Z  DL  NO LOCK
+2026-10-11T01:22:55Z  DL  freq plan update applied: 433.175 MHz
+2026-10-11T01:23:09Z  DL  LOCK 433.175 SF9 BW125
+2026-10-11T01:31:17Z  DL  CFG CHANGED BY TC — NOT FROM MOC
+2026-10-11T01:31:17Z  DL  LOCK LOST  433.175 MHz
+2026-10-11T01:31:18Z  DL  header missing, payload length unknown
+2026-10-11T01:33:02Z  DL  NO LOCK (repeating)
+2026-10-11T01:36:00Z  SYS recorder segment rollover
+2026-10-11T01:38:30Z  SYS incident ticket opened (D. Aroz)

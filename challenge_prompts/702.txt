@@ -1,0 +1,21 @@
+702-concatenated
+150
+radio fec dsp
+ 0  0
+The command to dump the data computer's memory went out a day ago. The answer arrived tonight, as faint as anything the station has ever locked onto.
+
+Pilgrim-1 obeyed. It read back its own memory and sent it home. At this distance the signal is barely above the noise, which is why the 1977 designers wrapped every frame in two codes, one inside the other. The station recorded the raw symbols. Nobody on the desk has decoded a Pilgrim-1 readout since the 1990s.
+
+Somewhere in the readout the computer signs its name.
+
+Flag format: GAIANSPACE{...}
+
+Files
+pilgrim_symbols.s8 — the raw received symbols, signed 8-bit
+coding_sheet.md — what is left of the handbook page on the coding
+Not just yes or no (Cost: 30 points)
+Four at a time (Cost: 50 points)
+0/1 attempt
+
+Flag
+ use 702

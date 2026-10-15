@@ -1,0 +1,35 @@
+# Foundation One status encoder -- gate-level netlist
+# Post-TID: gates tagged [SHORTED=v] are stuck; the fab wants the DESIGNED behaviour.
+INPUTS i0 i1 i2 i3 i4 i5 i6 i7
+OUTPUTS o0 o1 o2 o3 o4 o5 o6 o7
+o0 = XOR i0 i7
+n1 = XOR i0 i2
+n2 = XOR n1 i3
+n3 = XOR n2 i4
+n4 = XOR n3 i6
+o1 = NOT n4
+n6 = XOR i0 i1   [SHORTED=0]
+n7 = XOR n6 i3
+o2 = XOR n7 i5
+n9 = XOR i0 i5
+o3 = XOR n9 i7
+n11 = XOR i1 i3
+n12 = XOR n11 i4
+n13 = XOR n12 i6
+o4 = NOT n13
+n15 = XOR i1 i3   [SHORTED=1]
+n16 = XOR n15 i4
+n17 = XOR n16 i5
+n18 = XOR n17 i7
+o5 = NOT n18
+n20 = XOR i1 i2
+n21 = XOR n20 i3
+n22 = XOR n21 i6
+o6 = XOR n22 i7
+n24 = XOR i2 i3
+n25 = XOR n24 i4
+n26 = XOR n25 i5
+n27 = XOR n26 i7
+o7 = NOT n27
+# PROBE VECTORS (feed each as i7..i0 = bits of the byte):
+PROBES 77 a6 ce a6 a7 e8 97 a6 61 b0 13 12 0a 12 35 f3 96 b2 8c 34 5d ab 5d 34 e4 96 9b 0a 7b 23 c2

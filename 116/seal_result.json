@@ -1,0 +1,9 @@
+{
+  "flag": "GAIANSPACE{6304}",
+  "opening_seconds_estimate": 6303.051513009928,
+  "onset_standard_error_seconds": 0.03445895702770611,
+  "first_record_after_opening": 6304,
+  "sample_seconds": 6304.003,
+  "utc_sample": "2041-03-18T09:57:08.003000+00:00",
+  "pressure_residual_rms_hPa": 0.025708235662932254
+}

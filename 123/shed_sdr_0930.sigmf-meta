@@ -1,0 +1,6411 @@
+{
+ "global": {
+  "core:datatype": "ci8",
+  "core:sample_rate": 1999999.0,
+  "core:version": "1.0.0",
+  "core:description": "co-op SDR, squelch bursts, tractor shed"
+ },
+ "captures": [
+  {
+   "core:sample_start": 0,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:47.325239Z"
+  },
+  {
+   "core:sample_start": 81959,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:47.657073Z"
+  },
+  {
+   "core:sample_start": 165917,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:47.988907Z"
+  },
+  {
+   "core:sample_start": 249875,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:48.318742Z"
+  },
+  {
+   "core:sample_start": 333833,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:48.649577Z"
+  },
+  {
+   "core:sample_start": 415792,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:48.981411Z"
+  },
+  {
+   "core:sample_start": 497751,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:49.312246Z"
+  },
+  {
+   "core:sample_start": 581709,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:49.644080Z"
+  },
+  {
+   "core:sample_start": 663668,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:49.973915Z"
+  },
+  {
+   "core:sample_start": 747626,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:50.303750Z"
+  },
+  {
+   "core:sample_start": 831584,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:50.634585Z"
+  },
+  {
+   "core:sample_start": 913543,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:50.964420Z"
+  },
+  {
+   "core:sample_start": 995502,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:51.295255Z"
+  },
+  {
+   "core:sample_start": 1077461,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:51.625090Z"
+  },
+  {
+   "core:sample_start": 1161419,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:51.954925Z"
+  },
+  {
+   "core:sample_start": 1245377,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:52.286759Z"
+  },
+  {
+   "core:sample_start": 1327336,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:52.616594Z"
+  },
+  {
+   "core:sample_start": 1411294,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:52.947429Z"
+  },
+  {
+   "core:sample_start": 1495252,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:53.277264Z"
+  },
+  {
+   "core:sample_start": 1579210,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:53.607099Z"
+  },
+  {
+   "core:sample_start": 1663168,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:53.936935Z"
+  },
+  {
+   "core:sample_start": 1747126,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:54.267769Z"
+  },
+  {
+   "core:sample_start": 1831084,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:54.597604Z"
+  },
+  {
+   "core:sample_start": 1915042,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:54.927440Z"
+  },
+  {
+   "core:sample_start": 1999000,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:55.258274Z"
+  },
+  {
+   "core:sample_start": 2080959,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:55.588109Z"
+  },
+  {
+   "core:sample_start": 2162918,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:55.916945Z"
+  },
+  {
+   "core:sample_start": 2244877,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:56.247780Z"
+  },
+  {
+   "core:sample_start": 2326836,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:56.578614Z"
+  },
+  {
+   "core:sample_start": 2410794,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:56.909449Z"
+  },
+  {
+   "core:sample_start": 2492753,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:57.239284Z"
+  },
+  {
+   "core:sample_start": 2576711,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:57.570119Z"
+  },
+  {
+   "core:sample_start": 2660669,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:57.900954Z"
+  },
+  {
+   "core:sample_start": 2744627,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:58.230789Z"
+  },
+  {
+   "core:sample_start": 2828585,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:58.560624Z"
+  },
+  {
+   "core:sample_start": 2912543,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:58.890459Z"
+  },
+  {
+   "core:sample_start": 2996501,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:59.222293Z"
+  },
+  {
+   "core:sample_start": 3080459,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:59.552128Z"
+  },
+  {
+   "core:sample_start": 3164417,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:29:59.881964Z"
+  },
+  {
+   "core:sample_start": 3246376,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:00.211799Z"
+  },
+  {
+   "core:sample_start": 3330334,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:00.542633Z"
+  },
+  {
+   "core:sample_start": 3414292,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:00.874468Z"
+  },
+  {
+   "core:sample_start": 3498250,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:01.206302Z"
+  },
+  {
+   "core:sample_start": 3582208,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:01.536137Z"
+  },
+  {
+   "core:sample_start": 3666166,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:01.865972Z"
+  },
+  {
+   "core:sample_start": 3748125,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:02.194808Z"
+  },
+  {
+   "core:sample_start": 3832083,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:02.523643Z"
+  },
+  {
+   "core:sample_start": 3914042,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:02.851480Z"
+  },
+  {
+   "core:sample_start": 3998000,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:03.180315Z"
+  },
+  {
+   "core:sample_start": 4081958,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:03.509151Z"
+  },
+  {
+   "core:sample_start": 4163917,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:03.837987Z"
+  },
+  {
+   "core:sample_start": 4245876,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:04.166822Z"
+  },
+  {
+   "core:sample_start": 4327835,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:04.495658Z"
+  },
+  {
+   "core:sample_start": 4409794,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:04.824494Z"
+  },
+  {
+   "core:sample_start": 4491753,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:05.152330Z"
+  },
+  {
+   "core:sample_start": 4575711,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:05.481165Z"
+  },
+  {
+   "core:sample_start": 4659669,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:05.810001Z"
+  },
+  {
+   "core:sample_start": 4743627,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:06.138837Z"
+  },
+  {
+   "core:sample_start": 4827585,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:06.467672Z"
+  },
+  {
+   "core:sample_start": 4911543,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:06.795508Z"
+  },
+  {
+   "core:sample_start": 4995501,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:07.124344Z"
+  },
+  {
+   "core:sample_start": 5079459,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:07.453180Z"
+  },
+  {
+   "core:sample_start": 5163417,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:07.782015Z"
+  },
+  {
+   "core:sample_start": 5245376,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:08.110851Z"
+  },
+  {
+   "core:sample_start": 5327335,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:08.439687Z"
+  },
+  {
+   "core:sample_start": 5409294,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:08.769522Z"
+  },
+  {
+   "core:sample_start": 5491253,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:09.098358Z"
+  },
+  {
+   "core:sample_start": 5573212,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:09.427193Z"
+  },
+  {
+   "core:sample_start": 5657170,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:09.756029Z"
+  },
+  {
+   "core:sample_start": 5741128,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:10.084865Z"
+  },
+  {
+   "core:sample_start": 5825086,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:10.414700Z"
+  },
+  {
+   "core:sample_start": 5907045,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:10.754530Z"
+  },
+  {
+   "core:sample_start": 5991003,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:11.083366Z"
+  },
+  {
+   "core:sample_start": 6074961,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:11.412201Z"
+  },
+  {
+   "core:sample_start": 6158919,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:11.742036Z"
+  },
+  {
+   "core:sample_start": 6240878,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:12.070872Z"
+  },
+  {
+   "core:sample_start": 6322837,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:12.399708Z"
+  },
+  {
+   "core:sample_start": 6404796,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:12.727544Z"
+  },
+  {
+   "core:sample_start": 6488754,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:13.056380Z"
+  },
+  {
+   "core:sample_start": 6572712,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:13.385215Z"
+  },
+  {
+   "core:sample_start": 6656670,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:13.714051Z"
+  },
+  {
+   "core:sample_start": 6740628,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:14.042887Z"
+  },
+  {
+   "core:sample_start": 6824586,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:14.371722Z"
+  },
+  {
+   "core:sample_start": 6908544,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:14.701557Z"
+  },
+  {
+   "core:sample_start": 6992502,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:15.030393Z"
+  },
+  {
+   "core:sample_start": 7076460,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:15.359229Z"
+  },
+  {
+   "core:sample_start": 7160418,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:15.688064Z"
+  },
+  {
+   "core:sample_start": 7244376,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:16.016900Z"
+  },
+  {
+   "core:sample_start": 7328334,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:16.345736Z"
+  },
+  {
+   "core:sample_start": 7410293,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:16.674571Z"
+  },
+  {
+   "core:sample_start": 7494251,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:17.003407Z"
+  },
+  {
+   "core:sample_start": 7576210,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:17.332243Z"
+  },
+  {
+   "core:sample_start": 7660168,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:17.661078Z"
+  },
+  {
+   "core:sample_start": 7744126,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:17.989914Z"
+  },
+  {
+   "core:sample_start": 7828084,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:18.319749Z"
+  },
+  {
+   "core:sample_start": 7910043,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:18.648585Z"
+  },
+  {
+   "core:sample_start": 7992002,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:18.977421Z"
+  },
+  {
+   "core:sample_start": 8073961,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:19.306256Z"
+  },
+  {
+   "core:sample_start": 8157919,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:19.635092Z"
+  },
+  {
+   "core:sample_start": 8239878,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:19.962928Z"
+  },
+  {
+   "core:sample_start": 8323836,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:20.291764Z"
+  },
+  {
+   "core:sample_start": 8407794,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:20.620599Z"
+  },
+  {
+   "core:sample_start": 8491752,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:20.949435Z"
+  },
+  {
+   "core:sample_start": 8575710,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:21.279270Z"
+  },
+  {
+   "core:sample_start": 8659668,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:21.608106Z"
+  },
+  {
+   "core:sample_start": 8743626,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:21.937941Z"
+  },
+  {
+   "core:sample_start": 8825585,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:22.266777Z"
+  },
+  {
+   "core:sample_start": 8909543,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:22.595612Z"
+  },
+  {
+   "core:sample_start": 8993501,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:22.924448Z"
+  },
+  {
+   "core:sample_start": 9077459,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:23.254283Z"
+  },
+  {
+   "core:sample_start": 9159418,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:23.582119Z"
+  },
+  {
+   "core:sample_start": 9243376,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:23.911955Z"
+  },
+  {
+   "core:sample_start": 9325335,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:24.240790Z"
+  },
+  {
+   "core:sample_start": 9409293,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:24.569626Z"
+  },
+  {
+   "core:sample_start": 9491252,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:24.898462Z"
+  },
+  {
+   "core:sample_start": 9575210,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:25.227297Z"
+  },
+  {
+   "core:sample_start": 9659168,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:25.556133Z"
+  },
+  {
+   "core:sample_start": 9743126,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:25.884969Z"
+  },
+  {
+   "core:sample_start": 9825085,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:26.212805Z"
+  },
+  {
+   "core:sample_start": 9909043,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:26.542640Z"
+  },
+  {
+   "core:sample_start": 9991002,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:26.870476Z"
+  },
+  {
+   "core:sample_start": 10074960,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:27.199312Z"
+  },
+  {
+   "core:sample_start": 10156919,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:27.528147Z"
+  },
+  {
+   "core:sample_start": 10240877,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:27.856983Z"
+  },
+  {
+   "core:sample_start": 10324835,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:28.185819Z"
+  },
+  {
+   "core:sample_start": 10408793,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:28.515654Z"
+  },
+  {
+   "core:sample_start": 10492751,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:28.844490Z"
+  },
+  {
+   "core:sample_start": 10576709,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:29.173325Z"
+  },
+  {
+   "core:sample_start": 10658668,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:29.502161Z"
+  },
+  {
+   "core:sample_start": 10740627,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:29.830997Z"
+  },
+  {
+   "core:sample_start": 10824585,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:30.159832Z"
+  },
+  {
+   "core:sample_start": 10906544,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:30.499662Z"
+  },
+  {
+   "core:sample_start": 10988503,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:30.827499Z"
+  },
+  {
+   "core:sample_start": 11072461,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:31.156334Z"
+  },
+  {
+   "core:sample_start": 11156419,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:31.486169Z"
+  },
+  {
+   "core:sample_start": 11240377,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:31.815005Z"
+  },
+  {
+   "core:sample_start": 11324335,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:32.144840Z"
+  },
+  {
+   "core:sample_start": 11406294,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:32.475675Z"
+  },
+  {
+   "core:sample_start": 11488253,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:32.804511Z"
+  },
+  {
+   "core:sample_start": 11570212,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:33.133346Z"
+  },
+  {
+   "core:sample_start": 11652171,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:33.462182Z"
+  },
+  {
+   "core:sample_start": 11734130,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:33.791017Z"
+  },
+  {
+   "core:sample_start": 11816089,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:34.119853Z"
+  },
+  {
+   "core:sample_start": 11898048,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:34.448689Z"
+  },
+  {
+   "core:sample_start": 11980007,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:34.777524Z"
+  },
+  {
+   "core:sample_start": 12061966,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:35.106360Z"
+  },
+  {
+   "core:sample_start": 12145924,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:35.435196Z"
+  },
+  {
+   "core:sample_start": 12229882,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:35.764031Z"
+  },
+  {
+   "core:sample_start": 12313840,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:36.092867Z"
+  },
+  {
+   "core:sample_start": 12397798,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:36.422702Z"
+  },
+  {
+   "core:sample_start": 12479757,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:36.751538Z"
+  },
+  {
+   "core:sample_start": 12561716,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:37.080374Z"
+  },
+  {
+   "core:sample_start": 12643675,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:37.409209Z"
+  },
+  {
+   "core:sample_start": 12725634,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:37.738045Z"
+  },
+  {
+   "core:sample_start": 12807593,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:38.066881Z"
+  },
+  {
+   "core:sample_start": 12891551,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:38.395716Z"
+  },
+  {
+   "core:sample_start": 12975509,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:38.724552Z"
+  },
+  {
+   "core:sample_start": 13059467,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:39.054387Z"
+  },
+  {
+   "core:sample_start": 13141426,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:39.382223Z"
+  },
+  {
+   "core:sample_start": 13225384,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:39.711059Z"
+  },
+  {
+   "core:sample_start": 13309342,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:40.039895Z"
+  },
+  {
+   "core:sample_start": 13393300,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:40.368730Z"
+  },
+  {
+   "core:sample_start": 13475259,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:40.708560Z"
+  },
+  {
+   "core:sample_start": 13559217,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:41.048391Z"
+  },
+  {
+   "core:sample_start": 13643175,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:41.378226Z"
+  },
+  {
+   "core:sample_start": 13725134,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:41.707061Z"
+  },
+  {
+   "core:sample_start": 13807093,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:42.034898Z"
+  },
+  {
+   "core:sample_start": 13891051,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:42.363733Z"
+  },
+  {
+   "core:sample_start": 13975009,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:42.692569Z"
+  },
+  {
+   "core:sample_start": 14058967,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:43.021405Z"
+  },
+  {
+   "core:sample_start": 14142925,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:43.350240Z"
+  },
+  {
+   "core:sample_start": 14226883,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:43.679076Z"
+  },
+  {
+   "core:sample_start": 14310841,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:44.007912Z"
+  },
+  {
+   "core:sample_start": 14394799,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:44.336747Z"
+  },
+  {
+   "core:sample_start": 14478757,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:44.666582Z"
+  },
+  {
+   "core:sample_start": 14560716,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:44.995418Z"
+  },
+  {
+   "core:sample_start": 14642675,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:45.324254Z"
+  },
+  {
+   "core:sample_start": 14726633,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:45.653089Z"
+  },
+  {
+   "core:sample_start": 14810591,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:45.981925Z"
+  },
+  {
+   "core:sample_start": 14894549,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:46.311760Z"
+  },
+  {
+   "core:sample_start": 14976508,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:46.639596Z"
+  },
+  {
+   "core:sample_start": 15060466,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:46.969432Z"
+  },
+  {
+   "core:sample_start": 15142425,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:47.298267Z"
+  },
+  {
+   "core:sample_start": 15224384,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:47.627103Z"
+  },
+  {
+   "core:sample_start": 15306343,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:47.966933Z"
+  },
+  {
+   "core:sample_start": 15390301,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:48.306763Z"
+  },
+  {
+   "core:sample_start": 15474259,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:48.635599Z"
+  },
+  {
+   "core:sample_start": 15558217,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:48.975429Z"
+  },
+  {
+   "core:sample_start": 15642175,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:49.316259Z"
+  },
+  {
+   "core:sample_start": 15726133,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:49.656089Z"
+  },
+  {
+   "core:sample_start": 15810091,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:49.985924Z"
+  },
+  {
+   "core:sample_start": 15892050,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:50.314760Z"
+  },
+  {
+   "core:sample_start": 15974009,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:50.643595Z"
+  },
+  {
+   "core:sample_start": 16055968,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:50.972431Z"
+  },
+  {
+   "core:sample_start": 16137927,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:51.302266Z"
+  },
+  {
+   "core:sample_start": 16219886,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:51.631102Z"
+  },
+  {
+   "core:sample_start": 16303844,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:51.959938Z"
+  },
+  {
+   "core:sample_start": 16387802,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:52.288773Z"
+  },
+  {
+   "core:sample_start": 16471760,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:52.618608Z"
+  },
+  {
+   "core:sample_start": 16553719,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:52.947444Z"
+  },
+  {
+   "core:sample_start": 16635678,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:53.276280Z"
+  },
+  {
+   "core:sample_start": 16719636,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:53.605115Z"
+  },
+  {
+   "core:sample_start": 16803594,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:53.933951Z"
+  },
+  {
+   "core:sample_start": 16887552,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:54.262787Z"
+  },
+  {
+   "core:sample_start": 16971510,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:54.591622Z"
+  },
+  {
+   "core:sample_start": 17055468,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:54.920458Z"
+  },
+  {
+   "core:sample_start": 17139426,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:55.249294Z"
+  },
+  {
+   "core:sample_start": 17221385,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:55.589124Z"
+  },
+  {
+   "core:sample_start": 17305343,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:55.917960Z"
+  },
+  {
+   "core:sample_start": 17389301,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:56.246795Z"
+  },
+  {
+   "core:sample_start": 17473259,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:56.575631Z"
+  },
+  {
+   "core:sample_start": 17557217,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:56.904467Z"
+  },
+  {
+   "core:sample_start": 17641175,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:57.233302Z"
+  },
+  {
+   "core:sample_start": 17723134,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:57.561138Z"
+  },
+  {
+   "core:sample_start": 17807092,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:57.889974Z"
+  },
+  {
+   "core:sample_start": 17889051,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:58.218810Z"
+  },
+  {
+   "core:sample_start": 17971010,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:58.547645Z"
+  },
+  {
+   "core:sample_start": 18052969,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:58.876481Z"
+  },
+  {
+   "core:sample_start": 18136927,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:59.205317Z"
+  },
+  {
+   "core:sample_start": 18218886,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:59.534152Z"
+  },
+  {
+   "core:sample_start": 18300845,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:30:59.873983Z"
+  },
+  {
+   "core:sample_start": 18382804,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:00.201819Z"
+  },
+  {
+   "core:sample_start": 18466762,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:00.531654Z"
+  },
+  {
+   "core:sample_start": 18548721,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:00.860490Z"
+  },
+  {
+   "core:sample_start": 18632679,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:01.189325Z"
+  },
+  {
+   "core:sample_start": 18714638,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:01.519160Z"
+  },
+  {
+   "core:sample_start": 18796597,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:01.847996Z"
+  },
+  {
+   "core:sample_start": 18878556,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:02.176832Z"
+  },
+  {
+   "core:sample_start": 18960515,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:02.505667Z"
+  },
+  {
+   "core:sample_start": 19042474,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:02.834503Z"
+  },
+  {
+   "core:sample_start": 19126432,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:03.164338Z"
+  },
+  {
+   "core:sample_start": 19208391,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:03.493174Z"
+  },
+  {
+   "core:sample_start": 19290350,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:03.822010Z"
+  },
+  {
+   "core:sample_start": 19374308,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:04.150845Z"
+  },
+  {
+   "core:sample_start": 19458266,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:04.479681Z"
+  },
+  {
+   "core:sample_start": 19542224,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:04.808517Z"
+  },
+  {
+   "core:sample_start": 19626182,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:05.137352Z"
+  },
+  {
+   "core:sample_start": 19710140,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:05.466188Z"
+  },
+  {
+   "core:sample_start": 19792099,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:05.794024Z"
+  },
+  {
+   "core:sample_start": 19876057,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:06.134854Z"
+  },
+  {
+   "core:sample_start": 19958016,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:06.463689Z"
+  },
+  {
+   "core:sample_start": 20039975,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:06.791525Z"
+  },
+  {
+   "core:sample_start": 20123933,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:07.131356Z"
+  },
+  {
+   "core:sample_start": 20207891,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:07.460191Z"
+  },
+  {
+   "core:sample_start": 20289850,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:07.789027Z"
+  },
+  {
+   "core:sample_start": 20371809,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:08.128857Z"
+  },
+  {
+   "core:sample_start": 20453768,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:08.456693Z"
+  },
+  {
+   "core:sample_start": 20537726,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:08.785529Z"
+  },
+  {
+   "core:sample_start": 20621684,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:09.114365Z"
+  },
+  {
+   "core:sample_start": 20703643,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:09.443200Z"
+  },
+  {
+   "core:sample_start": 20787601,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:09.772036Z"
+  },
+  {
+   "core:sample_start": 20869560,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:10.100872Z"
+  },
+  {
+   "core:sample_start": 20951519,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:10.429707Z"
+  },
+  {
+   "core:sample_start": 21035477,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:10.760542Z"
+  },
+  {
+   "core:sample_start": 21119435,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:11.091377Z"
+  },
+  {
+   "core:sample_start": 21201394,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:11.421212Z"
+  },
+  {
+   "core:sample_start": 21285352,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:11.753046Z"
+  },
+  {
+   "core:sample_start": 21367311,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:12.082881Z"
+  },
+  {
+   "core:sample_start": 21451269,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:12.412716Z"
+  },
+  {
+   "core:sample_start": 21535227,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:12.743551Z"
+  },
+  {
+   "core:sample_start": 21617186,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:13.074386Z"
+  },
+  {
+   "core:sample_start": 21701144,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:13.405220Z"
+  },
+  {
+   "core:sample_start": 21783103,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:13.735055Z"
+  },
+  {
+   "core:sample_start": 21865062,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:14.064891Z"
+  },
+  {
+   "core:sample_start": 21949020,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:14.394726Z"
+  },
+  {
+   "core:sample_start": 22032978,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:14.725560Z"
+  },
+  {
+   "core:sample_start": 22116936,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:15.056395Z"
+  },
+  {
+   "core:sample_start": 22200894,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:15.387230Z"
+  },
+  {
+   "core:sample_start": 22284852,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:15.718064Z"
+  },
+  {
+   "core:sample_start": 22366811,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:16.048899Z"
+  },
+  {
+   "core:sample_start": 22448770,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:16.378734Z"
+  },
+  {
+   "core:sample_start": 22532728,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:16.709569Z"
+  },
+  {
+   "core:sample_start": 22614687,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:17.040404Z"
+  },
+  {
+   "core:sample_start": 22696646,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:17.370239Z"
+  },
+  {
+   "core:sample_start": 22778605,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:17.700074Z"
+  },
+  {
+   "core:sample_start": 22862563,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:18.029909Z"
+  },
+  {
+   "core:sample_start": 22946521,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:18.359744Z"
+  },
+  {
+   "core:sample_start": 23030479,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:18.689579Z"
+  },
+  {
+   "core:sample_start": 23114437,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:19.019415Z"
+  },
+  {
+   "core:sample_start": 23198395,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:19.349250Z"
+  },
+  {
+   "core:sample_start": 23282353,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:19.680084Z"
+  },
+  {
+   "core:sample_start": 23364312,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:20.008920Z"
+  },
+  {
+   "core:sample_start": 23448270,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:20.339755Z"
+  },
+  {
+   "core:sample_start": 23530229,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:20.669590Z"
+  },
+  {
+   "core:sample_start": 23614187,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:21.000425Z"
+  },
+  {
+   "core:sample_start": 23698145,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:21.330260Z"
+  },
+  {
+   "core:sample_start": 23782103,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:21.662094Z"
+  },
+  {
+   "core:sample_start": 23864062,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:21.991929Z"
+  },
+  {
+   "core:sample_start": 23948020,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:22.322764Z"
+  },
+  {
+   "core:sample_start": 24029979,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:22.653598Z"
+  },
+  {
+   "core:sample_start": 24113937,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:22.985433Z"
+  },
+  {
+   "core:sample_start": 24197895,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:23.315268Z"
+  },
+  {
+   "core:sample_start": 24281853,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:23.647102Z"
+  },
+  {
+   "core:sample_start": 24365811,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:23.976937Z"
+  },
+  {
+   "core:sample_start": 24449769,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:24.307772Z"
+  },
+  {
+   "core:sample_start": 24531728,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:24.637607Z"
+  },
+  {
+   "core:sample_start": 24615686,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:24.968442Z"
+  },
+  {
+   "core:sample_start": 24697645,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:25.298277Z"
+  },
+  {
+   "core:sample_start": 24781603,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:25.638107Z"
+  },
+  {
+   "core:sample_start": 24865561,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:25.970941Z"
+  },
+  {
+   "core:sample_start": 24947520,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:26.301775Z"
+  },
+  {
+   "core:sample_start": 25031478,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:26.632610Z"
+  },
+  {
+   "core:sample_start": 25113437,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:26.963445Z"
+  },
+  {
+   "core:sample_start": 25195396,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:27.293280Z"
+  },
+  {
+   "core:sample_start": 25279354,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:27.623115Z"
+  },
+  {
+   "core:sample_start": 25363312,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:27.953950Z"
+  },
+  {
+   "core:sample_start": 25445271,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:28.283785Z"
+  },
+  {
+   "core:sample_start": 25529229,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:28.613620Z"
+  },
+  {
+   "core:sample_start": 25613187,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:28.944455Z"
+  },
+  {
+   "core:sample_start": 25697145,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:29.275289Z"
+  },
+  {
+   "core:sample_start": 25779104,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:29.605124Z"
+  },
+  {
+   "core:sample_start": 25861063,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:29.935959Z"
+  },
+  {
+   "core:sample_start": 25943022,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:30.265794Z"
+  },
+  {
+   "core:sample_start": 26026980,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:30.595629Z"
+  },
+  {
+   "core:sample_start": 26108939,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:30.925465Z"
+  },
+  {
+   "core:sample_start": 26190898,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:31.255300Z"
+  },
+  {
+   "core:sample_start": 26274856,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:31.586134Z"
+  },
+  {
+   "core:sample_start": 26358814,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:31.916969Z"
+  },
+  {
+   "core:sample_start": 26442772,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:32.246804Z"
+  },
+  {
+   "core:sample_start": 26524731,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:32.577639Z"
+  },
+  {
+   "core:sample_start": 26606690,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:32.908474Z"
+  },
+  {
+   "core:sample_start": 26688649,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:33.238309Z"
+  },
+  {
+   "core:sample_start": 26770608,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:33.568144Z"
+  },
+  {
+   "core:sample_start": 26854566,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:33.898979Z"
+  },
+  {
+   "core:sample_start": 26936525,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:34.228814Z"
+  },
+  {
+   "core:sample_start": 27020483,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:34.559648Z"
+  },
+  {
+   "core:sample_start": 27102442,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:34.889484Z"
+  },
+  {
+   "core:sample_start": 27186400,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:35.219319Z"
+  },
+  {
+   "core:sample_start": 27270358,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:35.551153Z"
+  },
+  {
+   "core:sample_start": 27352317,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:35.880988Z"
+  },
+  {
+   "core:sample_start": 27436275,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:36.211823Z"
+  },
+  {
+   "core:sample_start": 27520233,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:36.542657Z"
+  },
+  {
+   "core:sample_start": 27602192,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:36.873492Z"
+  },
+  {
+   "core:sample_start": 27684151,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:37.203327Z"
+  },
+  {
+   "core:sample_start": 27768109,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:37.534162Z"
+  },
+  {
+   "core:sample_start": 27850068,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:37.863997Z"
+  },
+  {
+   "core:sample_start": 27934026,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:38.194832Z"
+  },
+  {
+   "core:sample_start": 28017984,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:38.525666Z"
+  },
+  {
+   "core:sample_start": 28099943,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:38.855502Z"
+  },
+  {
+   "core:sample_start": 28181902,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:39.185337Z"
+  },
+  {
+   "core:sample_start": 28265860,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:39.516171Z"
+  },
+  {
+   "core:sample_start": 28349818,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:39.848006Z"
+  },
+  {
+   "core:sample_start": 28433776,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:40.178840Z"
+  },
+  {
+   "core:sample_start": 28517734,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:40.510674Z"
+  },
+  {
+   "core:sample_start": 28599693,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:40.839510Z"
+  },
+  {
+   "core:sample_start": 28683651,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:41.169345Z"
+  },
+  {
+   "core:sample_start": 28767609,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:41.499180Z"
+  },
+  {
+   "core:sample_start": 28851567,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:41.829016Z"
+  },
+  {
+   "core:sample_start": 28935525,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:42.160850Z"
+  },
+  {
+   "core:sample_start": 29017484,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:42.490685Z"
+  },
+  {
+   "core:sample_start": 29101442,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:42.822519Z"
+  },
+  {
+   "core:sample_start": 29183401,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:43.152354Z"
+  },
+  {
+   "core:sample_start": 29267359,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:43.484188Z"
+  },
+  {
+   "core:sample_start": 29349318,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:43.815023Z"
+  },
+  {
+   "core:sample_start": 29433276,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:44.145858Z"
+  },
+  {
+   "core:sample_start": 29517234,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:44.480690Z"
+  },
+  {
+   "core:sample_start": 29601192,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:44.811525Z"
+  },
+  {
+   "core:sample_start": 29685150,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:45.141360Z"
+  },
+  {
+   "core:sample_start": 29769108,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:45.472195Z"
+  },
+  {
+   "core:sample_start": 29853066,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:45.802030Z"
+  },
+  {
+   "core:sample_start": 29937024,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:46.132865Z"
+  },
+  {
+   "core:sample_start": 30020982,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:46.462700Z"
+  },
+  {
+   "core:sample_start": 30104940,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:46.793534Z"
+  },
+  {
+   "core:sample_start": 30186899,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:47.125369Z"
+  },
+  {
+   "core:sample_start": 30268858,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:47.456203Z"
+  },
+  {
+   "core:sample_start": 30350817,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:47.788037Z"
+  },
+  {
+   "core:sample_start": 30434775,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:48.118872Z"
+  },
+  {
+   "core:sample_start": 30518733,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:48.449707Z"
+  },
+  {
+   "core:sample_start": 30600692,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:48.779542Z"
+  },
+  {
+   "core:sample_start": 30682651,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:49.109377Z"
+  },
+  {
+   "core:sample_start": 30764610,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:49.439212Z"
+  },
+  {
+   "core:sample_start": 30848568,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:49.771046Z"
+  },
+  {
+   "core:sample_start": 30930527,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:50.105879Z"
+  },
+  {
+   "core:sample_start": 31014485,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:50.437713Z"
+  },
+  {
+   "core:sample_start": 31096444,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:50.767548Z"
+  },
+  {
+   "core:sample_start": 31180402,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:51.098383Z"
+  },
+  {
+   "core:sample_start": 31264360,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:51.428218Z"
+  },
+  {
+   "core:sample_start": 31348318,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:51.758053Z"
+  },
+  {
+   "core:sample_start": 31432276,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:52.087889Z"
+  },
+  {
+   "core:sample_start": 31516234,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:52.419723Z"
+  },
+  {
+   "core:sample_start": 31598193,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:52.749558Z"
+  },
+  {
+   "core:sample_start": 31682151,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:53.079393Z"
+  },
+  {
+   "core:sample_start": 31766109,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:53.410228Z"
+  },
+  {
+   "core:sample_start": 31848068,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:53.740063Z"
+  },
+  {
+   "core:sample_start": 31930027,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:54.069898Z"
+  },
+  {
+   "core:sample_start": 32013985,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:54.400733Z"
+  },
+  {
+   "core:sample_start": 32095944,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:54.730568Z"
+  },
+  {
+   "core:sample_start": 32177903,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:55.060403Z"
+  },
+  {
+   "core:sample_start": 32261861,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:55.391238Z"
+  },
+  {
+   "core:sample_start": 32345819,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:55.722072Z"
+  },
+  {
+   "core:sample_start": 32427778,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:56.051908Z"
+  },
+  {
+   "core:sample_start": 32511736,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:56.382742Z"
+  },
+  {
+   "core:sample_start": 32595694,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:56.712577Z"
+  },
+  {
+   "core:sample_start": 32679652,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:57.043412Z"
+  },
+  {
+   "core:sample_start": 32761611,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:57.373247Z"
+  },
+  {
+   "core:sample_start": 32843570,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:57.703082Z"
+  },
+  {
+   "core:sample_start": 32927528,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:58.033917Z"
+  },
+  {
+   "core:sample_start": 33011486,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:58.364752Z"
+  },
+  {
+   "core:sample_start": 33093445,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:58.694587Z"
+  },
+  {
+   "core:sample_start": 33177403,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:59.023423Z"
+  },
+  {
+   "core:sample_start": 33261361,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:59.354257Z"
+  },
+  {
+   "core:sample_start": 33343320,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:31:59.686091Z"
+  },
+  {
+   "core:sample_start": 33427278,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:00.015927Z"
+  },
+  {
+   "core:sample_start": 33511236,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:00.345762Z"
+  },
+  {
+   "core:sample_start": 33595194,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:00.675597Z"
+  },
+  {
+   "core:sample_start": 33679152,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:01.005432Z"
+  },
+  {
+   "core:sample_start": 33763110,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:01.336267Z"
+  },
+  {
+   "core:sample_start": 33847068,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:01.666102Z"
+  },
+  {
+   "core:sample_start": 33931026,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:01.995937Z"
+  },
+  {
+   "core:sample_start": 34014984,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:02.325772Z"
+  },
+  {
+   "core:sample_start": 34098942,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:02.656607Z"
+  },
+  {
+   "core:sample_start": 34182900,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:02.986442Z"
+  },
+  {
+   "core:sample_start": 34266858,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:03.316277Z"
+  },
+  {
+   "core:sample_start": 34350816,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:03.648111Z"
+  },
+  {
+   "core:sample_start": 34432775,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:03.977947Z"
+  },
+  {
+   "core:sample_start": 34514734,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:04.307782Z"
+  },
+  {
+   "core:sample_start": 34598692,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:04.637617Z"
+  },
+  {
+   "core:sample_start": 34682650,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:04.968452Z"
+  },
+  {
+   "core:sample_start": 34764609,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:05.298287Z"
+  },
+  {
+   "core:sample_start": 34848567,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:05.629121Z"
+  },
+  {
+   "core:sample_start": 34930526,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:05.958957Z"
+  },
+  {
+   "core:sample_start": 35014484,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:06.288792Z"
+  },
+  {
+   "core:sample_start": 35098442,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:06.618627Z"
+  },
+  {
+   "core:sample_start": 35182400,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:06.949462Z"
+  },
+  {
+   "core:sample_start": 35264359,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:07.279297Z"
+  },
+  {
+   "core:sample_start": 35348317,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:07.611131Z"
+  },
+  {
+   "core:sample_start": 35432275,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:07.941966Z"
+  },
+  {
+   "core:sample_start": 35514234,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:08.271801Z"
+  },
+  {
+   "core:sample_start": 35598192,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:08.602635Z"
+  },
+  {
+   "core:sample_start": 35680151,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:08.932471Z"
+  },
+  {
+   "core:sample_start": 35764109,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:09.263305Z"
+  },
+  {
+   "core:sample_start": 35848067,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:09.594140Z"
+  },
+  {
+   "core:sample_start": 35932025,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:09.925974Z"
+  },
+  {
+   "core:sample_start": 36013984,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:10.255809Z"
+  },
+  {
+   "core:sample_start": 36097942,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:10.585644Z"
+  },
+  {
+   "core:sample_start": 36181900,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:10.915480Z"
+  },
+  {
+   "core:sample_start": 36265858,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:11.245315Z"
+  },
+  {
+   "core:sample_start": 36349816,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:11.576149Z"
+  },
+  {
+   "core:sample_start": 36433774,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:11.906984Z"
+  },
+  {
+   "core:sample_start": 36517732,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:12.237819Z"
+  },
+  {
+   "core:sample_start": 36599691,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:12.567654Z"
+  },
+  {
+   "core:sample_start": 36683649,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:12.898489Z"
+  },
+  {
+   "core:sample_start": 36767607,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:13.229323Z"
+  },
+  {
+   "core:sample_start": 36849566,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:13.559158Z"
+  },
+  {
+   "core:sample_start": 36933524,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:13.888994Z"
+  },
+  {
+   "core:sample_start": 37017482,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:14.219828Z"
+  },
+  {
+   "core:sample_start": 37099441,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:14.550663Z"
+  },
+  {
+   "core:sample_start": 37181400,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:14.881498Z"
+  },
+  {
+   "core:sample_start": 37265358,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:15.211333Z"
+  },
+  {
+   "core:sample_start": 37349316,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:15.544166Z"
+  },
+  {
+   "core:sample_start": 37431275,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:15.874002Z"
+  },
+  {
+   "core:sample_start": 37515233,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:16.204836Z"
+  },
+  {
+   "core:sample_start": 37597192,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:16.534671Z"
+  },
+  {
+   "core:sample_start": 37679151,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:16.865506Z"
+  },
+  {
+   "core:sample_start": 37761110,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:17.195341Z"
+  },
+  {
+   "core:sample_start": 37845068,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:17.525176Z"
+  },
+  {
+   "core:sample_start": 37929026,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:17.856011Z"
+  },
+  {
+   "core:sample_start": 38012984,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:18.186846Z"
+  },
+  {
+   "core:sample_start": 38096942,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:18.517680Z"
+  },
+  {
+   "core:sample_start": 38178901,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:18.846516Z"
+  },
+  {
+   "core:sample_start": 38260860,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:19.176351Z"
+  },
+  {
+   "core:sample_start": 38344818,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:19.507186Z"
+  },
+  {
+   "core:sample_start": 38428776,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:19.838021Z"
+  },
+  {
+   "core:sample_start": 38512734,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:20.168855Z"
+  },
+  {
+   "core:sample_start": 38596692,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:20.498690Z"
+  },
+  {
+   "core:sample_start": 38680650,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:20.829525Z"
+  },
+  {
+   "core:sample_start": 38762609,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:21.159360Z"
+  },
+  {
+   "core:sample_start": 38844568,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:21.489195Z"
+  },
+  {
+   "core:sample_start": 38928526,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:21.820030Z"
+  },
+  {
+   "core:sample_start": 39012484,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:22.150865Z"
+  },
+  {
+   "core:sample_start": 39096442,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:22.480700Z"
+  },
+  {
+   "core:sample_start": 39180400,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:22.811535Z"
+  },
+  {
+   "core:sample_start": 39262359,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:23.143369Z"
+  },
+  {
+   "core:sample_start": 39344318,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:23.474203Z"
+  },
+  {
+   "core:sample_start": 39428276,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:23.804039Z"
+  },
+  {
+   "core:sample_start": 39512234,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:24.134873Z"
+  },
+  {
+   "core:sample_start": 39596192,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:24.464708Z"
+  },
+  {
+   "core:sample_start": 39680150,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:24.795543Z"
+  },
+  {
+   "core:sample_start": 39764108,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:25.128377Z"
+  },
+  {
+   "core:sample_start": 39846067,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:25.458212Z"
+  },
+  {
+   "core:sample_start": 39930025,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:25.788047Z"
+  },
+  {
+   "core:sample_start": 40013983,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:26.118882Z"
+  },
+  {
+   "core:sample_start": 40095942,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:26.449716Z"
+  },
+  {
+   "core:sample_start": 40179900,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:26.780551Z"
+  },
+  {
+   "core:sample_start": 40261859,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:27.111386Z"
+  },
+  {
+   "core:sample_start": 40343818,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:27.442220Z"
+  },
+  {
+   "core:sample_start": 40427776,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:27.773055Z"
+  },
+  {
+   "core:sample_start": 40509735,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:28.103890Z"
+  },
+  {
+   "core:sample_start": 40593693,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:28.434724Z"
+  },
+  {
+   "core:sample_start": 40677651,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:28.764559Z"
+  },
+  {
+   "core:sample_start": 40761609,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:29.095394Z"
+  },
+  {
+   "core:sample_start": 40843568,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:29.425229Z"
+  },
+  {
+   "core:sample_start": 40927526,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:29.756064Z"
+  },
+  {
+   "core:sample_start": 41011484,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:30.085899Z"
+  },
+  {
+   "core:sample_start": 41093443,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:30.416734Z"
+  },
+  {
+   "core:sample_start": 41175402,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:30.746569Z"
+  },
+  {
+   "core:sample_start": 41257361,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:31.076404Z"
+  },
+  {
+   "core:sample_start": 41341319,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:31.406239Z"
+  },
+  {
+   "core:sample_start": 41425277,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:31.737074Z"
+  },
+  {
+   "core:sample_start": 41509235,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:32.067909Z"
+  },
+  {
+   "core:sample_start": 41593193,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:32.398743Z"
+  },
+  {
+   "core:sample_start": 41677151,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:32.729578Z"
+  },
+  {
+   "core:sample_start": 41761109,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:33.059413Z"
+  },
+  {
+   "core:sample_start": 41845067,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:33.389248Z"
+  },
+  {
+   "core:sample_start": 41929025,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:33.719083Z"
+  },
+  {
+   "core:sample_start": 42012983,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:34.048919Z"
+  },
+  {
+   "core:sample_start": 42094942,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:34.379753Z"
+  },
+  {
+   "core:sample_start": 42176901,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:34.710588Z"
+  },
+  {
+   "core:sample_start": 42258860,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:35.041423Z"
+  },
+  {
+   "core:sample_start": 42340819,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:35.371258Z"
+  },
+  {
+   "core:sample_start": 42424777,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:35.702092Z"
+  },
+  {
+   "core:sample_start": 42506736,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:36.031928Z"
+  },
+  {
+   "core:sample_start": 42590694,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:36.362762Z"
+  },
+  {
+   "core:sample_start": 42672653,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:36.692597Z"
+  },
+  {
+   "core:sample_start": 42754612,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:37.022433Z"
+  },
+  {
+   "core:sample_start": 42838570,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:37.352268Z"
+  },
+  {
+   "core:sample_start": 42922528,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:37.683102Z"
+  },
+  {
+   "core:sample_start": 43004487,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:38.012938Z"
+  },
+  {
+   "core:sample_start": 43088445,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:38.342773Z"
+  },
+  {
+   "core:sample_start": 43172403,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:38.672608Z"
+  },
+  {
+   "core:sample_start": 43256361,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:39.003443Z"
+  },
+  {
+   "core:sample_start": 43340319,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:39.333278Z"
+  },
+  {
+   "core:sample_start": 43424277,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:39.664112Z"
+  },
+  {
+   "core:sample_start": 43508235,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:39.993948Z"
+  },
+  {
+   "core:sample_start": 43592193,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:40.324782Z"
+  },
+  {
+   "core:sample_start": 43674152,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:40.654617Z"
+  },
+  {
+   "core:sample_start": 43758110,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:40.984453Z"
+  },
+  {
+   "core:sample_start": 43842068,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:41.314288Z"
+  },
+  {
+   "core:sample_start": 43926026,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:41.646122Z"
+  },
+  {
+   "core:sample_start": 44007985,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:41.975957Z"
+  },
+  {
+   "core:sample_start": 44089944,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:42.305792Z"
+  },
+  {
+   "core:sample_start": 44171903,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:42.635627Z"
+  },
+  {
+   "core:sample_start": 44253862,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:42.966462Z"
+  },
+  {
+   "core:sample_start": 44337820,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:43.297297Z"
+  },
+  {
+   "core:sample_start": 44421778,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:43.628131Z"
+  },
+  {
+   "core:sample_start": 44503737,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:43.957967Z"
+  },
+  {
+   "core:sample_start": 44587695,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:44.287802Z"
+  },
+  {
+   "core:sample_start": 44671653,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:44.619636Z"
+  },
+  {
+   "core:sample_start": 44753612,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:44.948472Z"
+  },
+  {
+   "core:sample_start": 44837570,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:45.278307Z"
+  },
+  {
+   "core:sample_start": 44921528,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:45.609141Z"
+  },
+  {
+   "core:sample_start": 45003487,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:45.938977Z"
+  },
+  {
+   "core:sample_start": 45087445,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:46.268812Z"
+  },
+  {
+   "core:sample_start": 45171403,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:46.598647Z"
+  },
+  {
+   "core:sample_start": 45255361,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:46.928482Z"
+  },
+  {
+   "core:sample_start": 45339319,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:47.259317Z"
+  },
+  {
+   "core:sample_start": 45421278,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:47.589152Z"
+  },
+  {
+   "core:sample_start": 45505236,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:47.919987Z"
+  },
+  {
+   "core:sample_start": 45589194,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:48.250821Z"
+  },
+  {
+   "core:sample_start": 45671153,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:48.580656Z"
+  },
+  {
+   "core:sample_start": 45753112,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:48.910492Z"
+  },
+  {
+   "core:sample_start": 45837070,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:49.243325Z"
+  },
+  {
+   "core:sample_start": 45919029,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:49.573160Z"
+  },
+  {
+   "core:sample_start": 46002987,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:49.903995Z"
+  },
+  {
+   "core:sample_start": 46084946,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:50.233830Z"
+  },
+  {
+   "core:sample_start": 46168904,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:50.564665Z"
+  },
+  {
+   "core:sample_start": 46250863,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:50.894500Z"
+  },
+  {
+   "core:sample_start": 46334821,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:51.225335Z"
+  },
+  {
+   "core:sample_start": 46418779,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:51.556169Z"
+  },
+  {
+   "core:sample_start": 46500738,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:51.886005Z"
+  },
+  {
+   "core:sample_start": 46584696,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:52.216839Z"
+  },
+  {
+   "core:sample_start": 46666655,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:52.545675Z"
+  },
+  {
+   "core:sample_start": 46750613,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:52.875510Z"
+  },
+  {
+   "core:sample_start": 46834571,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:53.205345Z"
+  },
+  {
+   "core:sample_start": 46918529,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:53.535180Z"
+  },
+  {
+   "core:sample_start": 47002487,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:53.865016Z"
+  },
+  {
+   "core:sample_start": 47086445,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:54.195850Z"
+  },
+  {
+   "core:sample_start": 47168404,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:54.525685Z"
+  },
+  {
+   "core:sample_start": 47252362,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:54.856520Z"
+  },
+  {
+   "core:sample_start": 47334321,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:55.186355Z"
+  },
+  {
+   "core:sample_start": 47418279,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:55.517190Z"
+  },
+  {
+   "core:sample_start": 47502237,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:55.847025Z"
+  },
+  {
+   "core:sample_start": 47586195,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:56.176860Z"
+  },
+  {
+   "core:sample_start": 47670153,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:56.507695Z"
+  },
+  {
+   "core:sample_start": 47752112,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:56.837530Z"
+  },
+  {
+   "core:sample_start": 47836070,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:57.167365Z"
+  },
+  {
+   "core:sample_start": 47920028,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:57.497200Z"
+  },
+  {
+   "core:sample_start": 48003986,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:57.827036Z"
+  },
+  {
+   "core:sample_start": 48087944,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:58.157870Z"
+  },
+  {
+   "core:sample_start": 48169903,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:58.487705Z"
+  },
+  {
+   "core:sample_start": 48253861,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:58.817541Z"
+  },
+  {
+   "core:sample_start": 48337819,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:59.147376Z"
+  },
+  {
+   "core:sample_start": 48421777,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:59.479210Z"
+  },
+  {
+   "core:sample_start": 48503736,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:32:59.809045Z"
+  },
+  {
+   "core:sample_start": 48587694,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:00.138880Z"
+  },
+  {
+   "core:sample_start": 48671652,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:00.468715Z"
+  },
+  {
+   "core:sample_start": 48755610,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:00.798550Z"
+  },
+  {
+   "core:sample_start": 48839568,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:01.128386Z"
+  },
+  {
+   "core:sample_start": 48923526,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:01.458221Z"
+  },
+  {
+   "core:sample_start": 49007484,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:01.789055Z"
+  },
+  {
+   "core:sample_start": 49089443,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:02.118891Z"
+  },
+  {
+   "core:sample_start": 49173401,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:02.448726Z"
+  },
+  {
+   "core:sample_start": 49257359,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:02.781559Z"
+  },
+  {
+   "core:sample_start": 49341317,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:03.112394Z"
+  },
+  {
+   "core:sample_start": 49425275,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:03.442229Z"
+  },
+  {
+   "core:sample_start": 49509233,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:03.773064Z"
+  },
+  {
+   "core:sample_start": 49593191,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:04.103899Z"
+  },
+  {
+   "core:sample_start": 49675150,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:04.433734Z"
+  },
+  {
+   "core:sample_start": 49759108,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:04.764568Z"
+  },
+  {
+   "core:sample_start": 49841067,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:05.094404Z"
+  },
+  {
+   "core:sample_start": 49925025,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:05.425238Z"
+  },
+  {
+   "core:sample_start": 50006984,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:05.755073Z"
+  },
+  {
+   "core:sample_start": 50088943,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:06.085908Z"
+  },
+  {
+   "core:sample_start": 50170902,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:06.415743Z"
+  },
+  {
+   "core:sample_start": 50254860,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:06.746578Z"
+  },
+  {
+   "core:sample_start": 50336819,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:07.076413Z"
+  },
+  {
+   "core:sample_start": 50420777,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:07.408247Z"
+  },
+  {
+   "core:sample_start": 50502736,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:07.738082Z"
+  },
+  {
+   "core:sample_start": 50584695,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:08.068917Z"
+  },
+  {
+   "core:sample_start": 50666654,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:08.398752Z"
+  },
+  {
+   "core:sample_start": 50750612,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:08.729587Z"
+  },
+  {
+   "core:sample_start": 50832571,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:09.059422Z"
+  },
+  {
+   "core:sample_start": 50914530,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:09.389257Z"
+  },
+  {
+   "core:sample_start": 50996489,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:09.719092Z"
+  },
+  {
+   "core:sample_start": 51078448,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:10.048928Z"
+  },
+  {
+   "core:sample_start": 51162406,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:10.379762Z"
+  },
+  {
+   "core:sample_start": 51246364,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:10.710597Z"
+  },
+  {
+   "core:sample_start": 51328323,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:11.040432Z"
+  },
+  {
+   "core:sample_start": 51410282,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:11.371267Z"
+  },
+  {
+   "core:sample_start": 51494240,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:11.704100Z"
+  },
+  {
+   "core:sample_start": 51578198,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:12.034935Z"
+  },
+  {
+   "core:sample_start": 51660157,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:12.366769Z"
+  },
+  {
+   "core:sample_start": 51742116,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:12.697604Z"
+  },
+  {
+   "core:sample_start": 51824075,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:13.027439Z"
+  },
+  {
+   "core:sample_start": 51908033,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:13.357274Z"
+  },
+  {
+   "core:sample_start": 51991991,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:13.687109Z"
+  },
+  {
+   "core:sample_start": 52075949,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:14.016945Z"
+  },
+  {
+   "core:sample_start": 52159907,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:14.348779Z"
+  },
+  {
+   "core:sample_start": 52243865,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:14.680613Z"
+  },
+  {
+   "core:sample_start": 52325824,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:15.010448Z"
+  },
+  {
+   "core:sample_start": 52409782,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:15.341283Z"
+  },
+  {
+   "core:sample_start": 52491741,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:15.671118Z"
+  },
+  {
+   "core:sample_start": 52575699,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:16.000953Z"
+  },
+  {
+   "core:sample_start": 52659657,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:16.331788Z"
+  },
+  {
+   "core:sample_start": 52743615,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:16.661623Z"
+  },
+  {
+   "core:sample_start": 52827573,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:16.992458Z"
+  },
+  {
+   "core:sample_start": 52909532,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:17.323292Z"
+  },
+  {
+   "core:sample_start": 52991491,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:17.653127Z"
+  },
+  {
+   "core:sample_start": 53075449,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:17.982963Z"
+  },
+  {
+   "core:sample_start": 53159407,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:18.313797Z"
+  },
+  {
+   "core:sample_start": 53241366,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:18.643632Z"
+  },
+  {
+   "core:sample_start": 53325324,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:18.974467Z"
+  },
+  {
+   "core:sample_start": 53407283,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:19.305302Z"
+  },
+  {
+   "core:sample_start": 53491241,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:19.636136Z"
+  },
+  {
+   "core:sample_start": 53575199,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:19.965972Z"
+  },
+  {
+   "core:sample_start": 53659157,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:20.296806Z"
+  },
+  {
+   "core:sample_start": 53743115,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:20.627641Z"
+  },
+  {
+   "core:sample_start": 53827073,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:20.958476Z"
+  },
+  {
+   "core:sample_start": 53909032,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:21.288311Z"
+  },
+  {
+   "core:sample_start": 53990991,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:21.618146Z"
+  },
+  {
+   "core:sample_start": 54074949,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:21.948981Z"
+  },
+  {
+   "core:sample_start": 54156908,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:22.278816Z"
+  },
+  {
+   "core:sample_start": 54238867,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:22.608651Z"
+  },
+  {
+   "core:sample_start": 54322825,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:22.939486Z"
+  },
+  {
+   "core:sample_start": 54406783,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:23.272319Z"
+  },
+  {
+   "core:sample_start": 54488742,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:23.603154Z"
+  },
+  {
+   "core:sample_start": 54572700,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:23.933989Z"
+  },
+  {
+   "core:sample_start": 54654659,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:24.263824Z"
+  },
+  {
+   "core:sample_start": 54738617,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:24.593659Z"
+  },
+  {
+   "core:sample_start": 54822575,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:24.924494Z"
+  },
+  {
+   "core:sample_start": 54904534,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:25.254329Z"
+  },
+  {
+   "core:sample_start": 54988492,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:25.585163Z"
+  },
+  {
+   "core:sample_start": 55072450,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:25.915998Z"
+  },
+  {
+   "core:sample_start": 55154409,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:26.246833Z"
+  },
+  {
+   "core:sample_start": 55238367,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:26.576668Z"
+  },
+  {
+   "core:sample_start": 55322325,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:26.907503Z"
+  },
+  {
+   "core:sample_start": 55404284,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:27.237338Z"
+  },
+  {
+   "core:sample_start": 55488242,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:27.568172Z"
+  },
+  {
+   "core:sample_start": 55572200,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:27.898008Z"
+  },
+  {
+   "core:sample_start": 55656158,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:28.228842Z"
+  },
+  {
+   "core:sample_start": 55738117,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:28.558677Z"
+  },
+  {
+   "core:sample_start": 55822075,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:28.888513Z"
+  },
+  {
+   "core:sample_start": 55906033,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:29.218348Z"
+  },
+  {
+   "core:sample_start": 55989991,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:29.549182Z"
+  },
+  {
+   "core:sample_start": 56071950,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:29.879018Z"
+  },
+  {
+   "core:sample_start": 56155908,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:30.209852Z"
+  },
+  {
+   "core:sample_start": 56237867,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:30.539687Z"
+  },
+  {
+   "core:sample_start": 56321825,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:30.869523Z"
+  },
+  {
+   "core:sample_start": 56405783,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:31.201357Z"
+  },
+  {
+   "core:sample_start": 56489741,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:31.532191Z"
+  },
+  {
+   "core:sample_start": 56571700,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:31.862027Z"
+  },
+  {
+   "core:sample_start": 56655658,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:32.192861Z"
+  },
+  {
+   "core:sample_start": 56737617,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:32.521697Z"
+  },
+  {
+   "core:sample_start": 56821575,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:32.852532Z"
+  },
+  {
+   "core:sample_start": 56905533,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:33.182367Z"
+  },
+  {
+   "core:sample_start": 56989491,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:33.513201Z"
+  },
+  {
+   "core:sample_start": 57073449,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:33.844036Z"
+  },
+  {
+   "core:sample_start": 57157407,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:34.173871Z"
+  },
+  {
+   "core:sample_start": 57241365,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:34.505705Z"
+  },
+  {
+   "core:sample_start": 57323324,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:34.837540Z"
+  },
+  {
+   "core:sample_start": 57407282,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:35.168374Z"
+  },
+  {
+   "core:sample_start": 57491240,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:35.500208Z"
+  },
+  {
+   "core:sample_start": 57575198,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:35.830044Z"
+  },
+  {
+   "core:sample_start": 57659156,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:36.160878Z"
+  },
+  {
+   "core:sample_start": 57741115,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:36.490713Z"
+  },
+  {
+   "core:sample_start": 57825073,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:36.821548Z"
+  },
+  {
+   "core:sample_start": 57909031,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:37.151383Z"
+  },
+  {
+   "core:sample_start": 57992989,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:37.484217Z"
+  },
+  {
+   "core:sample_start": 58074948,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:37.818050Z"
+  },
+  {
+   "core:sample_start": 58158906,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:38.148885Z"
+  },
+  {
+   "core:sample_start": 58240865,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:38.476721Z"
+  },
+  {
+   "core:sample_start": 58324823,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:38.807556Z"
+  },
+  {
+   "core:sample_start": 58406782,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:39.137391Z"
+  },
+  {
+   "core:sample_start": 58488741,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:39.468225Z"
+  },
+  {
+   "core:sample_start": 58572699,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:39.798060Z"
+  },
+  {
+   "core:sample_start": 58656657,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:40.127896Z"
+  },
+  {
+   "core:sample_start": 58740615,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:40.458730Z"
+  },
+  {
+   "core:sample_start": 58822574,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:40.788565Z"
+  },
+  {
+   "core:sample_start": 58904533,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:41.119400Z"
+  },
+  {
+   "core:sample_start": 58986492,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:41.450235Z"
+  },
+  {
+   "core:sample_start": 59070450,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:41.781069Z"
+  },
+  {
+   "core:sample_start": 59152409,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:42.110905Z"
+  },
+  {
+   "core:sample_start": 59236367,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:42.441739Z"
+  },
+  {
+   "core:sample_start": 59318326,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:42.771574Z"
+  },
+  {
+   "core:sample_start": 59402284,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:43.102409Z"
+  },
+  {
+   "core:sample_start": 59486242,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:43.432244Z"
+  },
+  {
+   "core:sample_start": 59570200,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:43.763079Z"
+  },
+  {
+   "core:sample_start": 59652159,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:44.093914Z"
+  },
+  {
+   "core:sample_start": 59734118,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:44.423749Z"
+  },
+  {
+   "core:sample_start": 59818076,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:44.753584Z"
+  },
+  {
+   "core:sample_start": 59902034,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:45.084419Z"
+  },
+  {
+   "core:sample_start": 59983993,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:45.414254Z"
+  },
+  {
+   "core:sample_start": 60067951,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:45.744089Z"
+  },
+  {
+   "core:sample_start": 60151909,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:46.074924Z"
+  },
+  {
+   "core:sample_start": 60235867,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:46.404759Z"
+  },
+  {
+   "core:sample_start": 60319825,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:46.734594Z"
+  },
+  {
+   "core:sample_start": 60403783,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:47.065429Z"
+  },
+  {
+   "core:sample_start": 60485742,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:47.395264Z"
+  },
+  {
+   "core:sample_start": 60569700,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:47.726098Z"
+  },
+  {
+   "core:sample_start": 60653658,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:48.056933Z"
+  },
+  {
+   "core:sample_start": 60735617,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:48.386768Z"
+  },
+  {
+   "core:sample_start": 60819575,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:48.717603Z"
+  },
+  {
+   "core:sample_start": 60903533,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:49.048438Z"
+  },
+  {
+   "core:sample_start": 60985492,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:49.378273Z"
+  },
+  {
+   "core:sample_start": 61069450,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:49.710107Z"
+  },
+  {
+   "core:sample_start": 61151409,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:50.039942Z"
+  },
+  {
+   "core:sample_start": 61233368,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:50.369777Z"
+  },
+  {
+   "core:sample_start": 61315327,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:50.699612Z"
+  },
+  {
+   "core:sample_start": 61397286,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:51.029448Z"
+  },
+  {
+   "core:sample_start": 61481244,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:51.359283Z"
+  },
+  {
+   "core:sample_start": 61565202,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:51.691117Z"
+  },
+  {
+   "core:sample_start": 61649160,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:52.020952Z"
+  },
+  {
+   "core:sample_start": 61733118,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:52.352786Z"
+  },
+  {
+   "core:sample_start": 61815077,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:52.682621Z"
+  },
+  {
+   "core:sample_start": 61899035,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:53.013456Z"
+  },
+  {
+   "core:sample_start": 61982993,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:53.345290Z"
+  },
+  {
+   "core:sample_start": 62066951,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:53.676125Z"
+  },
+  {
+   "core:sample_start": 62148910,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:54.005960Z"
+  },
+  {
+   "core:sample_start": 62232868,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:54.335795Z"
+  },
+  {
+   "core:sample_start": 62316826,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:54.665630Z"
+  },
+  {
+   "core:sample_start": 62400784,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:54.996465Z"
+  },
+  {
+   "core:sample_start": 62484742,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:55.327300Z"
+  },
+  {
+   "core:sample_start": 62566701,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:55.658134Z"
+  },
+  {
+   "core:sample_start": 62650659,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:55.987970Z"
+  },
+  {
+   "core:sample_start": 62734617,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:56.318804Z"
+  },
+  {
+   "core:sample_start": 62816576,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:56.648639Z"
+  },
+  {
+   "core:sample_start": 62898535,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:56.978475Z"
+  },
+  {
+   "core:sample_start": 62982493,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:57.311308Z"
+  },
+  {
+   "core:sample_start": 63064452,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:57.641143Z"
+  },
+  {
+   "core:sample_start": 63148410,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:57.970979Z"
+  },
+  {
+   "core:sample_start": 63232368,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:58.301813Z"
+  },
+  {
+   "core:sample_start": 63314327,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:58.631648Z"
+  },
+  {
+   "core:sample_start": 63398285,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:58.962483Z"
+  },
+  {
+   "core:sample_start": 63482243,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:59.293318Z"
+  },
+  {
+   "core:sample_start": 63566201,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:59.624152Z"
+  },
+  {
+   "core:sample_start": 63648160,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:33:59.953988Z"
+  },
+  {
+   "core:sample_start": 63732118,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:00.284822Z"
+  },
+  {
+   "core:sample_start": 63814077,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:00.614657Z"
+  },
+  {
+   "core:sample_start": 63898035,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:00.944493Z"
+  },
+  {
+   "core:sample_start": 63981993,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:01.274328Z"
+  },
+  {
+   "core:sample_start": 64065951,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:01.605162Z"
+  },
+  {
+   "core:sample_start": 64149909,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:01.934998Z"
+  },
+  {
+   "core:sample_start": 64233867,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:02.264833Z"
+  },
+  {
+   "core:sample_start": 64317825,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:02.595667Z"
+  },
+  {
+   "core:sample_start": 64401783,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:02.926502Z"
+  },
+  {
+   "core:sample_start": 64483742,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:03.257337Z"
+  },
+  {
+   "core:sample_start": 64565701,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:03.588171Z"
+  },
+  {
+   "core:sample_start": 64647660,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:03.919006Z"
+  },
+  {
+   "core:sample_start": 64729619,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:04.249841Z"
+  },
+  {
+   "core:sample_start": 64813577,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:04.579676Z"
+  },
+  {
+   "core:sample_start": 64897535,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:04.910511Z"
+  },
+  {
+   "core:sample_start": 64979494,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:05.240346Z"
+  },
+  {
+   "core:sample_start": 65063452,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:05.570181Z"
+  },
+  {
+   "core:sample_start": 65147410,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:05.901016Z"
+  },
+  {
+   "core:sample_start": 65229369,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:06.230851Z"
+  },
+  {
+   "core:sample_start": 65313327,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:06.560686Z"
+  },
+  {
+   "core:sample_start": 65397285,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:06.892520Z"
+  },
+  {
+   "core:sample_start": 65481243,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:07.222355Z"
+  },
+  {
+   "core:sample_start": 65565201,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:07.554189Z"
+  },
+  {
+   "core:sample_start": 65649159,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:07.885024Z"
+  },
+  {
+   "core:sample_start": 65731118,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:08.214859Z"
+  },
+  {
+   "core:sample_start": 65815076,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:08.545694Z"
+  },
+  {
+   "core:sample_start": 65899034,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:08.876529Z"
+  },
+  {
+   "core:sample_start": 65982992,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:09.207363Z"
+  },
+  {
+   "core:sample_start": 66064951,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:09.537198Z"
+  },
+  {
+   "core:sample_start": 66148909,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:09.868033Z"
+  },
+  {
+   "core:sample_start": 66232867,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:10.198868Z"
+  },
+  {
+   "core:sample_start": 66314826,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:10.528703Z"
+  },
+  {
+   "core:sample_start": 66398784,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:10.859538Z"
+  },
+  {
+   "core:sample_start": 66482742,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:11.189373Z"
+  },
+  {
+   "core:sample_start": 66566700,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:11.519208Z"
+  },
+  {
+   "core:sample_start": 66648659,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:11.848044Z"
+  },
+  {
+   "core:sample_start": 66732617,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:12.177879Z"
+  },
+  {
+   "core:sample_start": 66814576,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:12.507714Z"
+  },
+  {
+   "core:sample_start": 66898534,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:12.838549Z"
+  },
+  {
+   "core:sample_start": 66982492,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:13.170383Z"
+  },
+  {
+   "core:sample_start": 67066450,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:13.502217Z"
+  },
+  {
+   "core:sample_start": 67148409,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:13.832052Z"
+  },
+  {
+   "core:sample_start": 67232367,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:14.162887Z"
+  },
+  {
+   "core:sample_start": 67314326,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:14.501717Z"
+  },
+  {
+   "core:sample_start": 67398284,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:14.832552Z"
+  },
+  {
+   "core:sample_start": 67480243,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:15.163387Z"
+  },
+  {
+   "core:sample_start": 67564201,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:15.494221Z"
+  },
+  {
+   "core:sample_start": 67648159,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:15.825056Z"
+  },
+  {
+   "core:sample_start": 67732117,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:16.155891Z"
+  },
+  {
+   "core:sample_start": 67816075,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:16.486725Z"
+  },
+  {
+   "core:sample_start": 67900033,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:16.816561Z"
+  },
+  {
+   "core:sample_start": 67983991,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:17.147395Z"
+  },
+  {
+   "core:sample_start": 68067949,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:17.479229Z"
+  },
+  {
+   "core:sample_start": 68149908,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:17.809065Z"
+  },
+  {
+   "core:sample_start": 68233866,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:18.140899Z"
+  },
+  {
+   "core:sample_start": 68315825,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:18.471733Z"
+  },
+  {
+   "core:sample_start": 68397784,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:18.801569Z"
+  },
+  {
+   "core:sample_start": 68481742,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:19.131404Z"
+  },
+  {
+   "core:sample_start": 68565700,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:19.463238Z"
+  },
+  {
+   "core:sample_start": 68647659,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:19.794072Z"
+  },
+  {
+   "core:sample_start": 68729618,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:20.124907Z"
+  },
+  {
+   "core:sample_start": 68811577,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:20.454742Z"
+  },
+  {
+   "core:sample_start": 68895535,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:20.785577Z"
+  },
+  {
+   "core:sample_start": 68977494,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:21.115412Z"
+  },
+  {
+   "core:sample_start": 69061452,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:21.446247Z"
+  },
+  {
+   "core:sample_start": 69143411,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:21.777081Z"
+  },
+  {
+   "core:sample_start": 69225370,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:22.107916Z"
+  },
+  {
+   "core:sample_start": 69307329,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:22.437751Z"
+  },
+  {
+   "core:sample_start": 69391287,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:22.770585Z"
+  },
+  {
+   "core:sample_start": 69475245,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:23.101420Z"
+  },
+  {
+   "core:sample_start": 69559203,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:23.432254Z"
+  },
+  {
+   "core:sample_start": 69643161,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:23.763089Z"
+  },
+  {
+   "core:sample_start": 69725120,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:24.092924Z"
+  },
+  {
+   "core:sample_start": 69807079,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:24.422759Z"
+  },
+  {
+   "core:sample_start": 69891037,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:24.751595Z"
+  },
+  {
+   "core:sample_start": 69974995,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:25.081430Z"
+  },
+  {
+   "core:sample_start": 70058953,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:25.411265Z"
+  },
+  {
+   "core:sample_start": 70142911,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:25.742100Z"
+  },
+  {
+   "core:sample_start": 70224870,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:26.071935Z"
+  },
+  {
+   "core:sample_start": 70306829,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:26.401770Z"
+  },
+  {
+   "core:sample_start": 70388788,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:26.730606Z"
+  },
+  {
+   "core:sample_start": 70472746,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:27.060441Z"
+  },
+  {
+   "core:sample_start": 70556704,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:27.390276Z"
+  },
+  {
+   "core:sample_start": 70640662,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:27.720111Z"
+  },
+  {
+   "core:sample_start": 70724620,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:28.050946Z"
+  },
+  {
+   "core:sample_start": 70808578,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:28.380781Z"
+  },
+  {
+   "core:sample_start": 70892536,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:28.711616Z"
+  },
+  {
+   "core:sample_start": 70974495,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:29.041451Z"
+  },
+  {
+   "core:sample_start": 71056454,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:29.372286Z"
+  },
+  {
+   "core:sample_start": 71138413,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:29.702121Z"
+  },
+  {
+   "core:sample_start": 71222371,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:30.031956Z"
+  },
+  {
+   "core:sample_start": 71306329,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:30.362791Z"
+  },
+  {
+   "core:sample_start": 71388288,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:30.692626Z"
+  },
+  {
+   "core:sample_start": 71470247,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:31.023461Z"
+  },
+  {
+   "core:sample_start": 71554205,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:31.353296Z"
+  },
+  {
+   "core:sample_start": 71636164,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:31.683131Z"
+  },
+  {
+   "core:sample_start": 71720122,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:32.012966Z"
+  },
+  {
+   "core:sample_start": 71804080,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:32.343801Z"
+  },
+  {
+   "core:sample_start": 71886039,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:32.673636Z"
+  },
+  {
+   "core:sample_start": 71969997,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:33.003471Z"
+  },
+  {
+   "core:sample_start": 72053955,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:33.334306Z"
+  },
+  {
+   "core:sample_start": 72135914,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:33.664141Z"
+  },
+  {
+   "core:sample_start": 72219872,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:33.992977Z"
+  },
+  {
+   "core:sample_start": 72303830,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:34.322812Z"
+  },
+  {
+   "core:sample_start": 72387788,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:34.653646Z"
+  },
+  {
+   "core:sample_start": 72469747,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:34.983482Z"
+  },
+  {
+   "core:sample_start": 72551706,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:35.313317Z"
+  },
+  {
+   "core:sample_start": 72633665,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:35.643152Z"
+  },
+  {
+   "core:sample_start": 72717623,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:35.972987Z"
+  },
+  {
+   "core:sample_start": 72799582,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:36.302822Z"
+  },
+  {
+   "core:sample_start": 72881541,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:36.632657Z"
+  },
+  {
+   "core:sample_start": 72963500,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:36.961493Z"
+  },
+  {
+   "core:sample_start": 73047458,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:37.291328Z"
+  },
+  {
+   "core:sample_start": 73131416,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:37.621163Z"
+  },
+  {
+   "core:sample_start": 73215374,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:37.949999Z"
+  },
+  {
+   "core:sample_start": 73299332,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:38.279834Z"
+  },
+  {
+   "core:sample_start": 73383290,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:38.609669Z"
+  },
+  {
+   "core:sample_start": 73467248,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:38.939505Z"
+  },
+  {
+   "core:sample_start": 73551206,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:39.270339Z"
+  },
+  {
+   "core:sample_start": 73635164,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:39.601174Z"
+  },
+  {
+   "core:sample_start": 73717123,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:39.931009Z"
+  },
+  {
+   "core:sample_start": 73801081,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:40.260844Z"
+  },
+  {
+   "core:sample_start": 73885039,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:40.591679Z"
+  },
+  {
+   "core:sample_start": 73968997,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:40.921514Z"
+  },
+  {
+   "core:sample_start": 74052955,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:41.251349Z"
+  },
+  {
+   "core:sample_start": 74136913,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:41.581184Z"
+  },
+  {
+   "core:sample_start": 74218872,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:41.911020Z"
+  },
+  {
+   "core:sample_start": 74300831,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:42.240855Z"
+  },
+  {
+   "core:sample_start": 74382790,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:42.570690Z"
+  },
+  {
+   "core:sample_start": 74464749,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:42.900525Z"
+  },
+  {
+   "core:sample_start": 74548707,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:43.231360Z"
+  },
+  {
+   "core:sample_start": 74630666,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:43.561195Z"
+  },
+  {
+   "core:sample_start": 74714624,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:43.891030Z"
+  },
+  {
+   "core:sample_start": 74798582,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:44.220865Z"
+  },
+  {
+   "core:sample_start": 74882540,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:44.551700Z"
+  },
+  {
+   "core:sample_start": 74964499,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:44.881535Z"
+  },
+  {
+   "core:sample_start": 75048457,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:45.211370Z"
+  },
+  {
+   "core:sample_start": 75132415,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:45.542205Z"
+  },
+  {
+   "core:sample_start": 75214374,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:45.872040Z"
+  },
+  {
+   "core:sample_start": 75298332,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:46.201875Z"
+  },
+  {
+   "core:sample_start": 75382290,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:46.532710Z"
+  },
+  {
+   "core:sample_start": 75464249,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:46.861546Z"
+  },
+  {
+   "core:sample_start": 75548207,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:47.191381Z"
+  },
+  {
+   "core:sample_start": 75632165,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:47.522215Z"
+  },
+  {
+   "core:sample_start": 75714124,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:47.852051Z"
+  },
+  {
+   "core:sample_start": 75798082,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:48.182885Z"
+  },
+  {
+   "core:sample_start": 75880041,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:48.512720Z"
+  },
+  {
+   "core:sample_start": 75963999,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:48.842556Z"
+  },
+  {
+   "core:sample_start": 76047957,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:49.173390Z"
+  },
+  {
+   "core:sample_start": 76129916,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:49.503225Z"
+  },
+  {
+   "core:sample_start": 76213874,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:49.835060Z"
+  },
+  {
+   "core:sample_start": 76295833,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:50.165894Z"
+  },
+  {
+   "core:sample_start": 76379791,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:50.495729Z"
+  },
+  {
+   "core:sample_start": 76463749,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:50.825565Z"
+  },
+  {
+   "core:sample_start": 76547707,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:51.156399Z"
+  },
+  {
+   "core:sample_start": 76631665,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:51.486234Z"
+  },
+  {
+   "core:sample_start": 76715623,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:51.816070Z"
+  },
+  {
+   "core:sample_start": 76799581,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:52.146904Z"
+  },
+  {
+   "core:sample_start": 76881540,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:52.476739Z"
+  },
+  {
+   "core:sample_start": 76963499,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:52.808574Z"
+  },
+  {
+   "core:sample_start": 77047457,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:53.139408Z"
+  },
+  {
+   "core:sample_start": 77129416,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:53.470243Z"
+  },
+  {
+   "core:sample_start": 77213374,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:53.800078Z"
+  },
+  {
+   "core:sample_start": 77297332,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:54.130913Z"
+  },
+  {
+   "core:sample_start": 77379291,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:54.460748Z"
+  },
+  {
+   "core:sample_start": 77461250,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:54.790583Z"
+  },
+  {
+   "core:sample_start": 77545208,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:55.121418Z"
+  },
+  {
+   "core:sample_start": 77629166,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:55.451253Z"
+  },
+  {
+   "core:sample_start": 77713124,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:55.781088Z"
+  },
+  {
+   "core:sample_start": 77797082,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:56.111923Z"
+  },
+  {
+   "core:sample_start": 77879041,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:56.441758Z"
+  },
+  {
+   "core:sample_start": 77962999,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:56.772592Z"
+  },
+  {
+   "core:sample_start": 78046957,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:57.102428Z"
+  },
+  {
+   "core:sample_start": 78130915,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:57.433262Z"
+  },
+  {
+   "core:sample_start": 78212874,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:57.763097Z"
+  },
+  {
+   "core:sample_start": 78294833,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:58.092933Z"
+  },
+  {
+   "core:sample_start": 78376792,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:58.422768Z"
+  },
+  {
+   "core:sample_start": 78460750,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:58.752603Z"
+  },
+  {
+   "core:sample_start": 78544708,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:59.082438Z"
+  },
+  {
+   "core:sample_start": 78628666,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:59.413273Z"
+  },
+  {
+   "core:sample_start": 78710625,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:34:59.743108Z"
+  },
+  {
+   "core:sample_start": 78794583,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:00.072943Z"
+  },
+  {
+   "core:sample_start": 78876542,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:00.403778Z"
+  },
+  {
+   "core:sample_start": 78958501,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:00.733613Z"
+  },
+  {
+   "core:sample_start": 79040460,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:01.063448Z"
+  },
+  {
+   "core:sample_start": 79124418,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:01.395282Z"
+  },
+  {
+   "core:sample_start": 79206377,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:01.725117Z"
+  },
+  {
+   "core:sample_start": 79290335,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:02.056952Z"
+  },
+  {
+   "core:sample_start": 79372294,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:02.386787Z"
+  },
+  {
+   "core:sample_start": 79456252,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:02.716622Z"
+  },
+  {
+   "core:sample_start": 79540210,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:03.047457Z"
+  },
+  {
+   "core:sample_start": 79624168,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:03.379291Z"
+  },
+  {
+   "core:sample_start": 79706127,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:03.709126Z"
+  },
+  {
+   "core:sample_start": 79790085,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:04.038961Z"
+  },
+  {
+   "core:sample_start": 79874043,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:04.369796Z"
+  },
+  {
+   "core:sample_start": 79956002,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:04.699631Z"
+  },
+  {
+   "core:sample_start": 80037961,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:05.029466Z"
+  },
+  {
+   "core:sample_start": 80121919,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:05.360301Z"
+  },
+  {
+   "core:sample_start": 80203878,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:05.690136Z"
+  },
+  {
+   "core:sample_start": 80287836,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:06.019971Z"
+  },
+  {
+   "core:sample_start": 80371794,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:06.350806Z"
+  },
+  {
+   "core:sample_start": 80453753,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:06.679641Z"
+  },
+  {
+   "core:sample_start": 80537711,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:07.008477Z"
+  },
+  {
+   "core:sample_start": 80619670,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:07.336313Z"
+  },
+  {
+   "core:sample_start": 80703628,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:07.677143Z"
+  },
+  {
+   "core:sample_start": 80785587,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:08.004979Z"
+  },
+  {
+   "core:sample_start": 80869545,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:08.334814Z"
+  },
+  {
+   "core:sample_start": 80951504,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:08.663650Z"
+  },
+  {
+   "core:sample_start": 81033463,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:08.991486Z"
+  },
+  {
+   "core:sample_start": 81117421,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:09.320322Z"
+  },
+  {
+   "core:sample_start": 81201379,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:09.649157Z"
+  },
+  {
+   "core:sample_start": 81285337,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:09.976994Z"
+  },
+  {
+   "core:sample_start": 81369295,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:10.305829Z"
+  },
+  {
+   "core:sample_start": 81453253,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:10.634665Z"
+  },
+  {
+   "core:sample_start": 81537211,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:10.963501Z"
+  },
+  {
+   "core:sample_start": 81619170,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:11.292336Z"
+  },
+  {
+   "core:sample_start": 81701129,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:11.621172Z"
+  },
+  {
+   "core:sample_start": 81783088,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:11.949008Z"
+  },
+  {
+   "core:sample_start": 81867046,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:12.277844Z"
+  },
+  {
+   "core:sample_start": 81951004,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:12.606679Z"
+  },
+  {
+   "core:sample_start": 82034962,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:12.936515Z"
+  },
+  {
+   "core:sample_start": 82116921,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:13.265350Z"
+  },
+  {
+   "core:sample_start": 82198880,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:13.593186Z"
+  },
+  {
+   "core:sample_start": 82282838,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:13.922022Z"
+  },
+  {
+   "core:sample_start": 82366796,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:14.250858Z"
+  },
+  {
+   "core:sample_start": 82448755,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:14.579693Z"
+  },
+  {
+   "core:sample_start": 82530714,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:14.907530Z"
+  },
+  {
+   "core:sample_start": 82614672,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:15.236365Z"
+  },
+  {
+   "core:sample_start": 82698630,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:15.565201Z"
+  },
+  {
+   "core:sample_start": 82782588,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:15.905031Z"
+  },
+  {
+   "core:sample_start": 82866546,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:16.245861Z"
+  },
+  {
+   "core:sample_start": 82948505,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:16.573697Z"
+  },
+  {
+   "core:sample_start": 83032463,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:16.913527Z"
+  },
+  {
+   "core:sample_start": 83114422,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:17.253357Z"
+  },
+  {
+   "core:sample_start": 83198380,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:17.582193Z"
+  },
+  {
+   "core:sample_start": 83282338,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:17.923023Z"
+  },
+  {
+   "core:sample_start": 83364297,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:18.251858Z"
+  },
+  {
+   "core:sample_start": 83446256,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:18.580694Z"
+  },
+  {
+   "core:sample_start": 83528215,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:18.908530Z"
+  },
+  {
+   "core:sample_start": 83612173,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:19.237366Z"
+  },
+  {
+   "core:sample_start": 83696131,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:19.566201Z"
+  },
+  {
+   "core:sample_start": 83780089,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:19.895037Z"
+  },
+  {
+   "core:sample_start": 83862048,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:20.222873Z"
+  },
+  {
+   "core:sample_start": 83946006,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:20.551709Z"
+  },
+  {
+   "core:sample_start": 84027965,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:20.879545Z"
+  },
+  {
+   "core:sample_start": 84111923,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:21.208381Z"
+  },
+  {
+   "core:sample_start": 84195881,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:21.548211Z"
+  },
+  {
+   "core:sample_start": 84279839,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:21.888041Z"
+  },
+  {
+   "core:sample_start": 84363797,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:22.227871Z"
+  },
+  {
+   "core:sample_start": 84447755,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:22.557706Z"
+  },
+  {
+   "core:sample_start": 84529714,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:22.886542Z"
+  },
+  {
+   "core:sample_start": 84611673,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:23.215378Z"
+  },
+  {
+   "core:sample_start": 84695631,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:23.555208Z"
+  },
+  {
+   "core:sample_start": 84779589,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:23.884044Z"
+  },
+  {
+   "core:sample_start": 84861548,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:24.211880Z"
+  },
+  {
+   "core:sample_start": 84945506,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:24.552709Z"
+  },
+  {
+   "core:sample_start": 85027465,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:24.880546Z"
+  },
+  {
+   "core:sample_start": 85111423,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:25.209381Z"
+  },
+  {
+   "core:sample_start": 85195381,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:25.538217Z"
+  },
+  {
+   "core:sample_start": 85279339,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:25.867053Z"
+  },
+  {
+   "core:sample_start": 85363297,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:26.196888Z"
+  },
+  {
+   "core:sample_start": 85445256,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:26.525723Z"
+  },
+  {
+   "core:sample_start": 85527215,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:26.854559Z"
+  },
+  {
+   "core:sample_start": 85611173,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:27.183395Z"
+  },
+  {
+   "core:sample_start": 85695131,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:27.513230Z"
+  },
+  {
+   "core:sample_start": 85777090,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:27.842066Z"
+  },
+  {
+   "core:sample_start": 85861048,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:28.182895Z"
+  },
+  {
+   "core:sample_start": 85943007,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:28.511731Z"
+  },
+  {
+   "core:sample_start": 86026965,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:28.852561Z"
+  },
+  {
+   "core:sample_start": 86108924,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:29.192391Z"
+  },
+  {
+   "core:sample_start": 86192882,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:29.532221Z"
+  },
+  {
+   "core:sample_start": 86276840,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:29.873051Z"
+  },
+  {
+   "core:sample_start": 86358799,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:30.212881Z"
+  },
+  {
+   "core:sample_start": 86440758,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:30.540717Z"
+  },
+  {
+   "core:sample_start": 86524716,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:30.869553Z"
+  },
+  {
+   "core:sample_start": 86608674,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:31.210382Z"
+  },
+  {
+   "core:sample_start": 86690633,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:31.538218Z"
+  },
+  {
+   "core:sample_start": 86774591,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:31.867054Z"
+  },
+  {
+   "core:sample_start": 86856550,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:32.194890Z"
+  },
+  {
+   "core:sample_start": 86940508,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:32.535720Z"
+  },
+  {
+   "core:sample_start": 87022467,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:32.863556Z"
+  },
+  {
+   "core:sample_start": 87106425,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:33.192392Z"
+  },
+  {
+   "core:sample_start": 87190383,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:33.521227Z"
+  },
+  {
+   "core:sample_start": 87274341,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:33.851063Z"
+  },
+  {
+   "core:sample_start": 87356300,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:34.179898Z"
+  },
+  {
+   "core:sample_start": 87438259,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:34.508734Z"
+  },
+  {
+   "core:sample_start": 87520218,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:34.848564Z"
+  },
+  {
+   "core:sample_start": 87604176,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:35.178399Z"
+  },
+  {
+   "core:sample_start": 87686135,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:35.507235Z"
+  },
+  {
+   "core:sample_start": 87768094,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:35.847065Z"
+  },
+  {
+   "core:sample_start": 87850053,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:36.186895Z"
+  },
+  {
+   "core:sample_start": 87932012,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:36.514731Z"
+  },
+  {
+   "core:sample_start": 88015970,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:36.854562Z"
+  },
+  {
+   "core:sample_start": 88099928,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:37.194392Z"
+  },
+  {
+   "core:sample_start": 88183886,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:37.535221Z"
+  },
+  {
+   "core:sample_start": 88265845,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:37.875052Z"
+  },
+  {
+   "core:sample_start": 88349803,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:38.203887Z"
+  },
+  {
+   "core:sample_start": 88433761,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:38.532723Z"
+  },
+  {
+   "core:sample_start": 88515720,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:38.860559Z"
+  },
+  {
+   "core:sample_start": 88599678,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:39.190394Z"
+  },
+  {
+   "core:sample_start": 88681637,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:39.530224Z"
+  },
+  {
+   "core:sample_start": 88763596,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:39.858061Z"
+  },
+  {
+   "core:sample_start": 88847554,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:40.186896Z"
+  },
+  {
+   "core:sample_start": 88929513,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:40.526726Z"
+  },
+  {
+   "core:sample_start": 89013471,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:40.866557Z"
+  },
+  {
+   "core:sample_start": 89097429,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:41.207386Z"
+  },
+  {
+   "core:sample_start": 89181387,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:41.536222Z"
+  },
+  {
+   "core:sample_start": 89265345,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:41.865058Z"
+  },
+  {
+   "core:sample_start": 89347304,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:42.193893Z"
+  },
+  {
+   "core:sample_start": 89429263,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:42.533723Z"
+  },
+  {
+   "core:sample_start": 89513221,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:42.862559Z"
+  },
+  {
+   "core:sample_start": 89595180,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:43.202389Z"
+  },
+  {
+   "core:sample_start": 89677139,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:43.542219Z"
+  },
+  {
+   "core:sample_start": 89761097,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:43.871055Z"
+  },
+  {
+   "core:sample_start": 89843056,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:44.210885Z"
+  },
+  {
+   "core:sample_start": 89927014,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:44.539721Z"
+  },
+  {
+   "core:sample_start": 90010972,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:44.868557Z"
+  },
+  {
+   "core:sample_start": 90094930,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:45.197392Z"
+  },
+  {
+   "core:sample_start": 90178888,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:45.527227Z"
+  },
+  {
+   "core:sample_start": 90260847,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:45.855064Z"
+  },
+  {
+   "core:sample_start": 90344805,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:46.184899Z"
+  },
+  {
+   "core:sample_start": 90426764,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:46.513734Z"
+  },
+  {
+   "core:sample_start": 90508723,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:46.853565Z"
+  },
+  {
+   "core:sample_start": 90592681,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:47.194394Z"
+  },
+  {
+   "core:sample_start": 90674640,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:47.522230Z"
+  },
+  {
+   "core:sample_start": 90758598,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:47.863060Z"
+  },
+  {
+   "core:sample_start": 90840557,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:48.202890Z"
+  },
+  {
+   "core:sample_start": 90924515,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:48.543720Z"
+  },
+  {
+   "core:sample_start": 91006474,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:48.871556Z"
+  },
+  {
+   "core:sample_start": 91090432,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:49.211386Z"
+  },
+  {
+   "core:sample_start": 91174390,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:49.540222Z"
+  },
+  {
+   "core:sample_start": 91258348,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:49.869058Z"
+  },
+  {
+   "core:sample_start": 91340307,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:50.208888Z"
+  },
+  {
+   "core:sample_start": 91422266,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:50.537723Z"
+  },
+  {
+   "core:sample_start": 91504225,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:50.866559Z"
+  },
+  {
+   "core:sample_start": 91588183,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:51.195395Z"
+  },
+  {
+   "core:sample_start": 91672141,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:51.524230Z"
+  },
+  {
+   "core:sample_start": 91756099,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:51.853066Z"
+  },
+  {
+   "core:sample_start": 91840057,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:52.181902Z"
+  },
+  {
+   "core:sample_start": 91924015,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:52.511737Z"
+  },
+  {
+   "core:sample_start": 92005974,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:52.840573Z"
+  },
+  {
+   "core:sample_start": 92087933,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:53.169408Z"
+  },
+  {
+   "core:sample_start": 92169892,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:53.498244Z"
+  },
+  {
+   "core:sample_start": 92251851,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:53.826080Z"
+  },
+  {
+   "core:sample_start": 92335809,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:54.155915Z"
+  },
+  {
+   "core:sample_start": 92417768,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:54.483751Z"
+  },
+  {
+   "core:sample_start": 92501726,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:54.812587Z"
+  },
+  {
+   "core:sample_start": 92583685,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:55.140423Z"
+  },
+  {
+   "core:sample_start": 92667643,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:55.469259Z"
+  },
+  {
+   "core:sample_start": 92749602,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:55.797095Z"
+  },
+  {
+   "core:sample_start": 92833560,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:56.125931Z"
+  },
+  {
+   "core:sample_start": 92917518,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:56.454766Z"
+  },
+  {
+   "core:sample_start": 92999477,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:56.794596Z"
+  },
+  {
+   "core:sample_start": 93083435,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:57.123432Z"
+  },
+  {
+   "core:sample_start": 93167393,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:57.452268Z"
+  },
+  {
+   "core:sample_start": 93249352,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:57.780104Z"
+  },
+  {
+   "core:sample_start": 93333310,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:58.108940Z"
+  },
+  {
+   "core:sample_start": 93417268,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:58.436776Z"
+  },
+  {
+   "core:sample_start": 93501226,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:58.765611Z"
+  },
+  {
+   "core:sample_start": 93585184,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:59.105442Z"
+  },
+  {
+   "core:sample_start": 93669142,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:59.434277Z"
+  },
+  {
+   "core:sample_start": 93751101,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:35:59.762113Z"
+  },
+  {
+   "core:sample_start": 93835059,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:00.102943Z"
+  },
+  {
+   "core:sample_start": 93919017,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:00.442773Z"
+  },
+  {
+   "core:sample_start": 94002975,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:00.771609Z"
+  },
+  {
+   "core:sample_start": 94086933,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:01.100445Z"
+  },
+  {
+   "core:sample_start": 94170891,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:01.429280Z"
+  },
+  {
+   "core:sample_start": 94254849,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:01.758116Z"
+  },
+  {
+   "core:sample_start": 94338807,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:02.088951Z"
+  },
+  {
+   "core:sample_start": 94420766,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:02.416787Z"
+  },
+  {
+   "core:sample_start": 94504724,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:02.757616Z"
+  },
+  {
+   "core:sample_start": 94586683,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:03.085453Z"
+  },
+  {
+   "core:sample_start": 94670641,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:03.426282Z"
+  },
+  {
+   "core:sample_start": 94752600,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:03.754118Z"
+  },
+  {
+   "core:sample_start": 94836558,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:04.094948Z"
+  },
+  {
+   "core:sample_start": 94918517,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:04.434778Z"
+  },
+  {
+   "core:sample_start": 95000476,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:04.762614Z"
+  },
+  {
+   "core:sample_start": 95084434,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:05.103444Z"
+  },
+  {
+   "core:sample_start": 95166393,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:05.432280Z"
+  },
+  {
+   "core:sample_start": 95248352,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:05.761115Z"
+  },
+  {
+   "core:sample_start": 95330311,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:06.089951Z"
+  },
+  {
+   "core:sample_start": 95412270,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:06.418787Z"
+  },
+  {
+   "core:sample_start": 95496228,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:06.746623Z"
+  },
+  {
+   "core:sample_start": 95580186,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:07.076458Z"
+  },
+  {
+   "core:sample_start": 95664144,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:07.406293Z"
+  },
+  {
+   "core:sample_start": 95748102,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:07.736128Z"
+  },
+  {
+   "core:sample_start": 95830061,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:08.064964Z"
+  },
+  {
+   "core:sample_start": 95912020,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:08.394799Z"
+  },
+  {
+   "core:sample_start": 95993979,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:08.722635Z"
+  },
+  {
+   "core:sample_start": 96077937,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:09.051471Z"
+  },
+  {
+   "core:sample_start": 96161895,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:09.380307Z"
+  },
+  {
+   "core:sample_start": 96243854,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:09.709142Z"
+  },
+  {
+   "core:sample_start": 96325813,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:10.037978Z"
+  },
+  {
+   "core:sample_start": 96407772,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:10.365814Z"
+  },
+  {
+   "core:sample_start": 96491730,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:10.694650Z"
+  },
+  {
+   "core:sample_start": 96575688,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:11.024485Z"
+  },
+  {
+   "core:sample_start": 96657647,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:11.352321Z"
+  },
+  {
+   "core:sample_start": 96741605,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:11.681157Z"
+  },
+  {
+   "core:sample_start": 96825563,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:12.009993Z"
+  },
+  {
+   "core:sample_start": 96909521,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:12.338828Z"
+  },
+  {
+   "core:sample_start": 96991480,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:12.666664Z"
+  },
+  {
+   "core:sample_start": 97075438,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:12.996500Z"
+  },
+  {
+   "core:sample_start": 97157397,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:13.324336Z"
+  },
+  {
+   "core:sample_start": 97241355,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:13.653171Z"
+  },
+  {
+   "core:sample_start": 97325313,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:13.982007Z"
+  },
+  {
+   "core:sample_start": 97409271,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:14.310843Z"
+  },
+  {
+   "core:sample_start": 97493229,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:14.639678Z"
+  },
+  {
+   "core:sample_start": 97577187,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:14.968514Z"
+  },
+  {
+   "core:sample_start": 97661145,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:15.297350Z"
+  },
+  {
+   "core:sample_start": 97745103,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:15.627185Z"
+  },
+  {
+   "core:sample_start": 97829061,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:15.956021Z"
+  },
+  {
+   "core:sample_start": 97913019,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:16.284856Z"
+  },
+  {
+   "core:sample_start": 97996977,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:16.614691Z"
+  },
+  {
+   "core:sample_start": 98080935,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:16.943527Z"
+  },
+  {
+   "core:sample_start": 98164893,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:17.272363Z"
+  },
+  {
+   "core:sample_start": 98248851,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:17.601198Z"
+  },
+  {
+   "core:sample_start": 98332809,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:17.930034Z"
+  },
+  {
+   "core:sample_start": 98416767,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:18.259869Z"
+  },
+  {
+   "core:sample_start": 98498726,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:18.588705Z"
+  },
+  {
+   "core:sample_start": 98580685,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:18.916541Z"
+  },
+  {
+   "core:sample_start": 98664643,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:19.245377Z"
+  },
+  {
+   "core:sample_start": 98748601,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:19.574212Z"
+  },
+  {
+   "core:sample_start": 98830560,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:19.914043Z"
+  },
+  {
+   "core:sample_start": 98914518,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:20.242878Z"
+  },
+  {
+   "core:sample_start": 98998476,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:20.572713Z"
+  },
+  {
+   "core:sample_start": 99080435,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:20.901549Z"
+  },
+  {
+   "core:sample_start": 99162394,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:21.241379Z"
+  },
+  {
+   "core:sample_start": 99246352,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:21.581209Z"
+  },
+  {
+   "core:sample_start": 99330310,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:21.910045Z"
+  },
+  {
+   "core:sample_start": 99414268,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:22.238881Z"
+  },
+  {
+   "core:sample_start": 99496227,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:22.568716Z"
+  },
+  {
+   "core:sample_start": 99580185,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:22.897552Z"
+  },
+  {
+   "core:sample_start": 99664143,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:23.226387Z"
+  },
+  {
+   "core:sample_start": 99748101,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:23.555223Z"
+  },
+  {
+   "core:sample_start": 99832059,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:23.884059Z"
+  },
+  {
+   "core:sample_start": 99916017,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:24.212894Z"
+  },
+  {
+   "core:sample_start": 99999975,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:24.542729Z"
+  },
+  {
+   "core:sample_start": 100081934,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:24.872565Z"
+  },
+  {
+   "core:sample_start": 100163893,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:25.200401Z"
+  },
+  {
+   "core:sample_start": 100247851,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:25.529236Z"
+  },
+  {
+   "core:sample_start": 100331809,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:25.859072Z"
+  },
+  {
+   "core:sample_start": 100415767,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:26.187907Z"
+  },
+  {
+   "core:sample_start": 100499725,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:26.516743Z"
+  },
+  {
+   "core:sample_start": 100583683,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:26.846578Z"
+  },
+  {
+   "core:sample_start": 100665642,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:27.175414Z"
+  },
+  {
+   "core:sample_start": 100747601,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:27.505249Z"
+  },
+  {
+   "core:sample_start": 100829560,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:27.833085Z"
+  },
+  {
+   "core:sample_start": 100913518,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:28.162920Z"
+  },
+  {
+   "core:sample_start": 100997476,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:28.491756Z"
+  },
+  {
+   "core:sample_start": 101081434,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:28.820592Z"
+  },
+  {
+   "core:sample_start": 101165392,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:29.150427Z"
+  },
+  {
+   "core:sample_start": 101249350,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:29.480262Z"
+  },
+  {
+   "core:sample_start": 101333308,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:29.809098Z"
+  },
+  {
+   "core:sample_start": 101417266,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:30.138933Z"
+  },
+  {
+   "core:sample_start": 101499225,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:30.467768Z"
+  },
+  {
+   "core:sample_start": 101583183,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:30.796604Z"
+  },
+  {
+   "core:sample_start": 101667141,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:31.125440Z"
+  },
+  {
+   "core:sample_start": 101751099,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:31.455275Z"
+  },
+  {
+   "core:sample_start": 101835057,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:31.785110Z"
+  },
+  {
+   "core:sample_start": 101917016,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:32.114945Z"
+  },
+  {
+   "core:sample_start": 101998975,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:32.443781Z"
+  },
+  {
+   "core:sample_start": 102082933,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:32.772616Z"
+  },
+  {
+   "core:sample_start": 102166891,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:33.102452Z"
+  },
+  {
+   "core:sample_start": 102250849,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:33.432287Z"
+  },
+  {
+   "core:sample_start": 102334807,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:33.762122Z"
+  },
+  {
+   "core:sample_start": 102416766,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:34.090958Z"
+  },
+  {
+   "core:sample_start": 102500724,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:34.420793Z"
+  },
+  {
+   "core:sample_start": 102584682,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:34.749628Z"
+  },
+  {
+   "core:sample_start": 102668640,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:35.079464Z"
+  },
+  {
+   "core:sample_start": 102752598,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:35.409299Z"
+  },
+  {
+   "core:sample_start": 102836556,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:35.739134Z"
+  },
+  {
+   "core:sample_start": 102918515,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:36.067970Z"
+  },
+  {
+   "core:sample_start": 103002473,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:36.397805Z"
+  },
+  {
+   "core:sample_start": 103084432,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:36.726640Z"
+  },
+  {
+   "core:sample_start": 103166391,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:37.056476Z"
+  },
+  {
+   "core:sample_start": 103248350,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:37.385311Z"
+  },
+  {
+   "core:sample_start": 103332308,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:37.714147Z"
+  },
+  {
+   "core:sample_start": 103416266,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:38.043982Z"
+  },
+  {
+   "core:sample_start": 103500224,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:38.374817Z"
+  },
+  {
+   "core:sample_start": 103584182,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:38.703652Z"
+  },
+  {
+   "core:sample_start": 103666141,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:39.032488Z"
+  },
+  {
+   "core:sample_start": 103748100,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:39.361324Z"
+  },
+  {
+   "core:sample_start": 103830059,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:39.690159Z"
+  },
+  {
+   "core:sample_start": 103912018,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:40.017996Z"
+  },
+  {
+   "core:sample_start": 103995976,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:40.346831Z"
+  },
+  {
+   "core:sample_start": 104079934,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:40.675667Z"
+  },
+  {
+   "core:sample_start": 104163892,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:41.003503Z"
+  },
+  {
+   "core:sample_start": 104247850,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:41.344333Z"
+  },
+  {
+   "core:sample_start": 104331808,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:41.674168Z"
+  },
+  {
+   "core:sample_start": 104415766,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:42.003004Z"
+  },
+  {
+   "core:sample_start": 104499724,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:42.332839Z"
+  },
+  {
+   "core:sample_start": 104581683,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:42.661674Z"
+  },
+  {
+   "core:sample_start": 104665641,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:42.990510Z"
+  },
+  {
+   "core:sample_start": 104747600,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:43.319346Z"
+  },
+  {
+   "core:sample_start": 104829559,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:43.648181Z"
+  },
+  {
+   "core:sample_start": 104913517,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:43.977017Z"
+  },
+  {
+   "core:sample_start": 104997475,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:44.305853Z"
+  },
+  {
+   "core:sample_start": 105081433,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:44.634688Z"
+  },
+  {
+   "core:sample_start": 105165391,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:44.975518Z"
+  },
+  {
+   "core:sample_start": 105247350,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:45.304354Z"
+  },
+  {
+   "core:sample_start": 105329309,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:45.633189Z"
+  },
+  {
+   "core:sample_start": 105411268,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:45.962025Z"
+  },
+  {
+   "core:sample_start": 105493227,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:46.290861Z"
+  },
+  {
+   "core:sample_start": 105575186,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:46.619696Z"
+  },
+  {
+   "core:sample_start": 105657145,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:46.948532Z"
+  },
+  {
+   "core:sample_start": 105741103,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:47.277368Z"
+  },
+  {
+   "core:sample_start": 105825061,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:47.606203Z"
+  },
+  {
+   "core:sample_start": 105909019,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:47.935039Z"
+  },
+  {
+   "core:sample_start": 105992977,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:48.263875Z"
+  },
+  {
+   "core:sample_start": 106076935,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:48.592710Z"
+  },
+  {
+   "core:sample_start": 106158894,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:48.932541Z"
+  },
+  {
+   "core:sample_start": 106242852,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:49.261376Z"
+  },
+  {
+   "core:sample_start": 106324811,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:49.590212Z"
+  },
+  {
+   "core:sample_start": 106406770,
+   "core:frequency": 433400000.0,
+   "core:datetime": "2025-07-05T07:36:49.919048Z"
+  }
+ ],
+ "annotations": []
+}

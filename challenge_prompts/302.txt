@@ -1,0 +1,17 @@
+302-web-wormhole
+75
+network forensics
+ 1 (100% liked)  0
+The link in that contract email did not open a contract. It opened a door. The engineer's browser went out to a "secure document portal," the portal handed back a page, the page quietly pulled down more than a page, and that is where the machine got its orders. Corporate capture had the whole exchange.
+
+The capture holds the ordinary furniture of a web visit — a page, a stylesheet, a logo — and one thing that does not belong. The desk already skimmed the page source, found nothing but a loader, and moved on. The loader is the point. What it fetches does not read as code at a glance; it is folded up so a skim slides right past it. Unfold it.
+
+Find what the portal actually planted.
+
+Flag format: GAIANSPACE{...}
+
+Files
+drive_by.pcap — corporate capture of the browser visit
+Pull the objects (Cost: 30 points)
+Folded, not written (Cost: 50 points)
+ use 302 direcotry

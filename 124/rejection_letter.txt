@@ -1,0 +1,33 @@
+Békés County Agricultural Office - Area Payments Unit
+Békéscsaba
+
+Ref.:     AP-2025/BKS/0712-R
+Date:     5 July 2025
+To:       Babb Ceresné, Mezőhegyes
+
+Subject:  Area-based payment claim 2025 - parcel MZH-8140 - REJECTED
+
+Dear Babb Ceresné,
+
+Your claim for parcel MZH-8140 (declared crop: kukorica / maize) cannot be
+accepted.
+
+The parcel is already covered by an earlier declaration in claim batch
+BKS-0712, which declares the parcel as legelő (pasture). The earlier
+declaration was checked against the Copernicus Sentinel-2 image of
+4 July 2025 with the office's standard classification and passed the
+check. Under the rules, the first valid declaration on a parcel takes
+precedence.
+
+The identity of the other applicant and their claim reference are not
+disclosed in this letter.
+
+You may request a review within 15 days. A review request should state
+why the satellite check was wrong for this parcel. Requests that only
+repeat the original declaration will not be considered.
+
+On request, the office provides copies of the check image, the parcel
+register, the training fields and the class statistics used in the check.
+Copies were handed over in person on 5 July 2025.
+
+Area Payments Unit

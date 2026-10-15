@@ -1,0 +1,16 @@
+{
+  "global": {
+    "core:datatype": "ci8",
+    "core:sample_rate": 1999999.0,
+    "core:version": "1.0.0",
+    "core:description": "VELA station recorder, band capture"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 433549995.0,
+      "core:datetime": "2026-10-11T01:36:45Z"
+    }
+  ],
+  "annotations": []
+}

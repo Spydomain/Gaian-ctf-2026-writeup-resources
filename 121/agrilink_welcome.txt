@@ -1,0 +1,40 @@
+GaianSpace AgriLink - Welcome to the service
+=============================================
+
+Customer:      Babb Ceresné, Mezőhegyes (Békés)
+Service plan:  AgriLink Field 10 (10 m tiles, daily when clear)
+Terminal:      babb-mast-01 (LoRa field mast, firmware lora-gw 1.3)
+Coverage:      north block, pivots 1 and 2, the yard
+Signed up:     2024-03-18
+
+Dear Babb Ceresné,
+
+Thank you for choosing AgriLink. From your first clear morning, your mast will
+receive a fresh tile of your farm from the latest satellite pass, and your
+Johnripper fleet will pick it up from the mast automatically.
+
+What is in a tile
+-----------------
+Each tile carries four channels: blue, green, red and near-infrared. Your
+tablet app combines blue, green and red into a true-colour picture, just like
+a photograph from above.
+
+Delivery stamp
+--------------
+Every tile carries an AgriLink delivery stamp. You can find it in the bottom
+left corner of the tile view in the tablet app. Please have the stamp ready
+whenever you contact support: we cannot trace a delivery without it.
+
+Map integrity
+-------------
+Johnripper tractors check every tile before they build a fertiliser map. If a
+tile fails the check, the cab shows "map integrity: unverified" and the tractor
+keeps its previous map. Do not override this.
+
+Support
+-------
+AgriLink support desk, 06:00-18:00 CET, Monday to Saturday.
+Stamp, farm name and mast id, please.
+
+With kind regards,
+The AgriLink team, GaianSpace

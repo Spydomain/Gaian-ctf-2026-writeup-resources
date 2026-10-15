@@ -1,0 +1,19 @@
+101-this-is-gaianspace
+10
+osint
+ 4 (100% liked)  0
+Console four is live. Before the night pass, Moravec wants you to know how crowded the sky above the dish really is, and she does not want a guess.
+
+The morning briefing to the board needs two figures: how many satellites were working in low Earth orbit in 2024, and how many the forecasts expect there by the end of the 2030s. Moravec says the house already wrote this up for the public, because GaianSpace tells the world what it is watching. She also says she has stopped trusting the whiteboard.
+
+On the whiteboard, in someone else's handwriting: LEO = 12,000+ ??? and an arrow to GEO is dead anyway. The night shift swears both came from GaianSpace pages, and they are right. Neither is what the board asked for.
+
+Give Moravec the two figures, the 2024 count first, written as whole numbers the way the house rounds them.
+
+Flag format: GAIANSPACE{[integer],[integer]} (for example GAIANSPACE{100,200})
+
+The house talks (Cost: 2 points)
+A table, a year (Cost: 2 points)
+0/1 attempt
+
+Flag

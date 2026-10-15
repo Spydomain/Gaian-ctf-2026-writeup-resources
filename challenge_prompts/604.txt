@@ -1,0 +1,58 @@
+604-ice-vault
+219
+crypto brute-force
+ 0  0
+This is what the whole flight was for. DR-ONE's survey confirmed a buried target, and the mission team sealed the coordinates in a vault before relaying anything home — no site location was ever sent in the clear. We pulled the sealed vault off the relay. The only thing standing between us and the find is the lock the field team threw on it in a hurry: a short, sloppy maintenance passphrase, five lowercase letters and not a real word, the kind of thing they rotate every sortie and never write down.
+
+Short and sloppy still means work. There is no word to guess and no hint to shortcut — the passphrase has to be ground out, every combination, until the vault opens. A desktop left running will get there in a few hours. What is inside is the thing everyone has been after: where the ice is.
+
+Open the vault and read the find.
+
+Flag format: GAIANSPACE{...}
+
+Files
+mission_vault.7z — the sealed survey vault
+vault_notes.md — what the field team said about the lock
+No word, no list (Cost: 40 points)
+Let it run (Cost: 60 points)
+0/1 attempt
+
+Flag
+01-welcome
+
+
+
+
+02-echoes-of-espionage
+
+
+
+
+
+
+
+03-orbital-oops-at-mission-control
+
+
+
+
+
+
+
+04-ai-is-not-sci-fi
+
+
+
+
+05-rad-hard-rampage
+
+
+
+
+
+06-dr-one
+
+
+
+
+08-silent-carrier  use 604

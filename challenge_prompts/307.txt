@@ -1,0 +1,20 @@
+307-descent-diary
+75
+forensics data
+ 1 (100% liked)  0
+Foundation One logged every sensor it had, all the way down. The recovery team pulled the card after landing and handed over the whole diary of the fall. The flight lead wants to know if the CanSat recorded anything it was not supposed to.
+
+The barometer tells a tidy story — a clean fall from a kilometre up to a hard stop in the dirt — and that tidy story is what everyone keeps staring at. It is not where the surprise is. The CanSat carried more than one instrument, and one of them was not watching the sky at all. Let that instrument draw its own picture and it stops looking like noise.
+
+Read what the descent diary was hiding.
+
+Flag format: GAIANSPACE{...}
+
+Files
+descent_log.csv — the full sensor diary of the descent
+Not the barometer (Cost: 30 points)
+Let it draw (Cost: 40 points)
+0/1 attempt
+
+Flag
+ use 307

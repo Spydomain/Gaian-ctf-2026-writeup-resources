@@ -1,0 +1,17 @@
+# AO-111 lander OBC event log, excerpt, as downlinked 2041-11-06T04:20Z
+# obc_ms = OBC clock: milliseconds since the OBC last started (unit 1 uptime)
+ 1357863145  hop complete, site QM23-S2, surface contact (leg switches 3 of 3)
+ 1363181221  sun fix, deck heading 212.4 deg, arm target table loaded for this heading
+ 1364091485  foot anchor sequence start, deck recorder (unit 2) session 12 open
+ 1364125433  foot anchors ARM (A, B, C), order from sequencer: C A B
+ 1364177688  foot anchor C FIRE
+ 1364177730  foot anchor C fired, pyro current nominal
+ 1364230520  foot anchor A FIRE
+ 1364230562  foot anchor A fired, pyro current nominal
+ 1364339627  foot anchor B FIRE
+ 1364339669  foot anchor B fired, pyro current nominal
+ 1364379815  foot anchor sequence end, all three fired
+ 1364419073  deck recorder session 12 closed, summary queued for downlink
+ 1364505480  link drop to mothership (occultation), summary not sent
+ 1364537173  deck recorder housekeeping: session 12 files rotated (IMU0012.BIN deleted)
+ 1364557186  arm: XRF-9 placement deferred, deck heading unconfirmed (sun sensor parked)

@@ -1,0 +1,22 @@
+{
+  "flag": "GAIANSPACE{0412377}",
+  "bite_obc_ms": 1193532037,
+  "bite_estimate_utc": "2041-11-04T16:47:18.720332Z",
+  "bite_causal_interval_utc": [
+    "2041-11-04T16:47:18.713025Z",
+    "2041-11-04T16:47:18.727841Z"
+  ],
+  "utc_seconds_per_obc_second": 0.9999946963219598,
+  "ping_airtime_ms": 30.976,
+  "reply_airtime_ms": 659.456,
+  "preceding_frame": {
+    "frame": "0412376",
+    "exposure_start_utc": "2041-11-04T16:47:18.695365Z",
+    "exposure_ms": "8"
+  },
+  "selected_frame": {
+    "frame": "0412377",
+    "exposure_start_utc": "2041-11-04T16:47:18.745365Z",
+    "exposure_ms": "8"
+  }
+}

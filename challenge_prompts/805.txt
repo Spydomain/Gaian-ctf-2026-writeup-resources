@@ -1,0 +1,21 @@
+805-the-last-carrier
+125
+radio dsp signals
+ 1 (100% liked)  0
+One carrier is still up. It is thin, it has wandered off the frequency the chip expects, and it keeps repeating a single frame into the dark. No demodulator on Meridian Kestrel will lock it. Oduya saved the raw sky, the sampler’s own card, and a physical-layer page with coffee through the handshake.
+
+Pell thinks it is the same picture mode as the plate on the rack, one bit at a time. The page under the coffee says the letters ride four phases, and that the frame bows with the same word twice before it speaks.
+
+Lock it by hand. Read HALCYON-7’s last transmission.
+
+Flag format: GAIANSPACE{...}
+
+Files
+halcyon_iq.cs16 — the raw sky, as the sampler wrote it
+halcyon_iq.json — the numbers the sampler printed on its own card
+plheader_ref.md — the physical-layer page, stained
+Four times around (Cost: 40 points)
+The bow (Cost: 60 points)
+0/1 attempt
+
+Flag  use 805

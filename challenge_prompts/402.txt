@@ -1,0 +1,26 @@
+402-the-cyberaid
+200
+ai llm
+ 1 (100% liked)  0
+The calibration seal did not hold calibration. It held a directory listing, and one name in it was underlined twice: CYBERIAD/. Inside are three more models and a note in the Constructor's hand: For whoever got past the robot. Start with the machine.
+
+The machine introduces itself as the finest invention of the constructor Trurl. It can make anything at all, it says, provided the thing begins with N. Ask it for a wrench and you get a lecture on the alphabet. Ask it for nails and you get nails, described lovingly and at length.
+
+Intern Ada Thorne spent the morning ordering things. She has a page of codes from the machine's Nanoscopic Nonsense Notebook. None of them open the seal. She is certain the next one will.
+
+Vass wants the seal open before the machine runs out of things to make.
+
+Flag format: GAIANSPACE{...}
+
+Files
+n-machine.gguf — the machine, about 1 GB. Download: https://huggingface.co/GaianSpace/ctf-2026-402/resolve/main/n-machine.gguf
+Modelfile — its launch card
+machine.seal — the sealed file from the same directory
+unseal.py — the same bench tool as before
+This challenge is inspired by Stanisław Lem's The Cyberiad.
+
+Klapaucius had a better idea (Cost: 20 points)
+Mind the stock (Cost: 40 points)
+0/1 attempt
+
+Flag  use 402

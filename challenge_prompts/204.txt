@@ -1,0 +1,20 @@
+204-payload-unleashed
+100
+reverse
+ 1 (100% liked)  0
+The malicious frame did not just arrive at the array. It woke something that was already living in the decoder. The station runs an old telemetry decoder called ground_server, and after the frame came down the decoder started answering to a key it should never have accepted.
+
+Forensics pulled the decoder off the array for you. It wants one argument, a key, and it throws back everything that is not the one it is waiting for. Reyes tried the mission id, the callsign, and his own initials, in that order, and got three rejections and a bad mood. Somewhere in the program is the key it actually wants and the thing it hands over when it hears it.
+
+Make the decoder give up what the attacker armed.
+
+Flag format: GAIANSPACE{...}
+
+Files
+ground_server — the station's telemetry decoder (Linux x86-64 ELF)
+It already knows (Cost: 30 points)
+Two coats of paint (Cost: 50 points)
+0/1 attempt
+
+Flag
+use 204 directory

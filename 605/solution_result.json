@@ -1,0 +1,45 @@
+{
+  "flag": "GAIANSPACE{S1-T78758}",
+  "servo": 1,
+  "first_clipped_block_ticks_ms": 78758,
+  "first_clipped_sample_in_block_zero_based": 2,
+  "first_clipped_gyro_raw": [
+    13054,
+    -32768,
+    -4215
+  ],
+  "first_clipped_block_file_offset": 476248,
+  "directory_file_bytes": 446090,
+  "recovered_file_bytes": 487983,
+  "sensor_to_body_rotation": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "gyro_bias_raw": [
+    181.0,
+    155.0,
+    20.0
+  ],
+  "initial_body_roll_pitch_rate_raw": [
+    12042.535714285714,
+    940.8214285714286
+  ],
+  "servo_direction_cosine": {
+    "1": 0.9969621521111933,
+    "2": -0.5659336552751013,
+    "3": -0.4310284968360925
+  }
+}

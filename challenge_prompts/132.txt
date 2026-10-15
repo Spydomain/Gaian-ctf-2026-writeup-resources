@@ -1,0 +1,24 @@
+132-no-name-on-the-door
+250
+radio sdr lora
+ 0  0
+01:40. The stranger is still talking. Every few minutes GAIAN-723 answers, and every answer comes back in a voice the station modem refuses to hear.
+
+Whoever has GAIAN-723 changed how it speaks. The packets no longer say how long they are, and each one sounds slightly different from the last. Aroz can see them on the waterfall but can't read them. The ground station log has a single line from 01:31: DL CFG CHANGED BY TC — NOT FROM MOC.
+
+At 01:37 the stranger asked the satellite something, and the satellite answered. The thermal team will want to know what the cabin looked like at that moment.
+
+Find the carbon dioxide reading GAIAN-723 reported when it acknowledged the stranger's command at 01:37, and how long the satellite said it had been awake.
+
+Flag format: GAIANSPACE{[CO2 in ppm]_[uptime in seconds]}
+
+Files
+vela_band_0136.sigmf-data — the band recorder's raw capture (too large to attach: download it from Hugging Face)
+vela_band_0136.sigmf-meta — the recorder's metadata for that capture
+station_log.txt — the ground station's event log for the same hour
+It still signs its work (Cost: 30 points)
+Count the breaths (Cost: 50 points)
+0/1 attempt
+
+Flag
+ use 132

@@ -1,0 +1,9 @@
+{
+  "console": "Kestrel Array",
+  "slots": [
+    {"callsign": "KESTREL-21B", "lon": "6E"},
+    {"callsign": "MERIDIAN-3E", "lon": "3E"}
+  ],
+  "import_hint": "POST /api/catalog/import with {\"fragment\": {\"$ref\": \"fragments/arc.json\"}}",
+  "fragments": ["fragments/arc.json", "fragments/schedule.json.bak", "notes.txt"]
+}

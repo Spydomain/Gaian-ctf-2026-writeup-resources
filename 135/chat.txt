@@ -1,0 +1,6 @@
+[03:49] Aroz: it dumped memory to them. 4 packets after the request, then silence
+[03:50] Aroz: packets start with DMP and a couple of small numbers, the rest is garbage
+[03:52] Mira (flight sw, home): garbage = they encrypted it on board. the OBC has nothing for that, they must have uploaded something small
+[03:53] Mira: every dump our OBC ever produced starts with the same magic. we used to grep the archive for G723MEM
+[03:55] Mira: I'm on the bike. 30 min
+[03:58] Aroz: report is due at 06:00. I'd like it to say what they took

@@ -1,0 +1,5 @@
+site,lat,lon,ground_m,antenna_agl_m,feeder,feeder_m,surveyed,note
+DRYER,46.3007224,20.8006798,95.0,14.0,LMR-400,12.0,2023-03-14,"Babb grain dryer, north side of the leg"
+SILO,46.3366926,20.7845670,95.0,28.0,LMR-400,22.0,2023-03-14,"co-op silo, roof rail"
+TOWER,46.3174904,20.8176345,95.0,32.0,LMR-400,15.0,2023-03-14,"town water tower, older unit (CSV export)"
+PUMP,46.3269876,20.8502109,95.0,9.0,LMR-400,8.0,2023-03-14,old pump house roof

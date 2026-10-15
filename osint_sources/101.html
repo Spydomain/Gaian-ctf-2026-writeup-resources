@@ -1,0 +1,395 @@
+<!-- main/templates/main/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Boom in Low Earth Orbit Satellites: Past Growth, Future Prospects, and Why the Sky Isn&#x27;t Falling - GaianSpace Updates</title>
+    <link rel="icon" href="/static/images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+<style>
+.blog-post-header {
+    border-bottom: 1px solid rgba(var(--primary-rgb), 0.2);
+    padding-bottom: 2rem;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb-item a {
+    color: var(--primary-color);
+}
+
+.breadcrumb-item.active {
+    color: var(--text-color);
+}
+
+.blog-post-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.blog-post-content h2 {
+    color: var(--primary-color);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1rem;
+}
+
+.blog-post-content h3 {
+    color: var(--primary-color);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.blog-post-content .lead {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+}
+
+.table-dark {
+    background: linear-gradient(135deg, rgba(var(--secondary-rgb), 0.1), rgba(var(--primary-rgb), 0.05));
+    border: 1px solid rgba(var(--primary-rgb), 0.2);
+}
+
+.table-dark th {
+    background: rgba(var(--primary-rgb), 0.1);
+    border-color: rgba(var(--primary-rgb), 0.3);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.table-dark td {
+    border-color: rgba(var(--primary-rgb), 0.1);
+}
+
+.references-list {
+    background: linear-gradient(135deg, rgba(var(--secondary-rgb), 0.05), rgba(var(--primary-rgb), 0.02));
+    border: 1px solid rgba(var(--primary-rgb), 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.references-list li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.references-list a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.references-list a:hover {
+    text-decoration: underline;
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--background-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(var(--primary-rgb), 0.3);
+}
+
+.blog-post-header .d-flex.align-items-center i {
+    color: var(--primary-color) !important;
+}
+</style>
+
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent" style="display: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <p class="mb-0">
+                        We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.
+                        <a href="/privacy/" class="text-decoration-underline">Learn more</a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-md-end mt-2 mt-md-0">
+                    <button class="btn btn-primary btn-sm" onclick="acceptCookies()">Accept</button>
+                    <button class="btn btn-outline-secondary btn-sm" onclick="declineCookies()">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark"> <!-- Removed navbar-expand-lg -->
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/images/gs-logo-square2.png" alt="GaianSpace">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse overlay-menu" id="navbarMenu">
+                <div class="overlay-content">
+                    <button type="button" class="close-menu" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="/about-us/" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/updates/" class="nav-link">Updates</a></li>
+                        <li class="nav-item"><a href="/contact/" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="/ctf/" class="nav-link">CTF</a></li>
+                        <li class="nav-item"><a href="/game/" class="nav-link">Game</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="overlay-background" data-bs-toggle="collapse" data-bs-target="#navbarMenu"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Messages -->
+    
+
+    <!-- Main Content -->
+    <main role="main" class="flex-grow-1">
+        
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <!-- Blog Post Header -->
+            <div class="blog-post-header mb-5">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/updates/" class="text-decoration-none">Updates</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">LEO Satellites</li>
+                    </ol>
+                </nav>
+                
+                <h1 class="display-4 font-orbitron mb-3">The Boom in Low Earth Orbit Satellites: Past Growth, Future Prospects, and Why the Sky Isn&#x27;t Falling</h1>
+                
+                <div class="d-flex align-items-center text-light mb-4">
+                    <span class="text-light me-3">
+                        <i class="fas fa-user me-1"></i>GaianSpace
+                    </span>
+                    <span class="text-light me-3">
+                        <i class="fas fa-calendar me-1"></i>2025-07-23
+                    </span>
+                    <span class="text-light">
+                        <i class="fas fa-clock me-1"></i>8 min read
+                    </span>
+                </div>
+            </div>
+
+            <!-- Blog Post Content -->
+            <article class="blog-post-content">
+                <p class="lead mb-4">
+                    In the last decade, the night sky has become increasingly dotted with artificial stars, satellites zipping through Low Earth Orbit (LEO), the region between about 160 and 2,000 kilometers above Earth's surface. What was once a domain for a handful of government and scientific missions has exploded into a bustling highway for commercial constellations like Starlink, OneWeb, and Amazon's Kuiper. This surge isn't just a technological curiosity; it's reshaping global connectivity, Earth observation, and even national security. But with thousands more satellites planned, questions arise: How did we get here? What does this growth signal for the future? And crucially, why aren't these satellites crashing into each other like bumper cars in space? In this analysis, we'll dive into the data, explore the implications, and explain the orbital mechanics that keep everything in check. We'll also look at evidence suggesting there's still ample room for expansion, backed by real-world examples and citations from reliable sources.
+                </p>
+
+                <h2 class="h3 mb-4">The Dramatic Rise of LEO Satellites Over the Past Decade</h2>
+                
+                <p>To understand the scale of this transformation, let's look at the numbers. In 2015, there were approximately 1,400 active satellites orbiting Earth, with the majority in LEO [1]. By 2020, that figure had grown to around 3,371 active satellites, driven largely by early deployments of mega-constellations [2]. The real acceleration came in the early 2020s, fueled by reusable rocket technology from companies like SpaceX, which drastically reduced launch costs.</p>
+
+                <p>Fast-forward to mid-2023: The Union of Concerned Scientists (UCS) Satellite Database reported 7,560 active satellites, of which 6,768, about 90%, were in LEO [3]. By the end of 2024, the total number of operational satellites had surged to 11,539, with LEO continuing to dominate [2]. As of July 2025, estimates suggest over 14,000 satellites are orbiting Earth, with the majority in LEO [4][5]. This represents an astonishing increase of over 900% in total satellites since 2015, with LEO deployments accounting for the bulk of the growth.</p>
+
+                <p>Below is a year-by-year breakdown for LEO satellites (based on aggregated data from sources like UCS, Statista, and industry reports):</p>
+
+                <div class="table-responsive mb-4">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Approximate Active LEO Satellites</th>
+                                <th>Key Drivers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>2015</td><td>~1,200 (est., ~85% of total)</td><td>Traditional telecom and Earth observation satellites</td></tr>
+                            <tr><td>2016</td><td>~1,300</td><td>Incremental launches</td></tr>
+                            <tr><td>2017</td><td>~1,400</td><td>Early smallsat experiments</td></tr>
+                            <tr><td>2018</td><td>~1,600</td><td>Rise of CubeSats</td></tr>
+                            <tr><td>2019</td><td>~2,000</td><td>Initial Starlink batches</td></tr>
+                            <tr><td>2020</td><td>~2,800</td><td>COVID-era delays, but Starlink ramps up</td></tr>
+                            <tr><td>2021</td><td>~3,500</td><td>Mega-constellations accelerate</td></tr>
+                            <tr><td>2022</td><td>~5,000</td><td>Over 1,000 launched annually</td></tr>
+                            <tr><td>2023</td><td>~6,800</td><td>Record launches: ~2,000 smallsats</td></tr>
+                            <tr><td>2024</td><td>~8,100</td><td>Starlink exceeds 6,000; OneWeb completes initial fleet</td></tr>
+                            <tr><td>2025 (mid)</td><td>~12,000+ (est.)</td><td>Ongoing deployments; thousands launched in first half</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p>These figures are derived from cross-referenced sources, noting that LEO consistently makes up 85-95% of active satellites [1][3][5]. The explosion is primarily due to small satellites (smallsats, under 1,200 kg), with launches jumping from a few hundred annually in the mid-2010s to over 1,700 in 2024 alone, mostly destined for LEO [6].</p>
+
+                <h2 class="h3 mb-4">What the Data Reveals: Implications for the Future</h2>
+                
+                <p>This rapid proliferation isn't random. It's a direct response to demand for global broadband, real-time Earth imaging, IoT connectivity, and military applications. The data shows a shift from government-dominated space activities to private-sector leadership: As of June 2025, commercial operators like SpaceX (with over 7,875 Starlink satellites) account for more than half of LEO assets [7]. This has democratized access to space, enabling services like high-speed internet in remote areas and enhanced disaster monitoring.</p>
+
+                <p>Looking ahead, the trends point to sustained exponential growth. Projections estimate over 42,000 LEO satellites operational by 2032, with plans for 70,000 more launches between 2025 and 2031 from global players including China and Europe [8][9]. By 2040, some forecasts suggest up to 60,000 satellites in LEO [10]. This signals a booming "LEO economy," potentially worth $20.69 billion by 2030 for LEO satellites alone, driven by markets like broadband (expected to grow at 11.9% CAGR) [11][12].</p>
+
+                <p>However, the data also highlights challenges: Increased re-entries (due to shorter satellite lifespans) and debris risks could strain orbital sustainability [13]. Positively, it foreshadows innovations in autonomous collision avoidance and debris removal, ensuring space remains viable. Overall, this growth underscores a future where space is integral to everyday life, from climate tracking to autonomous vehicles.</p>
+
+                <h2 class="h3 mb-4">Why So Many Satellites Can Coexist Without Constant Collisions</h2>
+                
+                <p>With over 12,000 satellites in LEO hurtling at speeds up to 28,000 km/h, it's natural to wonder why collisions aren't commonplace. The answer lies in the vastness of space, careful planning, and active management. Collisions are rare, with only a handful of major incidents in history (like the 2009 Iridium-Cosmos crash) [14].</p>
+
+                <p>First, LEO isn't a single crowded lane; it's a multi-layered shell. Satellites operate at different altitudes (e.g., Starlink at ~550 km, ISS at ~400 km), inclinations (angles relative to the equator), and orbital planes, reducing intersection points [15][16]. Even if paths cross, the timing must align perfectly for a collision. Think of it like two airplanes flying intersecting routes but at different times.</p>
+
+                <p>Second, operators use ground-based tracking (via networks like the U.S. Space Surveillance Network) to predict close approaches and perform avoidance maneuvers, which might involve a small thruster burn to adjust orbit [17]. Modern satellites, especially in mega-constellations, have automated systems for this; Starlink alone performs nearly 50,000 maneuvers in six months [18].</p>
+
+                <p>A simple example: Imagine a multi-lane highway circling the globe. Each "lane" is an altitude band (e.g., 500-600 km), and cars (satellites) are spaced miles apart, driving in coordinated directions. If two cars get too close, one swerves slightly, that's a maneuver. The ocean analogy works too: With 5,000 ships on Earth's oceans, collisions are rare because the sea is immense, and captains use radar to steer clear [19].</p>
+
+                <p>While risks like the Kessler Syndrome (a debris cascade) exist, current densities are far below critical thresholds, and regulations are evolving to mandate de-orbiting at end-of-life [20].</p>
+
+                <h2 class="h3 mb-4">Data Showing Plenty of Room for Future Satellites</h2>
+                
+                <p>Despite the boom, LEO has enormous capacity left. The region spans a spherical shell with a surface area of about 510 million square kilometers at sea level, expanding outward, far larger than Earth's landmass. Density-wise, even with 10,000 satellites, each has millions of cubic kilometers to itself [21][22].</p>
+
+                <p>Research integrating risk-based models estimates LEO could safely hold up to 12.6 million satellites, assuming a 7% failure rate and proper spacing to minimize collisions [23]. Current filings for 70,000+ more satellites indicate regulators see room, as long as operators comply with debris mitigation [9].</p>
+
+                <p>A simple example: At 550 km altitude, the orbital circumference is roughly 43,500 km. If satellites need a conservative 10 km separation for safety (accounting for maneuvers), a single equatorial plane could hold about 4,350 satellites. But LEO has hundreds of such planes at varying inclinations and altitudes, multiplying capacity exponentially, like stacking hundreds of highways atop each other.</p>
+
+                <p>Another analogy: Air traffic control manages 100,000 daily flights worldwide without chaos by using altitude layers and routes. Similarly, LEO's "airspace" is underutilized, with data showing collision probabilities below 1 in 10,000 per close approach today [24].</p>
+
+                <h2 class="h3 mb-4">Conclusion: A Crowded but Manageable Frontier</h2>
+                
+                <p>The tenfold increase in LEO satellites since 2015 marks the dawn of a new space age, promising ubiquitous connectivity and innovation while highlighting the need for sustainable practices. The data points to a future with tens of thousands more satellites, but the physics of orbits and human ingenuity ensure they can coexist peacefully. As we push boundaries, international cooperation on debris and traffic rules will be key. The sky isn't falling. It's expanding. For the latest data, check resources like the UCS Database or Orbiting Now, and stay tuned as this orbital revolution unfolds.</p>
+
+                <h3 class="h4 mb-3">References</h3>
+                <ol class="references-list">
+                    <li>Union of Concerned Scientists (UCS) Satellite Database, 2015 data. Available at: <a href="https://www.ucsusa.org/resources/satellite-database" target="_blank">https://www.ucsusa.org/resources/satellite-database</a></li>
+                    <li>Statista, Number of satellites in orbit, 2020-2024. Available at: <a href="https://www.statista.com/statistics/1422630/number-of-active-satellites-in-orbit-by-type/" target="_blank">https://www.statista.com/statistics/1422630/number-of-active-satellites-in-orbit-by-type/</a></li>
+                    <li>UCS Satellite Database, August 1, 2023. Available at: <a href="https://www.ucsusa.org/resources/satellite-database" target="_blank">https://www.ucsusa.org/resources/satellite-database</a></li>
+                    <li>Orbiting Now, Active satellites as of May 2025. Available at: <a href="https://orbit.ing-now.com/" target="_blank">https://orbit.ing-now.com/</a></li>
+                    <li>SpaceNews, LEO satellite count estimates, 2024. Available at: <a href="https://spacenews.com/satellite-industry-continues-modest-revenue-growth-trends/" target="_blank">https://spacenews.com/satellite-industry-continues-modest-revenue-growth-trends/</a></li>
+                    <li>BryceTech, Smallsat launch statistics, 2024. Available at: <a href="https://brycetech.com/reports/report-documents/Bryce_Smallsats_2024.pdf" target="_blank">https://brycetech.com/reports/report-documents/Bryce_Smallsats_2024.pdf</a></li>
+                    <li>SpaceX Starlink satellite count, 2025. Available at: <a href="https://www.space.com/spacex-starlink-satellites.html" target="_blank">https://www.space.com/spacex-starlink-satellites.html</a></li>
+                    <li>Euroconsult, LEO satellite market forecast, 2025-2032. Available at: <a href="https://news.satnews.com/2023/11/14/euroconsults-ground-segment-market-forecast-to-reach-a-cumulative-value-of-80-billion-by-2032/" target="_blank">https://news.satnews.com/2023/11/14/euroconsults-ground-segment-market-forecast-to-reach-a-cumulative-value-of-80-billion-by-2032/</a></li>
+                    <li>FCC filings for satellite constellations, 2025. Available at: <a href="https://fcc.report/IBFS/Filing-List/SAT" target="_blank">https://fcc.report/IBFS/Filing-List/SAT</a></li>
+                    <li>NSR, Global satellite market projections, 2040. Available at: <a href="https://gfmag.com/features/new-space-race/" target="_blank">https://gfmag.com/features/new-space-race/</a></li>
+                    <li>MarketsandMarkets, LEO satellite market size, 2023-2030. Available at: <a href="https://www.marketsandmarkets.com/Market-Reports/leo-satellite-market-252330251.html" target="_blank">https://www.marketsandmarkets.com/Market-Reports/leo-satellite-market-252330251.html</a></li>
+                    <li>Fortune Business Insights, Satellite communication market, 2023. Available at: <a href="https://www.fortunebusinessinsights.com/satellite-communication-satcom-market-102679" target="_blank">https://www.fortunebusinessinsights.com/satellite-communication-satcom-market-102679</a></li>
+                    <li>ESA, Space debris and re-entry risks, 2024. Available at: <a href="https://technology.esa.int/page/re-entry-safety" target="_blank">https://technology.esa.int/page/re-entry-safety</a></li>
+                    <li>NASA, Iridium-Cosmos collision, 2009. Available at: <a href="https://ntrs.nasa.gov/citations/20100002023" target="_blank">https://ntrs.nasa.gov/citations/20100002023</a></li>
+                    <li>ESA, Orbital mechanics of LEO satellites. Available at: <a href="https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits" target="_blank">https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits</a></li>
+                    <li>SpaceNews, Satellite constellation design, 2023. Available at: <a href="https://spacenews.com/mda-space-to-build-satellites-for-globalstars-apple-backed-next-gen-constellation/" target="_blank">https://spacenews.com/mda-space-to-build-satellites-for-globalstars-apple-backed-next-gen-constellation/</a></li>
+                    <li>U.S. Space Surveillance Network, Orbital tracking, 2024. Available at: <a href="https://en.wikipedia.org/wiki/United_States_Space_Surveillance_Network" target="_blank">https://en.wikipedia.org/wiki/United_States_Space_Surveillance_Network</a></li>
+                    <li>Starlink, Collision avoidance maneuvers, 2024. Available at: <a href="https://www.space.com/spacex-starlink-50000-collision-avoidance-maneuvers-space-safety" target="_blank">https://www.space.com/spacex-starlink-50000-collision-avoidance-maneuvers-space-safety</a></li>
+                    <li>Maritime analogy for orbital management, 2023. Available at: <a href="https://www.unoosa.org/documents/pdf/WSF/Posters/Diplomacy/Diplomacy_-_Ruth_Stilwell_-_Stilwell_Poster_WSF.pdf" target="_blank">https://www.unoosa.org/documents/pdf/WSF/Posters/Diplomacy/Diplomacy_-_Ruth_Stilwell_-_Stilwell_Poster_WSF.pdf</a></li>
+                    <li>NASA, Kessler Syndrome risks, 2023. Available at: <a href="https://en.wikipedia.org/wiki/Kessler_syndrome" target="_blank">https://en.wikipedia.org/wiki/Kessler_syndrome</a></li>
+                    <li>ESA, LEO capacity analysis, 2024. Available at: <a href="https://conference.sdo.esoc.esa.int/proceedings/sdc9/paper/223/SDC9-paper223.pdf" target="_blank">https://conference.sdo.esoc.esa.int/proceedings/sdc9/paper/223/SDC9-paper223.pdf</a></li>
+                    <li>SpaceNews, Orbital volume and density, 2024. Available at: <a href="https://spacenews.com/sustainably-develop-space-manage-orbital-capacity/" target="_blank">https://spacenews.com/sustainably-develop-space-manage-orbital-capacity/</a></li>
+                    <li>Journal of Space Safety Engineering, LEO capacity modeling, 2023. Available at: <a href="https://www.sciencedirect.com/science/article/abs/pii/S2468896725000114" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S2468896725000114</a></li>
+                    <li>Aerospace Corporation, Collision probability data, 2024. Available at: <a href="https://aerospace.org/article/space-debris-101" target="_blank">https://aerospace.org/article/space-debris-101</a></li>
+                </ol>
+            </article>
+
+            <!-- Back to Updates Button -->
+            <div class="text-center mt-5">
+                <a href="/updates/" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left me-2"></i>Back to Updates
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                        <img src="/static/images/gs-logo-sat.png" alt="GaianSpace" class="me-2" height="30">
+                        <p class="mb-0">© 2026 GaianSpace. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-center">
+                    <div class="bg-black d-inline-block px-3 py-2 rounded">
+                        <a href="https://x.com/gaianspace" target="_blank" class="text-light text-decoration-none">
+                            <i class="fab fa-x-twitter me-1"></i>follow @GaianSpace
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="/privacy/" class="text-light text-decoration-none">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!localStorage.getItem('cookieConsent')) {
+                document.getElementById('cookieConsent').style.display = 'block';
+            }
+        });
+
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookieConsent').style.display = 'none';
+            enableCookies();
+        }
+
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookieConsent').style.display = 'none';
+            disableCookies();
+        }
+
+        function disableCookies() {
+            // Delete existing cookies
+            document.cookie.split(";").forEach(function(c) { 
+                document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+            });
+            
+            // Disable Google Analytics if it exists
+            if (window['ga-disable-GA_MEASUREMENT_ID']) {
+                window['ga-disable-GA_MEASUREMENT_ID'] = true;
+            }
+            
+            // Disable other third-party scripts if any
+            // Add specific code here for other services you use
+        }
+
+        function enableCookies() {
+            // Re-enable analytics and other services
+            if (window['ga-disable-GA_MEASUREMENT_ID']) {
+                window['ga-disable-GA_MEASUREMENT_ID'] = false;
+            }
+            // Add other cookie-dependent functionality here
+        }
+
+        // Check cookie consent status on page load
+        if (localStorage.getItem('cookieConsent') === 'declined') {
+            disableCookies();
+        }
+    </script>
+    
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a9331ebfb47f58',t:'MTc5MjAwODMzNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

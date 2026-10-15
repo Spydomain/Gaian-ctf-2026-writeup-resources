@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+GaianSpace CTF.html
+GaianSpace CTF_files/
+403/hpld.gguf
+404/solitaire.gguf
+405/solitaire-home.gguf

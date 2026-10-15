@@ -1,0 +1,38 @@
+117-the-dark-moonlet
+250
+forensics data astrobiology
+ 0  0
+The lander is down on the metal. The order is fulfilled. Then the little onboard lab sends back a result nobody asked for.
+
+AO-111 went to 2041 QM23 for platinum. When its anchor went in, it broke through a dark streak of dust that does not belong to the metal rock. It came off the small, dark moonlet that circles it. The lab is there to assay metal, but it can also cook a sample and look for small organic molecules. It did.
+
+Kaito has already decided it is aliens. Sunniva has decided it is gloves. Somewhere in the run there is one molecule from the moonlet that really does prefer one hand over the other, the way the molecules of life on Earth do. If it is real, it is the most important thing AsterOre has ever found, and it was an accident.
+
+Name the molecule and how strongly it leans.
+
+Flag format: GAIANSPACE{<compound as written in the standards>_L<enantiomeric excess in percent, nearest whole number>} — for example GAIANSPACE{leucine_L7}.
+
+Files
+moonlet_sample.csv — the lab's peak list for the moonlet dust
+procedural_blank.csv — the same procedure with no rock, run before launch
+standards.csv — known compounds on the same column, and the ion each is measured on
+isotopes.csv — carbon and nitrogen isotope ratios per peak, separate injection
+lab_notes.md — how the lab reports, and the desk's argument
+The PGM Rush is inspired by AstroForge, whose unusually open mission updates show how cheap, autonomous deep-space spacecraft could open the solar system not only to asteroid mining but to faster, cheaper science for everyone.
+
+Our own hands (Cost: 40 points)
+Too much signal (Cost: 60 points)
+0/1 attempt
+
+Flag
+01-welcome
+
+
+
+
+11-the-pgm-rush (bonus)
+
+
+
+
+02-echoes-of-espionage  use 117

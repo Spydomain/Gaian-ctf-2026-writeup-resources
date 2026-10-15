@@ -1,0 +1,24 @@
+134-repacked
+300
+radio protocols data
+ 0  0
+03:02. GAIAN-723 is back on one frequency, but its telemetry no longer looks like telemetry.
+
+The stranger has repacked the downlink. There are no commas and no text, just short binary frames that never repeat. Aroz has the last good CSV line from before the incident, and the satellite is sitting on the same bench-test attitude it had then. Same gravity, same room, same air.
+
+The flight software team's old note says the satellite numbers its frames, "so you can always tell what's missing."
+
+Somewhere in the repacked frames, GAIAN-723 is carrying something it was never designed to carry.
+
+Flag format: GAIANSPACE{...}
+
+Files
+vela_band_0302.sigmf-data — the band recorder's raw capture (too large to attach: download it from Hugging Face)
+vela_band_0302.sigmf-meta — the recorder's metadata for that capture
+last_good_frame.csv — the last telemetry line the MOC decoded before 01:12, with the old column names
+Same air, same room (Cost: 30 points)
+A borrowed habit (Cost: 50 points)
+0/1 attempt
+
+Flag
+ use 134

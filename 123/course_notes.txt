@@ -1,0 +1,30 @@
+County extension course - "Satellites for the farm" - my notes (B.C.)
+=====================================================================
+
+Day 1 - channels
+- A satellite image is not one picture. It is a stack of channels, one per
+  band of light. Side by side they look almost the same. They are not.
+- Blue, green, red: what the eye sees. Near-infrared (NIR): what healthy leaves
+  shout in. The NIR channel is the one that looks most different.
+- SWIR (short-wave infrared): soil and dry stuff bright, water and wet leaves dark.
+- "True colour" = red, green, blue. Nice for the wall. Says nothing about the crop.
+- Copernicus Sentinel-2 is free. 10 m pixels. Every few days if no clouds.
+
+Day 2 - MultiSpec lab
+- Open the image, look at each channel on its own first.
+- Unsupervised: Processor -> Cluster -> ISODATA. We always set it to 7 classes.
+  The instructor: "the computer does not know what corn is, it only knows which
+  pixels look alike in all channels at once."
+- Then compare the class map with the ground truth fields. Name the classes.
+- Supervised: draw training fields, Processor -> Classify, maximum likelihood
+  (Gaussian). It also writes a probability file: greener = more sure.
+- Fieldwork is expensive. Leave-one-out: train without a field, test on it.
+
+Day 3 - money
+- The paying agency checks area claims against Copernicus images.
+  Forest, pasture, arable, built-up. If the image says pasture and you
+  claimed corn, expect a letter.
+- Keep screenshots of your own classification for every claim.
+
+Margin, underlined twice: count what actually grows here.
+Margin: corn, wheat stubble, ploughed, the tree line, the yard ... ?
