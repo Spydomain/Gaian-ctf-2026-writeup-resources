@@ -2,6 +2,8 @@
 
 The numbered directories contain the challenge inputs, decoder scripts, and recovered artifacts. `challenge_prompts/` contains the recovered challenge descriptions, while `osint_sources/` holds archived public pages. `challenge_board_public.html` is a copy of the challenge board with account details removed.
 
+Read the [GaianSpace CTF 2026 writeup on Medium](https://medium.com/@spydomain1/gaianspace-ctf-2026-how-i-worked-through-68-challenges-ba6e3decc093?sharedUserId=spydomain1).
+
 Install [Git LFS](https://git-lfs.com/) before cloning to retrieve the SDR captures and models. The assets in `.gitattributes` are tracked with LFS. To remain within GitHub Free's 2 GB per-file limit, two GGUF models are stored as numbered 1 GiB parts; reassemble and verify them with:
 
 ```sh
